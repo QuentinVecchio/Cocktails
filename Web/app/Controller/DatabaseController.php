@@ -1,7 +1,9 @@
 <?php 
 
-class DatabaseController extends AppController{
-	function index(){
+class DatabaseController extends AppController
+{
+	function index()
+	{
 		
 	}
 	
