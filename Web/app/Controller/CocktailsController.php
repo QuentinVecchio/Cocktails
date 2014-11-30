@@ -1,6 +1,6 @@
 <?php 
 
-class CocktailController extends AppController
+class CocktailsController extends AppController
 {
 	function index()
 	{

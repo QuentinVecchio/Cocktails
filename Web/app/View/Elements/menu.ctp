@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default" role="navigation" style="height:70px;">
-  <a  href=""><?php echo $this->Html->image('logo_final.png', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:188px;margin-top:-50px;')); ?></a>
+  <a  href=""><?php echo $this->Html->image('logo_final.png', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:80px;margin-top:-10px;')); ?></a>
   <ul class="nav navbar-nav" style="margin-top:10px;">
     <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recette', 'action' =>'index', 'admin' => false)) ?></li>
     <li><?php echo $this->Html->Link('Profil', array('controller' => 'user', 'action' =>'profil', 'admin' => false)) ?></li>

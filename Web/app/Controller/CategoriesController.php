@@ -1,6 +1,6 @@
 <?php 
 
-class CategorieController extends AppController
+class CategoriesController extends AppController
 {
 	/**
 	*	Liste les catégories
