@@ -1,6 +1,6 @@
 <?php 
 
-class RecettesModel extends AppModel
+class Recette extends AppModel
 {
 	public $validate = array(
 			'titre'  => array(

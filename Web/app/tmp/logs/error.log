@@ -1,247 +1,13 @@
-2014-11-29 16:53:30 Error: [MissingControllerException] Controller class Docs-assetsController could not be found.
-Exception Attributes: array (
-  'class' => 'Docs-assetsController',
-  'plugin' => NULL,
-)
-Request URL: /docs-assets/ico/favicon.png
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:53:38 Error: [MissingControllerException] Controller class App.phpController could not be found.
-Exception Attributes: array (
-  'class' => 'App.phpController',
-  'plugin' => NULL,
-)
-Request URL: /app.php
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:53:38 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:53:38 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:55:47 Error: [MissingControllerException] Controller class App.phpController could not be found.
-Exception Attributes: array (
-  'class' => 'App.phpController',
-  'plugin' => NULL,
-)
-Request URL: /app.php
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:55:47 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:55:47 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:14 Error: [MissingControllerException] Controller class App.phpController could not be found.
-Exception Attributes: array (
-  'class' => 'App.phpController',
-  'plugin' => NULL,
-)
-Request URL: /app.php
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:14 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:14 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:38 Error: [MissingControllerException] Controller class RecettesController could not be found.
-Exception Attributes: array (
-  'class' => 'RecettesController',
-  'plugin' => NULL,
-)
-Request URL: /recettes
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:38 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:38 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:39 Error: [MissingControllerException] Controller class UsersController could not be found.
-Exception Attributes: array (
-  'class' => 'UsersController',
-  'plugin' => NULL,
-)
-Request URL: /users/register
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:39 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:39 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:43 Error: [MissingControllerException] Controller class RecettesController could not be found.
-Exception Attributes: array (
-  'class' => 'RecettesController',
-  'plugin' => NULL,
-)
-Request URL: /recettes
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:43 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:43 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:45 Error: [MissingControllerException] Controller class UsersController could not be found.
-Exception Attributes: array (
-  'class' => 'UsersController',
-  'plugin' => NULL,
-)
-Request URL: /users/register
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:45 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:45 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:50 Error: [MissingControllerException] Controller class RecettesController could not be found.
-Exception Attributes: array (
-  'class' => 'RecettesController',
-  'plugin' => NULL,
-)
-Request URL: /recettes
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:50 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:50 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:51 Error: [MissingControllerException] Controller class CocktailsController could not be found.
+2014-11-30 12:26:18 Error: [MissingControllerException] Controller class CocktailsController could not be found.
 Exception Attributes: array (
   'class' => 'CocktailsController',
   'plugin' => NULL,
 )
-Request URL: /cocktails
+Request URL: /cocktails/Web/
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 16:56:51 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery_min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:56:51 Error: [MissingControllerException] Controller class JsController could not be found.
+2014-11-30 12:26:18 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -250,16 +16,7 @@ Request URL: /js/bootstrap.min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 16:58:27 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/bootstrap.min.js
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 16:58:27 Error: [MissingControllerException] Controller class JsController could not be found.
+2014-11-30 12:26:18 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -268,7 +25,16 @@ Request URL: /js/jquery_min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:10:36 Error: [MissingControllerException] Controller class JsController could not be found.
+2014-11-30 12:26:19 Error: [MissingControllerException] Controller class CocktailsController could not be found.
+Exception Attributes: array (
+  'class' => 'CocktailsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:19 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -277,7 +43,7 @@ Request URL: /js/jquery_min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:10:36 Error: [MissingControllerException] Controller class JsController could not be found.
+2014-11-30 12:26:19 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -286,16 +52,35 @@ Request URL: /js/bootstrap.min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:10:36 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+2014-11-30 12:26:32 Error: Fatal Error (1): Call to a member function logout() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/UserController.php, line 92]
+2014-11-30 12:26:32 Error: [FatalErrorException] Call to a member function logout() on null
+Request URL: /user/logout
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 92, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 92, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
+  'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /{{%20asset('css/logo_final.png')%20}}
+Request URL: /js/jquery_min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:10:36 Error: [MissingControllerException] Controller class FontsController could not be found.
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class FontsController could not be found.
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
@@ -304,7 +89,7 @@ Request URL: /fonts/glyphicons-halflings-regular.woff
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:10:36 Error: [MissingControllerException] Controller class FontsController could not be found.
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class FontsController could not be found.
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
@@ -313,7 +98,7 @@ Request URL: /fonts/glyphicons-halflings-regular.ttf
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:10:37 Error: [MissingControllerException] Controller class FontsController could not be found.
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class FontsController could not be found.
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
@@ -322,35 +107,26 @@ Request URL: /fonts/glyphicons-halflings-regular.svg
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:42:00 Error: [MissingControllerException] Controller class CocktailsController could not be found.
-Exception Attributes: array (
-  'class' => 'CocktailsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails
+2014-11-30 12:26:41 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Model/Recette.php, line 13]
+2014-11-30 12:26:41 Error: [FatalErrorException] Cannot redeclare class RecettesModel
+Request URL: /recette
 Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 19:42:00 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Elements/menu.ctp, line 18]
-2014-11-29 19:42:00 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
-Request URL: /cocktails
-Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/quentinv...', 18)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/quentinv...', 18, Array)
-#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/quentinv...', 18, Array)
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/quentinv...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/quentinv...', 13, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/quentinv...', 13, Array)
 #3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
-2014-11-29 19:42:14 Error: [MissingControllerException] Controller class CocktailsController could not be found.
+2014-11-30 12:26:41 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
-  'class' => 'CocktailsController',
+  'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /cocktails
+Request URL: /js/bootstrap.min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:42:14 Error: [MissingControllerException] Controller class JsController could not be found.
+2014-11-30 12:26:41 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -359,21 +135,501 @@ Request URL: /js/jquery_min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-29 19:42:14 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+2014-11-30 12:27:17 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
 )
-Request URL: /{{%20asset('css/logo_final.png')%20}}
+Request URL: /recette
 Stack Trace:
-#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 19:42:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('recettes')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/RecetteController.php(7): Model->find('all')
+#8 [internal function]: RecetteController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RecetteController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RecetteController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-30 12:27:17 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:22 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /user/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:27:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:14 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /user/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:28:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:16 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /user/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:28:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:16 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /user/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:28:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:12 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Cpre%20class=
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:25 Error: [MissingControllerException] Controller class <linkRel=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<linkRel=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Clink%20rel=
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:32 Error: [MissingControllerException] Controller class <imgSrc=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<imgSrc=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Cimg%20src=
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:34 Error: [MissingControllerException] Controller class <imgSrc=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<imgSrc=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Cimg%20src=
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:31 Error: [MissingControllerException] Controller class <imgController could not be found.
+Exception Attributes: array (
+  'class' => '<imgController',
+  'plugin' => NULL,
+)
+Request URL: /%3Cimg
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:33 Error: [MissingControllerException] Controller class <imgController could not be found.
+Exception Attributes: array (
+  'class' => '<imgController',
+  'plugin' => NULL,
+)
+Request URL: /%3Cimg
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:35:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:35:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:35:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:35:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:36:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:36:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:37:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:37:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:40:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
