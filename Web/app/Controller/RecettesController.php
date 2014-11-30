@@ -1,6 +1,6 @@
 <?php 
 
-class RecetteController extends AppController
+class RecettesController extends AppController
 {
 	public function index()
 	{

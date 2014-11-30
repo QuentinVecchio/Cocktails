@@ -1,6 +1,6 @@
 <?php 
 
-class IngredientController extends AppController
+class IngredientsController extends AppController
 {
 	/**
 	*	Liste les ingrédients
