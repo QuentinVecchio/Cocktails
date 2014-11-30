@@ -1,9 +1,9 @@
 <nav class="navbar navbar-default" role="navigation" style="height:70px;">
-  <a  href=""><img class="navbar-brand" src="{{ asset('css/logo_final.png') }}" alt="logo" style="width:250px;height:188px;margin-top:-50px;"/></a>
+  <a  href=""><?php echo $this->Html->image('logo_final.png', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:188px;margin-top:-50px;')); ?></a>
   <ul class="nav navbar-nav" style="margin-top:10px;">
     <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recette', 'action' =>'index', 'admin' => false)) ?></li>
     <li><?php echo $this->Html->Link('Profil', array('controller' => 'user', 'action' =>'profil', 'admin' => false)) ?></li>
-    <li><?php echo $this->Html->Link('Utilisateurs', array('controller' => 'user', 'action' =>'index', 'admin' => true)) ?>/li>
+    <li><?php echo $this->Html->Link('Utilisateurs', array('controller' => 'user', 'action' =>'index', 'admin' => true)) ?></li>
     <li><?php echo $this->Html->Link('catégories', array('controller' => 'categorie', 'action' =>'index', 'admin' => true)) ?></li>
     <li><?php echo $this->Html->Link('Ingrédients', array('controller' => 'ingredient', 'action' =>'index', 'admin' => true)) ?></li>
     <li> <?php echo $this->Html->Link('Création BDD', array('controller' => 'database', 'action' =>'index', 'admin' => false)) ?></li>
