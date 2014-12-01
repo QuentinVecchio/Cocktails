@@ -12,6 +12,15 @@ class IngredientsController extends AppController
 	}
 
 	/**
+	*	Liste les ingrédients admin
+	*/
+	public function admin_index()
+	{
+		$listIngredients = $this->Ingredient->find('all');
+		$this->set('listIngredients', $listIngredients);
+	}
+
+	/**
 	*	Formulaire d'ajout d'un ingrédient
 	*/
 	public function admin_add($id)

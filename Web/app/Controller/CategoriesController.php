@@ -3,9 +3,18 @@
 class CategoriesController extends AppController
 {
 	/**
-	*	Liste les catégories
+	*	Liste les catégories pour l'admin
 	*/
 	public function index()
+	{
+		$listCategories = $this->Categorie->find('all');
+		$this->set('listCategories', $listCategories);
+	}
+
+	/**
+	*	Liste les catégories pour l'admin
+	*/
+	public function admin_index()
 	{
 		$listCategories = $this->Categorie->find('all');
 		$this->set('listCategories', $listCategories);
