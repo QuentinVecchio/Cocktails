@@ -13,7 +13,7 @@ class User extends AppModel{
 					'required' => true,
 					'message' => 'Nom requis (2 caractères minimum)')
 				),
-			'name' => array(
+			'firstname' => array(
 				'rule' => '/^[a-zA-Zéèêàâùûç\- ]+$/i',
 				'message' => 'Prénom incorrect'
 				),
@@ -21,8 +21,8 @@ class User extends AppModel{
 				'rule' => '/^[a-zA-Zéèêàâùûç\- ]+$/i',
 				'message' => 'Nom incorrect'
 				),
-			'sex' => array(
-				'rule' => '/^f$|^h$/i',
+			'gender' => array(
+				'rule' => 'notEmpty',
 				'message' => 'Sexe incorrect'
 				),
 			'email' => array(
@@ -33,19 +33,15 @@ class User extends AppModel{
 				'rule' => '/^0[1-9][0-9]{8}$|^[+]33[1-9][0-9]{8}$|^[+]352[0-9]{6,}$|^00352[0-9]{6,}$/',
 				'message' => 'Numéro de téléphone incorrect'
 				),
-			'houseNumber' => array(
-				'rule' => '/^[0-9]{1,3}$|^[0-9]{1,3} bis|ter$|^[0-9]{1,5}-[0-9]{1,5}$/',
-				'message' => 'Numéro de rue incorrect
-				')
-			'address' => array(
+			'street' => array(
 				'rule' => 'notEmpty',
 				'message' => 'Renseignez une adresse'
 				),
-			'code' => array(
+			'zipcode' => array(
 				'rule' => 'notEmpty',
 				'message' => 'Renseignez un code postal'
 				),
-			'state' => array(
+			'country' => array(
 				'rule' => 'notEmpty',
 				'message' => 'Renseignez un pays'
 				),

@@ -15,11 +15,11 @@
    	
    	<tbody>
 <?php 
-	foreach ($users as $user): ?>
+	foreach ($listUser as $user): ?>
 	          	<tr>
 	            	<td><?php echo $user['id']; ?></td>
-	            	<td><?php echo $user['username']; ?></td>
-	            	<td><?php echo $user['name']; ?></td>
+	            	<td><?php echo $user['login']; ?></td>
+	            	<td><?php echo $user['firstname']; ?></td>
 	            	<td><?php echo $user['lastname']; ?></td>
 	            	<td><?php echo $user['mail']; ?></td>
 	            	<td>
