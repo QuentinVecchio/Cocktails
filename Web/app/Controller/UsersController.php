@@ -5,7 +5,7 @@ class UsersController extends AppController
 	/**
 	*	Liste les utilisateurs
 	*/
-	public function admin_index()
+	public function index()
 	{
 		$listUser = $this->User->find('all');
 		$this->set('listUser', $listUser);
@@ -36,6 +36,7 @@ class UsersController extends AppController
 	/**
 	*	Permet la suppression d'un utilisateur
 	*/
+	/*
 	public function admin_delete($id)
 	{
 		if($this->User->delete($id))
@@ -51,10 +52,11 @@ class UsersController extends AppController
 			
 		}
 	}
-
+	*/
 	/**
 	*	Formulaire d'ajout d'un utilisateur
 	*/
+	/*
 	public function admin_add()
 	{
 		if(!empty($this->data))
@@ -68,7 +70,7 @@ class UsersController extends AppController
 			}
 		}
 	}
-
+	*/
 	/**
 	*	Connexion d'un utilisateur
 	*/
