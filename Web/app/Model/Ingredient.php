@@ -3,7 +3,7 @@
 class Ingredient extends AppModel {
 
 		public $validate = array(
-			'nom' => array(
+			'name' => array(
 				'rule' => 'notEmpty',
 				'message' => 'Veuillez saisir un code postal')
 		);

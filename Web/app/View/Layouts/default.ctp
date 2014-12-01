@@ -36,8 +36,8 @@ $cakeVersion =''; //__d('cake_dev', 'CakePHP %s', Configure::version())
 	?>
 </head>
 <body>
-		<div id="container">
-			<?php echo $this->Element('menu'); ?>
+	<?php echo $this->Element('menu'); ?>
+	<div id="container">
 		<div id="content">
 			<?php echo $this->Session->flash(); ?>
 
@@ -48,6 +48,7 @@ $cakeVersion =''; //__d('cake_dev', 'CakePHP %s', Configure::version())
 		</footer>
 	</div>
 	<?php echo $this->Html->css('bootstrap'); ?>
+	<?php echo $this->Html->css('style'); ?>
 	<?php echo $this->Html->script('jquery_min'); ?>
 	<?php echo $this->Html->script('bootstrap.min'); ?>
 	<?php echo $this->fetch('script'); ?>

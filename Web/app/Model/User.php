@@ -1,56 +1,124 @@
 <?php 
+class User extends AppModel{
 
-class User extends AppModel {
-		public $validate = array(
-			'login'  => array(
+	public $validate = array(
+			'username' => array(
+				'unique' => array(
+							'rule' => 'isUnique',
+							'message' => 'Nom déjà utilisé'
+							),
+				'requis' => array(
+					'rule' => array('minLength', 2),
+					'on' => 'create',
+					'required' => true,
+					'message' => 'Nom requis (2 caractères minimum)')
+				),
+			'name' => array(
 				'rule' => '/^[a-zA-Zéèêàâùûç\- ]+$/i',
-				'message' => 'Prénom incorrect'),
-			'password' => array(
+				'message' => 'Prénom incorrect'
+				),
+			'lastname' => array(
 				'rule' => '/^[a-zA-Zéèêàâùûç\- ]+$/i',
-				'message' => 'Prénom incorrect'),
-			'prenom' => array(
-				'rule' => '/^[a-zA-Zéèêàâùûç\- ]+$/i',
-				'message' => 'Nom incorrect'),
-			'nom' => array(
-				'rule' => '/^[a-zA-Zéèêàâùûç\- ]+$/i',
-				'message' => 'Nom incorrect'),
-			'sexe' => array(
-				'rule' => '/^f$|^h$/',
-				'message' => 'Sexe incorrect'),
-			'phone' => array(
-				'rule' => '/^0[1-9][0-9]{8}$|^[+]33[1-9][0-9]{8}$|^[+]352[0-9]{6,}$|^00352[0-9]{6,}$/',
-				'message' => 'Numéro de téléphone incorrect'),
+				'message' => 'Nom incorrect'
+				),
+			'sex' => array(
+				'rule' => '/^f$|^h$/i',
+				'message' => 'Sexe incorrect'
+				),
 			'email' => array(
 				'rule' => 'notEmpty',
-				'message' => 'Veuillez saisir une adresse mail'),
-			'numero' => array(
+				'message' => 'Renseignez une adresse mail'
+				),
+			'phone' => array(
+				'rule' => '/^0[1-9][0-9]{8}$|^[+]33[1-9][0-9]{8}$|^[+]352[0-9]{6,}$|^00352[0-9]{6,}$/',
+				'message' => 'Numéro de téléphone incorrect'
+				),
+			'houseNumber' => array(
+				'rule' => '/^[0-9]{1,3}$|^[0-9]{1,3} bis|ter$|^[0-9]{1,5}-[0-9]{1,5}$/',
+				'message' => 'Numéro de rue incorrect
+				')
+			'address' => array(
 				'rule' => 'notEmpty',
-				'message' => 'Veuillez saisir un numéro de rue'),
-			'adresse' => array(
+				'message' => 'Renseignez une adresse'
+				),
+			'code' => array(
 				'rule' => 'notEmpty',
-				'message' => 'Veuillez saisir une adresse'),
-			'codePostal' => array(
+				'message' => 'Renseignez un code postal'
+				),
+			'state' => array(
 				'rule' => 'notEmpty',
-				'message' => 'Veuillez saisir un code postal'),
-			'pays' => array(
-				'rule' => 'notEmpty',
-				'message' => 'Pays incorrect'),
-			'administrateur' => array(
-				'rule' => 'notTheLastOne',
-				'message' => 'C\'est le dernier des administrateurs, il ne peut pas être changé')
-		);
+				'message' => 'Renseignez un pays'
+				),
+			'passwordOld' => array(
+					'rule' => 'checkCurrentPassWord',
+					'message' => 'Mot de passe incorrect',
+					'allowEmpty' => true
+				),
+			'password' => array(
+				'rule' =>  array('minLength', 5),
+				'on' => 'create',
+				'required' => true,
+				'message' => 'mot de passe requis (5 caractères minimum'),
+			'password2' => array(
+					'rule' => 'checkEqualPassWord',
+					'message' => 'Les deux mots de passe sont différents',
+					'allowEmpty' => true
+				),
+			'status' => array(
+					'on' =>'update',
+					'rule' => 'notTheLastOne',
+					'message' => 'C\'est le dernier des administrateurs, il ne peut pas être changé'
+				)
+			);
 
-		public function notTheLastOne($check){
-			if($check['administrateur'] == '0'){
-				$tmp = $this->findAllByStatus('admin');
-				if(count($tmp) == 1){
+	public function beforeSave($options = array()) {
+		if(isset($this->data['User']['password']) && !empty($this->data['User']['password'])){
+	    	$this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
+		}
+		if(empty($this->data['User']['password'])){
+			unset($this->data['User']['password']);
+		}
+	    return true;
+	}
+
+	public function notTheLastOne($check){
+		if($check['status'] == 'operateur'){
+			$tmp = $this->findAllByStatus('admin');
+			if(count($tmp) == 1){
 					if($this->data['User']['id'] == $tmp[0]['User']['id']){
 						return false;
 					}
-				}
 			}
-			return true;
 		}
-}
+		return true;
+	}
 
- ?>
+	
+	public function checkEqualPassWord($check) {
+	    return $this->data['User']['password'] == $this->data['User']['password2'];
+	}
+
+
+	public function checkCurrentPassWord($check) {
+			$this->id = $this->data['User']['id'];
+			$password = $this->field('password');
+
+	    return AuthComponent::password(current($check)) == $password;
+	}
+
+	public function afterValidate(){
+		unset($this->data[$this->alias]['passwordOld']);
+		unset($this->data[$this->alias]['password2']);
+	}
+
+	public function beforeDelete($cascade = true) {
+		$tmp = $this->findAllByStatus('admin');
+		if(count($tmp) == 1){
+				if($this->id == $tmp[0]['User']['id']){
+					return false;
+				}
+		}
+	  return true;
+	}
+
+} ?>

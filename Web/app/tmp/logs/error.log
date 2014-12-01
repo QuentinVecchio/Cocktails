@@ -741,3 +741,696 @@ Request URL: /js/jquery_min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-11-30 13:28:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:29:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:29:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:30:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:44:31 Error: [MissingControllerException] Controller class CategorieController could not be found.
+Exception Attributes: array (
+  'class' => 'CategorieController',
+  'plugin' => NULL,
+)
+Request URL: /categorie/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:44:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:45:18 Error: [MissingControllerException] Controller class CategorieController could not be found.
+Exception Attributes: array (
+  'class' => 'CategorieController',
+  'plugin' => NULL,
+)
+Request URL: /categorie/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:45:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:45:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:45:22 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 09:45:22 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 09:45:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:46:55 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /recettes
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('recettes')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/RecettesController.php(7): Model->find('all')
+#8 [internal function]: RecettesController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RecettesController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RecettesController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 09:46:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:22:38 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:22:38 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:22:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:22:44 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:22:44 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:22:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:22:48 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:22:48 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:22:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:22:56 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:22:56 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:22:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /recettes
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('recettes')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/RecettesController.php(7): Model->find('all')
+#8 [internal function]: RecettesController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RecettesController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RecettesController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:23:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:05 Error: [MissingActionException] Action UsersController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profil',
+)
+Request URL: /users/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:08 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:32 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:33 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index/admin:0
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:37 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:38 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:23:38 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:23:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:41 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:23:41 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:23:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:23:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:48 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:23:48 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:23:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:23:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:36:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:36:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:36:25 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:36:25 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Elements/menu.ctp, line 2]
+2014-12-01 10:36:25 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/quentinv...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/quentinv...', 2, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/quentinv...', 2, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:37:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:37:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:37:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:37:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:37:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:57 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/logout
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:41:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'database_koby_vecchio\'',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:41:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
