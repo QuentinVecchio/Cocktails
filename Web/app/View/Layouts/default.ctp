@@ -14,7 +14,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = '';//__d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = 'Cocktails ';//__d('cake_dev', 'CakePHP: the rapid development php framework');
 $cakeVersion =''; //__d('cake_dev', 'CakePHP %s', Configure::version())
 ?>
 <!DOCTYPE html>
@@ -23,7 +23,7 @@ $cakeVersion =''; //__d('cake_dev', 'CakePHP %s', Configure::version())
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
-		<?php echo $this->fetch('title'); ?>
+		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
@@ -36,7 +36,7 @@ $cakeVersion =''; //__d('cake_dev', 'CakePHP %s', Configure::version())
 	?>
 </head>
 <body>
-	<?php echo $this->Element('menu'); ?>
+		<?php echo $this->Element('menu'); ?>
 	<div id="container">
 		<div id="content">
 			<?php echo $this->Session->flash(); ?>

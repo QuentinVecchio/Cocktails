@@ -15,17 +15,17 @@
    	
    	<tbody>
 <?php 
-	foreach ($listUser as $user): ?>
+	foreach ($listUser as $user =>$v): ?>
 	          	<tr>
-	            	<td><?php echo $user['id']; ?></td>
-	            	<td><?php echo $user['login']; ?></td>
-	            	<td><?php echo $user['firstname']; ?></td>
-	            	<td><?php echo $user['lastname']; ?></td>
-	            	<td><?php echo $user['mail']; ?></td>
+	            	<td><?php echo $v['User']['id']; ?></td>
+	            	<td><?php echo $v['User']['username']; ?></td>
+	            	<td><?php echo $v['User']['firstname']; ?></td>
+	            	<td><?php echo $v['User']['lastname']; ?></td>
+	            	<td><?php echo $v['User']['email']; ?></td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>
-						  	<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+						  	<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown open">
     							<span class="caret"></span>
     							<span class="sr-only">Toggle Dropdown</span>
   							</button>

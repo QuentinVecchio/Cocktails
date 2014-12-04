@@ -1,4 +1,4 @@
-<div class="container">
+<!--<div class="container">
 		<form role="form" action="#">
 			<div id="one">
                 <legend>Informations personnelles</legend> 
@@ -20,4 +20,4 @@
 			</div>
 			<button id="submit" class="btn btn-primary" type="submit">Enregistrer</button>
 		</form>
-	</div>
+	</div>-->

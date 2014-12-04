@@ -31,4 +31,34 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+	public $components = array(
+		'RequestHandler',
+		'Session',
+		'Auth' => array(
+				'loginAction' => array('controller' => 'users',
+							           'action' => 'login',
+							           'admin' => false
+	        						   ),
+				'unauthorizedRedirect' => array('controller' => 'users',
+							           'action' => 'index',
+							           'admin' => false,
+	        						   ),	        						   	
+			'authorize' => array('Controller'))
+		);	
+
+	/**
+	*	Fonction d'autorisation par accès croissant selon le prefix
+	*/
+	public function isAuthorized($user = null){
+		$res = true;
+		if(isset($this->request->params['prefix'])){
+			if($this->request->params['prefix'] == 'admin'){
+		  		$res = $user['role'] == 'admin';		
+		  	}else{
+				$res = false;
+			}
+		}
+
+		return $res;
+	}
 }

@@ -118,17 +118,18 @@ $pwd = '';
 	*/
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`Users` (
 		`id` int(11) NOT NULL,
-	  	`login` varchar(255) CHARACTER SET latin1 NOT NULL,
+	  	`username` varchar(255) CHARACTER SET latin1 NOT NULL,
 	  	`password` varchar(1000) CHARACTER SET latin1 NOT NULL,
 	  	`firstname` varchar(255) CHARACTER SET latin1 NOT NULL,
 	  	`lastname` varchar(255) CHARACTER SET latin1 NOT NULL,
+	  	`birthdate` date NOT NULL,
 	  	`gender` varchar(1) CHARACTER SET latin1 NOT NULL,
 	  	`phone` varchar(20) CHARACTER SET latin1 NOT NULL,
 	  	`email` varchar(255) CHARACTER SET latin1 NOT NULL,
 	  	`street` varchar(255) CHARACTER SET latin1 NOT NULL,
 	  	`zipcode` varchar(20) CHARACTER SET latin1 NOT NULL,
 	  	`country` varchar(255) CHARACTER SET latin1 NOT NULL,
-	  	`admin` tinyint(1) NOT NULL
+	  	`role` varchar(20) CHARACTER SET latin1 NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1"
 	))
 		echo "Création de la table Utilisateur échouée.</br>";
