@@ -1,0 +1,2006 @@
+2014-11-30 12:26:18 Error: [MissingControllerException] Controller class CocktailsController could not be found.
+Exception Attributes: array (
+  'class' => 'CocktailsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:19 Error: [MissingControllerException] Controller class CocktailsController could not be found.
+Exception Attributes: array (
+  'class' => 'CocktailsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:32 Error: Fatal Error (1): Call to a member function logout() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/UserController.php, line 92]
+2014-11-30 12:26:32 Error: [FatalErrorException] Call to a member function logout() on null
+Request URL: /user/logout
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 92, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 92, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:41 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Model/Recette.php, line 13]
+2014-11-30 12:26:41 Error: [FatalErrorException] Cannot redeclare class RecettesModel
+Request URL: /recette
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/quentinv...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/quentinv...', 13, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/quentinv...', 13, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 12:26:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:17 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /recette
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('recettes')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/RecetteController.php(7): Model->find('all')
+#8 [internal function]: RecetteController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RecetteController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RecetteController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-30 12:27:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:22 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /user/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:27:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:27:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:14 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /user/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:28:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:16 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /user/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:28:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:16 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /user/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:28:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:28:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:12 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Cpre%20class=
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:25 Error: [MissingControllerException] Controller class <linkRel=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<linkRel=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Clink%20rel=
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:32:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:32 Error: [MissingControllerException] Controller class <imgSrc=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<imgSrc=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Cimg%20src=
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:34 Error: [MissingControllerException] Controller class <imgSrc=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<imgSrc=Controller',
+  'plugin' => NULL,
+)
+Request URL: /%3Cimg%20src=
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:33:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:31 Error: [MissingControllerException] Controller class <imgController could not be found.
+Exception Attributes: array (
+  'class' => '<imgController',
+  'plugin' => NULL,
+)
+Request URL: /%3Cimg
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:33 Error: [MissingControllerException] Controller class <imgController could not be found.
+Exception Attributes: array (
+  'class' => '<imgController',
+  'plugin' => NULL,
+)
+Request URL: /%3Cimg
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:34:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:35:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:35:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:35:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:35:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+<<<<<<< local
+2014-11-29 22:28:29 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:29 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:29 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:38 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
+2014-11-29 22:28:38 Error: [FatalErrorException] Cannot redeclare class RecettesModel
+Request URL: /cocktails/Web/recette
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-29 22:28:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:38 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:43 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /cocktails/Web/user/profil
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-29 22:28:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:43 Error: [MissingActionException] Action UserController::{{ asset('css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => '{{ asset(\'css',
+)
+Request URL: /cocktails/Web/user/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-29 22:28:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:43 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:46 Error: [MissingActionException] Action UserController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'index',
+)
+Request URL: /cocktails/Web/user/index/admin:1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-29 22:28:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:47 Error: [MissingActionException] Action UserController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'index',
+)
+Request URL: /cocktails/Web/user/index/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-29 22:28:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:49 Error: [MissingTableException] Table categories for model Categorie was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Categorie',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/categorie/index/admin:1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('categories')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\CategorieController.php(10): Model->find('all')
+#4 [internal function]: CategorieController->index()
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategorieController), Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategorieController), Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-29 22:28:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:51 Error: [MissingTableException] Table categories for model Categorie was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Categorie',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/categorie/index/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('categories')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\CategorieController.php(10): Model->find('all')
+#4 [internal function]: CategorieController->index('{{ asset('css', 'logo_final.png'...')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategorieController), Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategorieController), Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-29 22:28:53 Error: [MissingTableException] Table ingredients for model Ingredient was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ingredients',
+  'class' => 'Ingredient',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/ingredient/index/admin:1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('ingredients')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientController.php(10): Model->find('all')
+#4 [internal function]: IngredientController->index()
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientController), Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientController), Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-29 22:28:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:54 Error: [MissingTableException] Table ingredients for model Ingredient was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ingredients',
+  'class' => 'Ingredient',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/ingredient/index/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('ingredients')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientController.php(10): Model->find('all')
+#4 [internal function]: IngredientController->index('{{ asset('css', 'logo_final.png'...')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientController), Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientController), Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-29 22:28:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1068 Plusieurs clefs primaires définies
+Request URL: /cocktails/Web/database
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Database\index.ctp(143): PDO->exec('ALTER TABLE dat...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-29 22:28:57 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:28:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:15:58 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:15:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:15:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:15:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:15:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:35 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:38 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:42 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:42 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:42 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:43 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
+2014-11-30 12:19:43 Error: [FatalErrorException] Cannot redeclare class RecettesModel
+Request URL: /cocktails/Web/recette
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 12:19:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:43 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:43 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:43 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:44 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
+2014-11-30 12:19:44 Error: [FatalErrorException] Cannot redeclare class RecettesModel
+Request URL: /cocktails/Web/recette
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 12:19:44 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:19:45 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:00 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
+2014-11-30 12:20:00 Error: [FatalErrorException] Cannot redeclare class RecettesModel
+Request URL: /cocktails/Web/recette
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 12:20:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:00 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:01 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
+2014-11-30 12:20:01 Error: [FatalErrorException] Cannot redeclare class RecettesModel
+Request URL: /cocktails/Web/recette
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 12:20:01 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:02 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /cocktails/Web/user/profil
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:20:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:02 Error: [MissingActionException] Action UserController::{{ asset('css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => '{{ asset(\'css',
+)
+Request URL: /cocktails/Web/user/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:20:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:02 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:02 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:03 Error: [MissingActionException] Action UserController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'profil',
+)
+Request URL: /cocktails/Web/user/profil
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:20:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:20:03 Error: [MissingActionException] Action UserController::{{ asset('css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => '{{ asset(\'css',
+)
+Request URL: /cocktails/Web/user/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 12:20:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:24:26 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:24:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:24:26 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:24:26 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:33 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:33 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:56 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
+Exception Attributes: array (
+  'class' => '{{Asset(\'cssController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/bootstrap.min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:56 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:26:56 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+=======
+2014-11-30 12:36:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:36:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:37:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:37:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:40:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:54:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:54:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:57:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:57:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:57:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:58:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 12:58:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:00:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:00:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:00:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:00:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:01:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+>>>>>>> other
+2014-11-30 14:07:05 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Cocktails\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Cocktails\\index.ctp',
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CocktailsController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 14:07:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:10 Error: [MissingControllerException] Controller class RecetteController could not be found.
+Exception Attributes: array (
+  'class' => 'RecetteController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/recette
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:12 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/user/profil
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:13 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/user/index/admin:1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:14 Error: [MissingControllerException] Controller class CategorieController could not be found.
+Exception Attributes: array (
+  'class' => 'CategorieController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/categorie/index/admin:1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:15 Error: [MissingControllerException] Controller class IngredientController could not be found.
+Exception Attributes: array (
+  'class' => 'IngredientController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/ingredient/index/admin:1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:21 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/user/profil
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:48 Error: [MissingControllerException] Controller class IngredientController could not be found.
+Exception Attributes: array (
+  'class' => 'IngredientController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/ingredient/index/admin:1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:50 Error: [MissingControllerException] Controller class CategorieController could not be found.
+Exception Attributes: array (
+  'class' => 'CategorieController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/categorie/index/admin:1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:52 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/user/profil
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:52 Error: [MissingControllerException] Controller class RecetteController could not be found.
+Exception Attributes: array (
+  'class' => 'RecetteController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/recette
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 14:07:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/js/jquery_min.js
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -2,18 +2,37 @@
 
 class UsersController extends AppController
 {
+
+	public function beforeFilter() {
+    //parent::beforeFilter();
+    $this->Auth->allow('login', 'signup');
+	}
+
 	/**
 	*	Liste les utilisateurs
 	*/
-	public function index()
+	public function admin_index()
 	{
 		$listUser = $this->User->find('all');
 		$this->set('listUser', $listUser);
 	}
 
+	public function signup(){
+		if($this->request->is('post')){
+			$t = $this->request->data;
+			if($this->User->save($t, true)){
+				$this->Session->setFlash('Votre compte a bien été crée.', "message", array('type' => 'success'));
+				$this->redirect(array('action' => 'index'));
+			}
+			else{
+				$this->Session->setFlash('Veuillez vérifier vos données.', "message", array('type' => 'danger'));
+			}
+		}
+	}
 	/**
 	*	Formulaire d'édition d'un utilisateur
 	*/
+	/*
 	public function admin_edit($id)
 	{
 		if(!empty($this->data))
@@ -33,6 +52,7 @@ class UsersController extends AppController
 		$this->set('typeUtil',$this->data['User']['status']);
 	}
 
+	*/
 	/**
 	*	Permet la suppression d'un utilisateur
 	*/
@@ -76,11 +96,19 @@ class UsersController extends AppController
 	*/
 	public function login() 
 	{
-		$this->layout = 'blank';
+		debug($this->data);
 		if(!empty($this->data)){
 			if($this->Auth->login()){
-				$this->Session->setFlash('Vous êtes connecté', 'message', array('type' => 'success'));
-				$this->redirect(array('controller' => 'cocktails', 'action' => 'index', 'admin' => false));
+				$this->Session->setFlash('Vous êtes désormais connecté.', 'message', array('type' => 'success'));
+				if($this->Auth->user('role') == 'admin'){
+					$this->redirect(array('controller' => 'cocktails', 'action' => 'index'));
+				}else{
+					$this->redirect(array('controller' => 'cocktails', 'action' => 'index'));
+				}
+			}
+			else{
+				$this->Session->setFlash('Veuillez vérifier vos identifiants.', 'message', array('type' => 'danger'));
+				$this->redirect(array('controller' => 'users', 'action' => 'login'));
 			}
 		}
 	}
@@ -91,7 +119,9 @@ class UsersController extends AppController
 	*/
 	public function logout()
 	{
-		$this->Auth->logout();
+		if($this->Auth->logout()){
+			$this->Session->setFlash('Vous avez été déconnecté.', 'message', array('type' => 'success'));
+		}
 		$this->redirect(array('controller' => 'users', 'action' => 'login'));
 	}
 } 
