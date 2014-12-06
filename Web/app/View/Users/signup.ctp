@@ -59,10 +59,6 @@
             </div>
             <div id="two">
                 <legend>Informations utiles</legend>
-                <?php echo $this->Form->input('role', array('placeholder' => 'Saisir : admin / visiteur','input' => array('class' => 'form-control'),
-                    'label' => 'Type d\'utilisateur : ',
-                    'required' => true)); 
-                ?> 
                 <?php echo $this->Form->input('username', array('placeholder' => 'Login','input' => array('class' => 'form-control'),
                     'label' => 'Login (définitif) : ',
                     'required' => true)); 
@@ -78,7 +74,7 @@
                     'match' => 'User.password')); 
                 ?>
                 <span style="color:red"> * : Champs obligatoires</span><br>
-                <?php echo $this->Form->button('Valider', array('class' => 'btn btn-success', 'style' => 'margin-left: 40%; margin-top:10%;')); ?>
+                <?php echo $this->Form->button('S\'inscrire', array('class' => 'btn btn-success center-block')); ?>
 			</div>
         <?php
             echo $this->Form->end();

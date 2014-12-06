@@ -11714,3 +11714,416 @@ Stack Trace:
 #3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-12-06 15:49:31 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 121]
+2014-12-06 15:49:31 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cocktails/Web/users/logout
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 121)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 121, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 121, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 15:59:07 Error: Fatal Error (4): syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\login.ctp, line 17]
+2014-12-06 15:59:07 Error: [FatalErrorException] syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 17, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 17, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:05:29 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\signup.ctp, line 81]
+2014-12-06 16:05:29 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+Request URL: /cocktails/Web/users/signup
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 81, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 81, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:19:17 Error: [MissingActionException] Action UsersController::newpassword() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'newpassword',
+)
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-06 16:20:07 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\newpassword.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Users\\newpassword.ctp',
+)
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-06 16:24:21 Error: Fatal Error (4): syntax error, unexpected '*' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\newpassword.ctp, line 23]
+2014-12-06 16:24:21 Error: [FatalErrorException] syntax error, unexpected '*'
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:25:41 Error: Fatal Error (4): syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\newpassword.ctp, line 6]
+2014-12-06 16:25:41 Error: [FatalErrorException] syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 6, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 6, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:48:17 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 24]
+2014-12-06 16:48:17 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 24, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 24, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:07:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.password2' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array, true, Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:07:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.password2' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array, true, Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:07:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.password2' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array, true, Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:11:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:12:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:13:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:13:11 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\newpassword.ctp, line 3]
+2014-12-06 17:13:11 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:13:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:16:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:17:18 Error: Fatal Error (1): Function name must be a string in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 18]
+2014-12-06 17:17:18 Error: [FatalErrorException] Function name must be a string
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 18, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\EasyPHP-12.1...', 18, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:18:44 Error: Fatal Error (1): Function name must be a string in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 22]
+2014-12-06 17:18:44 Error: [FatalErrorException] Function name must be a string
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 22, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\EasyPHP-12.1...', 22, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:18:59 Error: Fatal Error (1): Call to undefined method UsersController::user() in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 22]
+2014-12-06 17:18:59 Error: [FatalErrorException] Call to undefined method UsersController::user()
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 22, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 22, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:19:25 Error: Fatal Error (1): Function name must be a string in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 22]
+2014-12-06 17:19:25 Error: [FatalErrorException] Function name must be a string
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 22, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\EasyPHP-12.1...', 22, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:21:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(23): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:21:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('update', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('update', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('update', Array, Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(808): DboSource->query('update', Array, Object(User))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(23): Model->__call('update', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(23): User->update(Array)
+#7 [internal function]: UsersController->newpassword()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-06 17:29:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 0 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), 'password', NULL, '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll('password', '')
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:30:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:30:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:34:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(25): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:36:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:36:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:38:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(25): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:47:25 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 26]
+2014-12-06 17:47:25 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 26, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 26, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:56:01 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\login.ctp, line 20]
+2014-12-06 17:56:01 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 18:13:14 Error: Fatal Error (1): Call to undefined function checkEqualPassWord() in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\User.php, line 68]
+2014-12-06 18:13:14 Error: [FatalErrorException] Call to undefined function checkEqualPassWord()
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 68, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 68, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 18:17:33 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\User.php, line 3]
+2014-12-06 18:17:33 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION)
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

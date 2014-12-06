@@ -1,6 +1,5 @@
 <?php 
 class User extends AppModel{
-
 	public $validate = array(
 			'username' => array(
 				'unique' => array(
@@ -55,21 +54,12 @@ class User extends AppModel{
 				),
 			'password' => array(
 				'rule' =>  array('minLength', 2),
-				//'required' => true,
 				'message' => 'Mot de passe requis (2 caractères minimum).'),
 			'password2' => array(
-				//'required' => true,
 				'rule' => 'checkEqualPassWord',
 				'message' => 'Les deux mots de passe sont différents.'
+				//'allowEmpty' => true
 				),
-			'role' => array(
-				'rule' => 'notEmpty',
-				'message' => 'Type incorrect',
-				'options' => array('admin', 'normal'),
-					/*'on' =>'update',
-					'rule' => 'notTheLastOne',
-					'message' => 'C\'est le dernier des administrateurs, il ne peut pas être modifié'*/
-				)
 			);
 
 	public function beforeSave($options = array()) {
@@ -83,7 +73,7 @@ class User extends AppModel{
 	}
 
 	public function notTheLastOne($check){
-		if($check['role'] == 'normal'){
+		if($check['role'] == 'visiteur'){
 			$tmp = $this->findAllByStatus('admin');
 			if(count($tmp) == 1){
 					if($this->request->data['User']['id'] == $tmp[0]['User']['id']){
