@@ -5,7 +5,30 @@ class UsersController extends AppController
 
 	public function beforeFilter() {
     parent::beforeFilter();
-    $this->Auth->allow('login', 'signup');
+    $this->Auth->allow('login', 'signup', 'newpassword');
+	}
+
+	/**
+	* Nouveau du mot de passe
+	*/
+	public function newpassword(){
+		if($this->request->is('post')){
+			$t = $this->request->data;
+			$user = $this->User->find('first', array('conditions' => array('username' => $t['User']['username'])));
+			if(empty($user)){
+				$this->Session->setFlash('Le login saisi ne correspond à aucun utilisateur.', "message", array('type' => 'danger'));
+			}
+			else{
+				$this->User->id = $user['User']['id'];
+				if($this->User->saveField('password', $t['User']['password'])){
+					$this->Session->setFlash('Votre mot de passe a été enregistré.', "message", array('type' => 'success'));
+					//$this->redirect(array('controller' => 'users', 'action' => 'login'));
+				}
+				else{
+					$this->Session->setFlash('Veuillez vérifier vos données.', "message", array('type' => 'danger'));
+				}
+			}
+		}
 	}
 
 	/**
@@ -35,7 +58,7 @@ class UsersController extends AppController
 	*/
 	public function edit(){
 		$id = $this->Auth->user('id');
-		echo $this->Auth->user('password');
+		//echo $this->Auth->user('password');
 		if(!$id){
 			$this->redirect('/');
 			die();
@@ -118,7 +141,7 @@ class UsersController extends AppController
 		//debug($this->data);
 		if(!empty($this->data)){
 			if($this->Auth->login()){
-				$this->Session->setFlash('Vous êtes désormais connecté.', 'message', array('type' => 'success'));
+				$this->Session->setFlash('Bienvenue '. $this->Auth->user('firstname') . ' ' . $this->Auth->user('lastname') .', vous êtes désormais connecté.', 'message', array('type' => 'success'));
 				if($this->Auth->user('role') == 'admin'){
 					$this->redirect(array('controller' => 'cocktails', 'action' => 'index'));
 				}else{

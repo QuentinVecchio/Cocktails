@@ -56,11 +56,7 @@
                     )); 
                 ?>
                 <legend>Informations utiles</legend>
-                <?php echo $this->Form->input('role', array('disabled' => 'true', 'placeholder' => 'Saisir : admin / visiteur',
-                    'label' => 'Type d\'utilisateur : ',
-                    'required' => false)); 
-                ?> 
-                <?php echo $this->Form->input('username', array('disabled' => 'true','placeholder' => 'Login',
+                <?php echo $this->Form->input('username', array('disabled' => 'true',
                     'label' => 'Login : ',
                     'required' => false
                     )); 
@@ -87,9 +83,8 @@
                     'label' => 'Confirmer votre mot de passe : ',
                     'match' => 'User.password')); */
                 ?>
-                <?php echo $this->Form->button('Valider', array(
-                'class' => 'btn btn-success', 
-                'style' => 'margin-left: 40%; margin-top:10%;',
+                <?php echo $this->Form->button('Enregistrer vos données', array(
+                'class' => 'btn btn-success center-block',
                 'onClick' =>'(username.required=false)||(role.required=false)'
                 )); ?>
         <?php
