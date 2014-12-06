@@ -48,23 +48,23 @@ class User extends AppModel{
 				'rule' => 'notEmpty',
 				'message' => 'Renseignez une ville'
 				),
-			/*'passwordOld' => array(
+			'passwordOld' => array(
 					'rule' => 'checkCurrentPassWord',
-					'message' => 'Mot de passe incorrect',
+					'message' => 'Erreur sur la saisie de l\'ancien mot de passe.',
 					'allowEmpty' => true
-				),*/
+				),
 			'password' => array(
 				'rule' =>  array('minLength', 2),
 				//'required' => true,
-				'message' => 'Mot de passe requis (2 caractères minimum)'),
+				'message' => 'Mot de passe requis (2 caractères minimum).'),
 			'password2' => array(
 				//'required' => true,
 				'rule' => 'checkEqualPassWord',
-				'message' => 'Les deux mots de passe sont différents'
+				'message' => 'Les deux mots de passe sont différents.'
 				),
 			'role' => array(
 				'rule' => 'notEmpty',
-				'message' => 'Sexe incorrect',
+				'message' => 'Type incorrect',
 				'options' => array('admin', 'normal'),
 					/*'on' =>'update',
 					'rule' => 'notTheLastOne',
@@ -83,7 +83,7 @@ class User extends AppModel{
 	}
 
 	public function notTheLastOne($check){
-		if($check['status'] == 'normal'){
+		if($check['role'] == 'normal'){
 			$tmp = $this->findAllByStatus('admin');
 			if(count($tmp) == 1){
 					if($this->request->data['User']['id'] == $tmp[0]['User']['id']){
@@ -99,13 +99,13 @@ class User extends AppModel{
 	    return $this->data['User']['password'] == $this->data['User']['password2'];
 	}
 
-/*
+
 	public function checkCurrentPassWord($check) {
 			$this->id = $this->request->data['User']['id'];
 			$password = $this->field('password');
-
+			//debug($this->request->data);
 	    return AuthComponent::password(current($check)) == $password;
-	}*/
+	}
 /*
 	public function afterValidate(){
 		unset($this->request->data[$this->alias]['passwordOld']);

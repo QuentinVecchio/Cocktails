@@ -1,9 +1,8 @@
-<?php $this->set('title_for_layout',"Inscription"); ?>
-	<div class="container">
-        <?php
-            echo $this->Form->create('User', array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form'));
+<?php $this->set('title_for_layout',"Edition du profil"); ?>
+<div class="container">
+		<?php
+		echo $this->Form->create('User', array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form'));
         ?>
-			<div id="one">
                 <legend>Informations personnelles</legend> 
                 <?php echo $this->Form->input('gender', array(
                     'label' => 'Sexe:',
@@ -56,32 +55,44 @@
                     'required' => false
                     )); 
                 ?>
-            </div>
-            <div id="two">
                 <legend>Informations utiles</legend>
-                <?php echo $this->Form->input('role', array('placeholder' => 'Saisir : admin / visiteur','input' => array('class' => 'form-control'),
+                <?php echo $this->Form->input('role', array('disabled' => 'true', 'placeholder' => 'Saisir : admin / visiteur',
                     'label' => 'Type d\'utilisateur : ',
-                    'required' => true)); 
+                    'required' => false)); 
                 ?> 
-                <?php echo $this->Form->input('username', array('placeholder' => 'Login','input' => array('class' => 'form-control'),
-                    'label' => 'Login (définitif) : ',
-                    'required' => true)); 
+                <?php echo $this->Form->input('username', array('disabled' => 'true','placeholder' => 'Login',
+                    'label' => 'Login : ',
+                    'required' => false
+                    )); 
                 ?>
-                <?php echo $this->Form->input('password', array('placeholder' => 'Mot de passe','input' => array('class' => 'form-control'),
-                    'label' => 'Mot de passe : ',
-                    'required' => true)); 
+                <?php /*echo $this->Form->input('passwordOld', array(
+                	'type' => 'password',
+                	'name' => 'passwordOld', 
+                	'placeholder' => 'Ancien mot de passe',
+                	'input' => array('class' => 'form-control'),
+                    'label' => 'Ancien mot de passe : '
+                    )); 
                 ?>
-                <?php echo $this->Form->input('password2', array('placeholder' => 'Confirmation mot de passe','input' => array('class' => 'form-control'),
+                <?php echo $this->Form->input('password', array(
+                	'input' => array('class' => 'form-control'),
+					'name' => 'password',
+					'placeholder' => 'Nouveau mot de passe',
+					'label' => array('text' => 'Nouveau mot de passe : '))); 
+				?>
+                <?php echo $this->Form->input('password2', array(
+                	'name' => 'password2',
+                	'placeholder' => 'Confirmation mot de passe',
+                	'input' => array('class' => 'form-control'),
                     'type' => 'password',
                     'label' => 'Confirmer votre mot de passe : ',
-                    'required' => true,
-                    'match' => 'User.password')); 
+                    'match' => 'User.password')); */
                 ?>
-                <span style="color:red"> * : Champs obligatoires</span><br>
-                <?php echo $this->Form->button('Valider', array('class' => 'btn btn-success', 'style' => 'margin-left: 40%; margin-top:10%;')); ?>
-			</div>
+                <?php echo $this->Form->button('Valider', array(
+                'class' => 'btn btn-success', 
+                'style' => 'margin-left: 40%; margin-top:10%;',
+                'onClick' =>'(username.required=false)||(role.required=false)'
+                )); ?>
         <?php
             echo $this->Form->end();
         ?>
 	</div>
-

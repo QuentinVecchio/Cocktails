@@ -4,7 +4,7 @@ class UsersController extends AppController
 {
 
 	public function beforeFilter() {
-    //parent::beforeFilter();
+    parent::beforeFilter();
     $this->Auth->allow('login', 'signup');
 	}
 
@@ -22,12 +22,31 @@ class UsersController extends AppController
 			$t = $this->request->data;
 			if($this->User->save($t, true)){
 				$this->Session->setFlash('Votre compte a bien été crée.', "message", array('type' => 'success'));
-				$this->redirect(array('action' => 'index'));
+				$this->redirect('/');
 			}
 			else{
 				$this->Session->setFlash('Veuillez vérifier vos données.', "message", array('type' => 'danger'));
 			}
 		}
+	}
+
+	/**
+	* Gestion du profil visiteur
+	*/
+	public function edit(){
+		$id = $this->Auth->user('id');
+		echo $this->Auth->user('password');
+		if(!$id){
+			$this->redirect('/');
+			die();
+		}
+		$this->User->id = $id;
+			$t = $this->request->data;
+			if($this->User->save($t, true, array('firstname','lastname','birthdate', 'street' ,'zipcode','country','phone', 'email'))){
+				$this->Session->setFlash('Votre profil a correctement été mis à jour.','message',array('type' => 'success'));
+				$this->redirect('/');
+			}
+		$this->request->data = $this->User->read();
 	}
 	/**
 	*	Formulaire d'édition d'un utilisateur
@@ -96,7 +115,7 @@ class UsersController extends AppController
 	*/
 	public function login() 
 	{
-		debug($this->data);
+		//debug($this->data);
 		if(!empty($this->data)){
 			if($this->Auth->login()){
 				$this->Session->setFlash('Vous êtes désormais connecté.', 'message', array('type' => 'success'));
