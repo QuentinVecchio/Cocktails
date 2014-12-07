@@ -1,23 +1,65 @@
-<!--<div class="container">
-		<form role="form" action="#">
-			<div id="one">
+<?php $this->set('title_for_layout',"Edition d'un utilisateur"); ?>
+<div class="container">
+        <?php
+        echo $this->Form->create('User', array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form'));
+        ?>
                 <legend>Informations personnelles</legend> 
-                <label id="persolabel" for="sexe">Sexe : </label>       <input type="radio" id="sexe" name="sexe"/> Homme &nbsp<input type="radio" id="sexe" name="sexe"/> Femme<br><br>
-                <label id="persolabel" for="nom">Nom : </label>			<input type="text" id="nom" name="nom"  /><br>
-                <label id="persolabel" for="prenom">Prenom :</label>  	<input type="text" id="prenom" name="prenom"  /><br>
-                <label id="persolabel" for="naissance">Date de naissance : </label>  <input type="date" id="naissance" name="naissance"/>
-                <label id="persolabel" for="rue">Rue :</label>			<input type="text" id="rue" name="rue" /><br>
-                <label id="persolabel" for="cp">Code postal :</label> 	<input type="text" id="cp" name="cp" pattern="^[0-9]{5}$"/><br>
-                <label id="persolabel" for="pays">Pays : </label>		<input type="text" id="pays" name="pays" /><br>
-                <label id="persolabel" for="tel">Téléphone :</label> 	<input type="tel" id="tel" name="tel"   pattern="^0[1-9][0-9]{8}$"/><br>
-                <label id="persolabel" for="mail">E-mail :</label> 		<input type="email" id="mail" name="mail"  /><br>
-            </div>
-            <div id="two">
-                <legend>Informations utiles</legend> 
-                <label id="utileslabel" for="login">Login : </label> 						<input type="text" id="login" name="login" required /><br>
-                <label id="utileslabel" for="pwd">Mot de passe : </label> 					<input type="password" id="pwd" name="pwd"/><br>
-                <label id="utileslabel" for="confpwd">Confirmation mot de passe : </label> 	<input type="password" id="confpwd" name="confpwd"/><br>
-			</div>
-			<button id="submit" class="btn btn-primary" type="submit">Enregistrer</button>
-		</form>
-	</div>-->
+                <?php echo $this->Form->input('gender', array(
+                    'label' => 'Sexe:',
+                    'type' => 'radio',
+                    'required' => false,
+                    'legend' => false,
+                    'options' => array('H' => 'Homme', 'F' => 'Femme'), 
+                    'style' => 'margin-left: 2%;'
+                ));
+                ?>
+                <?php echo $this->Form->input('lastname', array('placeholder' => 'Nom','input' => array('class' => 'form-control'),
+                    'required' => false,
+                    'label' => 'Nom : ')); 
+                ?>
+                <?php echo $this->Form->input('firstname', array('placeholder' => 'Prénom','input' => array('class' => 'form-control'),
+                    'required' => false,
+                    'label' => 'Prénom : ')); 
+                ?>
+                <label for="UserBirthdate">Date de naissance :</label>
+                <?php echo $this->Form->date('birthdate', array('input' => array('class' => 'form-control'),
+                    'required' => false, 
+                    'legend' => false
+                    ));
+                ?>
+                <?php echo $this->Form->input('street', array('placeholder' => 'N°, Libellé','input' => array('class' => 'form-control'),
+                    'required' => false,
+                    'label' => 'Rue : ')); 
+                ?>
+                <?php echo $this->Form->input('zipcode', array('placeholder' => 'Code postal','input' => array('class' => 'form-control'),
+                    'label' => 'Code postal : ',
+                    'required' => false,
+                    'pattern' => array('text' => '^[0-9]{5}$'))); 
+                ?>     
+                <?php echo $this->Form->input('town', array('placeholder' => 'Ville','input' => array('class' => 'form-control'),
+                    'label' => 'Ville : ',
+                    'required' => false,
+                )); 
+                ?>             
+                <?php echo $this->Form->input('country', array('placeholder' => 'Pays','input' => array('class' => 'form-control'),
+                    'required' => false,
+                    'label' => 'Pays : ')); 
+                ?>
+                <?php echo $this->Form->input('phone', array('placeholder' => 'N° téléphone','input' => array('class' => 'form-control'),
+                    'label' => 'N° téléphone : ',
+                    'required' => false,
+                    'pattern' => array('text' => '^0[1-9][0-9]{8}$'))); 
+                ?>  
+                <?php echo $this->Form->input('email', array('placeholder' => 'E-mail','input' => array('class' => 'form-control'),
+                    'label' => 'E-mail : ',
+                    'required' => false
+                    )); 
+                ?>
+                <?php echo $this->Form->button('Enregistrer les données', array(
+                'class' => 'btn btn-success center-block',
+                'onClick' =>'(username.required=false)||(role.required=false)'
+                )); ?>
+        <?php
+            echo $this->Form->end();
+        ?>
+    </div>
