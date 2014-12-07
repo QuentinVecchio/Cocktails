@@ -51,6 +51,7 @@ $cakeVersion =''; //__d('cake_dev', 'CakePHP %s', Configure::version())
 	<?php echo $this->Html->css('style'); ?>
 	<?php echo $this->Html->script('jquery_min'); ?>
 	<?php echo $this->Html->script('bootstrap.min'); ?>
+	<?php echo $this->Html->script('jquery-2.1.1.min'); ?>
 	<?php echo $this->fetch('script'); ?>
 </body>
 </html>

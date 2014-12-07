@@ -56,32 +56,10 @@
                     )); 
                 ?>
                 <legend>Informations utiles</legend>
-                <?php echo $this->Form->input('username', array('disabled' => 'true',
+                <?php echo $this->Form->input('username', array(
                     'label' => 'Login : ',
                     'required' => false
                     )); 
-                ?>
-                <?php /*echo $this->Form->input('passwordOld', array(
-                	'type' => 'password',
-                	'name' => 'passwordOld', 
-                	'placeholder' => 'Ancien mot de passe',
-                	'input' => array('class' => 'form-control'),
-                    'label' => 'Ancien mot de passe : '
-                    )); 
-                ?>
-                <?php echo $this->Form->input('password', array(
-                	'input' => array('class' => 'form-control'),
-					'name' => 'password',
-					'placeholder' => 'Nouveau mot de passe',
-					'label' => array('text' => 'Nouveau mot de passe : '))); 
-				?>
-                <?php echo $this->Form->input('password2', array(
-                	'name' => 'password2',
-                	'placeholder' => 'Confirmation mot de passe',
-                	'input' => array('class' => 'form-control'),
-                    'type' => 'password',
-                    'label' => 'Confirmer votre mot de passe : ',
-                    'match' => 'User.password')); */
                 ?>
                 <?php echo $this->Form->button('Enregistrer vos données', array(
                 'class' => 'btn btn-success center-block',

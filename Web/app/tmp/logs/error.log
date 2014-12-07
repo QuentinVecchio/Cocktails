@@ -12127,3 +12127,79 @@ Stack Trace:
 #3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-12-07 14:13:26 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-07 15:50:58 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-07 15:57:22 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\CategoriesController.php, line 19]
+2014-12-07 15:57:22 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cocktails/Web/admin/categories
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-07 15:57:26 Error: [MissingTableException] Table ingredients for model Ingredient was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ingredients',
+  'class' => 'Ingredient',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('ingredients')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(19): Model->find('all')
+#4 [internal function]: IngredientsController->admin_index()
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-12-07 16:08:37 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 94]
+2014-12-07 16:08:37 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cocktails/Web/admin/users/edit/12
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 94)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 94, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 94, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-07 16:10:15 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 92]
+2014-12-07 16:10:15 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /cocktails/Web/admin/users/edit/12
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 92)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 92, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 92, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-07 16:20:02 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 39]
+2014-12-07 16:20:02 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /cocktails/Web/admin/users
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 39, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 39, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
