@@ -60,6 +60,18 @@ $pwd = 'root';
 	else
 		echo "Création de la table Catégorie faite.</br>";
 
+	/*
+	* Création association CategoriePere
+	*/
+		if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`fatherCondition` (
+		`id` int(11) NOT NULL,
+  		`condition` int(11)  NOT NULL
+		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;"
+	))
+		echo "Création de la table CatégoriePere échouée.</br>";
+	else
+		echo "Création de la table CatégoriePere faite.</br>";
+
 
 	/*
 	*	Création table estConstitue
@@ -82,7 +94,7 @@ $pwd = 'root';
 	*/
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`ingredient` (
 		`id` int(11) NOT NULL,
-  		`name` varchar(255) CHARACTER SET utf8_bin NOT NULL
+  		`name` varchar(255) CHARACTER SET latin1 NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 "
 	))
 		echo "Création de la table Ingrédient échouée.</br>";
@@ -107,17 +119,16 @@ $pwd = 'root';
 	*/
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`Users` (
 		`id` int(11) NOT NULL,
-	  	`login` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`password` varchar(1000) CHARACTER SET utf8_bin NOT NULL,
-	  	`firstname` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`lastname` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`gender` varchar(1) CHARACTER SET utf8_bin NOT NULL,
-	  	`phone` varchar(20) CHARACTER SET utf8_bin NOT NULL,
-	  	`email` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`street` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`town` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`zipcode` varchar(20) CHARACTER SET utf8_bin NOT NULL,
-	  	`country` varchar(255) CHARACTER SET utf8_bin NOT NULL,
+	  	`login` varchar(255) CHARACTER SET latin1 NOT NULL,
+	  	`password` varchar(1000) CHARACTER SET latin1 NOT NULL,
+	  	`firstname` varchar(255) CHARACTER SET latin1 NOT NULL,
+	  	`lastname` varchar(255) CHARACTER SET latin1 NOT NULL,
+	  	`gender` varchar(1) CHARACTER SET latin1 NOT NULL,
+	  	`phone` varchar(20) CHARACTER SET latin1 NOT NULL,
+	  	`email` varchar(255) CHARACTER SET latin1 NOT NULL,
+	  	`street` varchar(255) CHARACTER SET latin1 NOT NULL,
+	  	`zipcode` varchar(20) CHARACTER SET latin1 NOT NULL,
+	  	`country` varchar(255) CHARACTER SET latin1 NOT NULL,
 	  	`admin` tinyint(1) NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1"
 	))
@@ -133,6 +144,10 @@ $pwd = 'root';
 
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Conditions`
 	ADD PRIMARY KEY (`id`), ADD KEY `fatherCondition` (`id`)");
+
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`fatherCondition`
+	ADD PRIMARY KEY (`id`, `condition`)");
+
 
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	ADD PRIMARY KEY (`id`), ADD KEY `ingredient` (`ingredient`,`recipe`)");
@@ -166,52 +181,16 @@ $pwd = 'root';
 	*/
 	echo "</br>Ajout des données ...</br>";
 
-	/*
-	*	Ajout de l'administrateur
-	*	
+	/*	
+	*	Création des recettes
 	*/
-	foreach ($Recettes as $key => $Recette) 
+
+	foreach ($Recettes as $Recette) 
 	{
-		/*
-		*	Ajout des recettes
-		*/
 		$requete = "INSERT INTO " . $db_name . ".`Recipes` (title, recipe) VALUES ('" . str_replace("'","",$Recette['titre']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
-		$bdd2->exec($requete);
-
-		/*
-		*	Ajout des aliments
-		*/
-		foreach ($Recette['index'] as $aliment) 
-		{
-			$existe = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredient` WHERE name = '" . str_replace("'","",$aliment) . "'");
-			if($existe->fetch() == false)
-			{
-				$requete =  "INSERT INTO " . $db_name . ".`ingredient` (name) VALUES ('" . str_replace("'","",$aliment) . "')";
-				$bdd2->exec($requete);
-			}
-		}
-
-		/*
-		*	Ajout des realtions entres recette et ses ingredients
-		*/
-		$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`Recipes` WHERE title = '" . str_replace("'","",$Recette['titre']) . "'");
-		$r = $reponse->fetch();
-		foreach ($Recette['index'] as $key => $aliment) 
-		{
-			$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredient` WHERE name = '" . str_replace("'","",$aliment) . "'");
-			$ingredient = $reponse->fetch();
-			$requete =  "INSERT INTO " . $db_name . ".`isMadeOf` (ingredient, recipe, index, amount, unit) VALUES ('" . $ingredient['id'] . "', '" . $r['id'] . "', '" .  $key . "', '" . $amount . "', '" . $unit . "')";
-			if($bdd2->exec($requete))
-				echo "ingredient ajouté</br>";
-		}
-	}
-
-	foreach ($Hierarchie as $key => $categorie) 
-	{
-		/*
-		*	Ajout des categories
-		*/
-		$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fatherCondition) VALUES ('" . str_replace("'","",$key) . ", '')";
-		$bdd2->exec($requete);
+		if($bdd2->exec($requete))
+			echo "donnée ajoutée</br>";
+		else
+			echo "erreur</br>";
 	}
 ?>

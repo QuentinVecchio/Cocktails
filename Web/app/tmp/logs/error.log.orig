@@ -534,1067 +534,6 @@ Request URL: /js/bootstrap.min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-<<<<<<< local
-2014-11-29 22:28:29 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:29 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:29 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:29 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:29 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:38 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
-2014-11-29 22:28:38 Error: [FatalErrorException] Cannot redeclare class RecettesModel
-Request URL: /cocktails/Web/recette
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
-#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-11-29 22:28:38 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:38 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:38 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:38 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:39 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:43 Error: [MissingActionException] Action UserController::profil() could not be found.
-Exception Attributes: array (
-  'controller' => 'UserController',
-  'action' => 'profil',
-)
-Request URL: /cocktails/Web/user/profil
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
-#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-11-29 22:28:43 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:43 Error: [MissingActionException] Action UserController::{{ asset('css() could not be found.
-Exception Attributes: array (
-  'controller' => 'UserController',
-  'action' => '{{ asset(\'css',
-)
-Request URL: /cocktails/Web/user/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
-#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-11-29 22:28:43 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:43 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:44 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:46 Error: [MissingActionException] Action UserController::index() could not be found.
-Exception Attributes: array (
-  'controller' => 'UserController',
-  'action' => 'index',
-)
-Request URL: /cocktails/Web/user/index/admin:1
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
-#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-11-29 22:28:46 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:46 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:47 Error: [MissingActionException] Action UserController::index() could not be found.
-Exception Attributes: array (
-  'controller' => 'UserController',
-  'action' => 'index',
-)
-Request URL: /cocktails/Web/user/index/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
-#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-11-29 22:28:47 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:47 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:49 Error: [MissingTableException] Table categories for model Categorie was not found in datasource default.
-Exception Attributes: array (
-  'table' => 'categories',
-  'class' => 'Categorie',
-  'ds' => 'default',
-)
-Request URL: /cocktails/Web/categorie/index/admin:1
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('categories')
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\CategorieController.php(10): Model->find('all')
-#4 [internal function]: CategorieController->index()
-#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategorieController), Array)
-#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategorieController), Object(CakeRequest))
-#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#9 {main}
-2014-11-29 22:28:50 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:50 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:50 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:50 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:51 Error: [MissingTableException] Table categories for model Categorie was not found in datasource default.
-Exception Attributes: array (
-  'table' => 'categories',
-  'class' => 'Categorie',
-  'ds' => 'default',
-)
-Request URL: /cocktails/Web/categorie/index/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('categories')
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\CategorieController.php(10): Model->find('all')
-#4 [internal function]: CategorieController->index('{{ asset('css', 'logo_final.png'...')
-#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategorieController), Array)
-#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CategorieController), Object(CakeRequest))
-#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#9 {main}
-2014-11-29 22:28:53 Error: [MissingTableException] Table ingredients for model Ingredient was not found in datasource default.
-Exception Attributes: array (
-  'table' => 'ingredients',
-  'class' => 'Ingredient',
-  'ds' => 'default',
-)
-Request URL: /cocktails/Web/ingredient/index/admin:1
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('ingredients')
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientController.php(10): Model->find('all')
-#4 [internal function]: IngredientController->index()
-#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientController), Array)
-#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientController), Object(CakeRequest))
-#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#9 {main}
-2014-11-29 22:28:53 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:53 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:53 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:53 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:54 Error: [MissingTableException] Table ingredients for model Ingredient was not found in datasource default.
-Exception Attributes: array (
-  'table' => 'ingredients',
-  'class' => 'Ingredient',
-  'ds' => 'default',
-)
-Request URL: /cocktails/Web/ingredient/index/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('ingredients')
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientController.php(10): Model->find('all')
-#4 [internal function]: IngredientController->index('{{ asset('css', 'logo_final.png'...')
-#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientController), Array)
-#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientController), Object(CakeRequest))
-#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#9 {main}
-2014-11-29 22:28:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1068 Plusieurs clefs primaires d�finies
-Request URL: /cocktails/Web/database
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Database\index.ctp(143): PDO->exec('ALTER TABLE dat...')
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
-#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
-#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
-#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
-#7 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#8 {main}
-2014-11-29 22:28:57 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:57 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:57 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:57 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-29 22:28:57 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:15:58 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:15:58 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:15:58 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:15:58 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:15:58 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:35 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:35 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:35 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:35 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:35 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:38 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:38 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:38 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:38 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:38 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:42 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:42 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:42 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:42 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:42 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:43 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
-2014-11-30 12:19:43 Error: [FatalErrorException] Cannot redeclare class RecettesModel
-Request URL: /cocktails/Web/recette
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
-#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-11-30 12:19:43 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:43 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:43 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:43 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:43 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:44 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
-2014-11-30 12:19:44 Error: [FatalErrorException] Cannot redeclare class RecettesModel
-Request URL: /cocktails/Web/recette
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
-#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-11-30 12:19:44 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:44 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:44 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:44 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:19:45 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:00 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
-2014-11-30 12:20:00 Error: [FatalErrorException] Cannot redeclare class RecettesModel
-Request URL: /cocktails/Web/recette
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
-#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-11-30 12:20:00 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:00 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:00 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:00 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:00 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:01 Error: Fatal Error (64): Cannot redeclare class RecettesModel in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\Recette.php, line 13]
-2014-11-30 12:20:01 Error: [FatalErrorException] Cannot redeclare class RecettesModel
-Request URL: /cocktails/Web/recette
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13)
-#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\EasyPHP-12.1...', 13, Array)
-#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-11-30 12:20:01 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:01 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:01 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:01 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:01 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:02 Error: [MissingActionException] Action UserController::profil() could not be found.
-Exception Attributes: array (
-  'controller' => 'UserController',
-  'action' => 'profil',
-)
-Request URL: /cocktails/Web/user/profil
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
-#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-11-30 12:20:02 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:02 Error: [MissingActionException] Action UserController::{{ asset('css() could not be found.
-Exception Attributes: array (
-  'controller' => 'UserController',
-  'action' => '{{ asset(\'css',
-)
-Request URL: /cocktails/Web/user/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
-#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-11-30 12:20:02 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:02 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:02 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:03 Error: [MissingActionException] Action UserController::profil() could not be found.
-Exception Attributes: array (
-  'controller' => 'UserController',
-  'action' => 'profil',
-)
-Request URL: /cocktails/Web/user/profil
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
-#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-11-30 12:20:03 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:03 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:03 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:20:03 Error: [MissingActionException] Action UserController::{{ asset('css() could not be found.
-Exception Attributes: array (
-  'controller' => 'UserController',
-  'action' => '{{ asset(\'css',
-)
-Request URL: /cocktails/Web/user/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
-#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
-#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-11-30 12:20:03 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:24:26 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:24:26 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:24:26 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:24:26 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:33 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:33 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:33 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:33 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:34 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:56 Error: [MissingControllerException] Controller class {{Asset('cssController could not be found.
-Exception Attributes: array (
-  'class' => '{{Asset(\'cssController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/%7B%7B%20asset('css/logo_final.png')%20%7D%7D
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:56 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/bootstrap.min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:56 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.woff
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:56 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 12:26:56 Error: [MissingControllerException] Controller class FontsController could not be found.
-Exception Attributes: array (
-  'class' => 'FontsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/fonts/glyphicons-halflings-regular.ttf
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-=======
 2014-11-30 12:36:43 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
@@ -1802,205 +741,1688 @@ Request URL: /js/jquery_min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
->>>>>>> other
-2014-11-30 14:07:05 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Cocktails\index.ctp" is missing.
+2014-11-30 13:28:38 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
-  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Cocktails\\index.ctp',
+  'class' => 'JsController',
+  'plugin' => NULL,
 )
-Request URL: /cocktails/Web/
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:29:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:29:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 13:30:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:44:31 Error: [MissingControllerException] Controller class CategorieController could not be found.
+Exception Attributes: array (
+  'class' => 'CategorieController',
+  'plugin' => NULL,
+)
+Request URL: /categorie/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:44:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:45:18 Error: [MissingControllerException] Controller class CategorieController could not be found.
+Exception Attributes: array (
+  'class' => 'CategorieController',
+  'plugin' => NULL,
+)
+Request URL: /categorie/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:45:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:45:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:45:22 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 09:45:22 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 09:45:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:46:55 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /recettes
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('recettes')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/RecettesController.php(7): Model->find('all')
+#8 [internal function]: RecettesController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RecettesController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RecettesController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 09:46:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:22:38 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:22:38 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:22:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:22:44 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:22:44 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:22:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:22:48 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:22:48 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:22:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:22:56 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:22:56 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:22:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /recettes
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('recettes')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/RecettesController.php(7): Model->find('all')
+#8 [internal function]: RecettesController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RecettesController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RecettesController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:23:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:05 Error: [MissingActionException] Action UsersController::profil() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profil',
+)
+Request URL: /users/profil
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:08 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:32 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:33 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index/admin:0
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:37 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:23:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:38 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:23:38 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:23:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:41 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:23:41 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:23:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:23:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:48 Error: Fatal Error (1): Call to a member function find() on null in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/CategoriesController.php, line 10]
+2014-12-01 10:23:48 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /categories/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 10, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:23:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:23:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:23:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:36:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:36:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:36:25 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:36:25 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Elements/menu.ctp, line 2]
+2014-12-01 10:36:25 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/quentinv...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/quentinv...', 2, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/quentinv...', 2, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:37:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:37:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:37:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:37:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:37:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:57 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/logout
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:37:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:41:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'database_koby_vecchio\'',
+  'enabled' => true,
+)
+Request URL: /ingredients/index/admin:1
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(3566): Model->setSource('ingredients')
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/Controller/IngredientsController.php(10): Model->find('all')
+#8 [internal function]: IngredientsController->index()
+#9 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#10 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#12 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-01 10:41:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 14:52:10 Error: [MissingControllerException] Controller class Docs-assetsController could not be found.
+Exception Attributes: array (
+  'class' => 'Docs-assetsController',
+  'plugin' => NULL,
+)
+Request URL: /docs-assets/ico/favicon.png
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 14:58:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:16:29 Error: [PDOException] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp(191): PDO->exec('INSERT INTO Rec...')
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(948): include('/Users/quentinv...')
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(910): View->_evaluate('/Users/quentinv...', Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(471): View->_render('/Users/quentinv...')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-04 15:16:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:17:43 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp, line 193]
+2014-12-04 15:17:43 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/quentinv...', 193)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/quentinv...', 193, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/quentinv...', 193, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-04 15:17:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:17:45 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp, line 193]
+2014-12-04 15:17:45 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/quentinv...', 193)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/quentinv...', 193, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/quentinv...', 193, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-04 15:17:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:17:57 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1068 Multiple primary key defined
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp(143): PDO->exec('ALTER TABLE dat...')
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(948): include('/Users/quentinv...')
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(910): View->_evaluate('/Users/quentinv...', Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(471): View->_render('/Users/quentinv...')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-04 15:17:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:18:39 Error: [PDOException] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp(191): PDO->exec('INSERT INTO Rec...')
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(948): include('/Users/quentinv...')
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(910): View->_evaluate('/Users/quentinv...', Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(471): View->_render('/Users/quentinv...')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-04 15:18:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:19:10 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'un morceau d'orange (sanguine si possible). Santé !')' at line 1
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp(191): PDO->exec('INSERT INTO dat...')
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(948): include('/Users/quentinv...')
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(910): View->_evaluate('/Users/quentinv...', Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(471): View->_render('/Users/quentinv...')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-04 15:19:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:22:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:26:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:26:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:26:13 Error: [MissingControllerException] Controller class App.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'App.phpController',
+  'plugin' => NULL,
+)
+Request URL: /app.php
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:26:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:26:24 Error: [MissingControllerException] Controller class App.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'App.phpController',
+  'plugin' => NULL,
+)
+Request URL: /app.php
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:26:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:26:38 Error: [MissingActionException] Action AppController::Config() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'Config',
+)
+Request URL: /app/Config/database_create.php
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-04 15:26:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:26:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:29:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:35:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:35:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:48:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Malibu' in 'where clause'
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp(197): PDO->exec('SELECT * FROM d...')
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(948): include('/Users/quentinv...')
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(910): View->_evaluate('/Users/quentinv...', Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(471): View->_render('/Users/quentinv...')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-04 15:48:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:49:41 Error: Fatal Error (1): Call to a member function fetch() on integer in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp, line 198]
+2014-12-04 15:49:41 Error: [FatalErrorException] Call to a member function fetch() on integer
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 198)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 198, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 198, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-04 15:49:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:51:11 Error: Fatal Error (1): Call to a member function fetch() on integer in [/Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp, line 198]
+2014-12-04 15:51:11 Error: [FatalErrorException] Call to a member function fetch() on integer
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/quentinv...', 198)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/quentinv...', 198, Array)
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/quentinv...', 198, Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-04 15:51:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:51:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ananas'' at line 1
+Request URL: /database
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/View/Database/index.ctp(197): PDO->query('SELECT * FROM d...')
+#1 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(948): include('/Users/quentinv...')
+#2 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(910): View->_evaluate('/Users/quentinv...', Array)
+#3 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/View/View.php(471): View->_render('/Users/quentinv...')
+#4 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#5 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-04 15:51:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 15:52:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 18:56:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 19:07:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery_min.js
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+<<<<<<< mine
+=======
+2014-12-06 11:55:26 Error: [CakeException] Invalid key for decrypt(), key must be at least 256 bits (32 bytes) long.
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Security.php(353): Security::_checkKey(NULL, 'decrypt()')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(45): Security::decrypt(NULL)
+#2 [internal function]: UsersController->edit()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-12-06 11:58:25 Error: Fatal Error (4): syntax error, unexpected ''match'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\edit.ctp, line 74]
+2014-12-06 11:58:25 Error: [FatalErrorException] syntax error, unexpected ''match'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 74, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 74, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 12:10:22 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\edit.ctp, line 64]
+2014-12-06 12:10:22 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 64, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 64, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 12:14:07 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 40]
+2014-12-06 12:14:07 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 40, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 40, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 12:14:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '__hashPassword' à la ligne 1
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('__hashPassword', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('__hashPassword', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('__hashPassword', Array, Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(808): DboSource->query('__hashPassword', Array, Object(User))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(39): Model->__call('__hashPassword', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(39): User->__hashPassword(NULL)
+#7 [internal function]: UsersController->edit()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-06 13:33:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.User' inconnu dans field list
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1608): Model->find('first', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(49): Model->read('User')
+#8 [internal function]: UsersController->edit()
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-06 13:34:10 Error: Fatal Error (64): Can't use method return value in write context in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 50]
+2014-12-06 13:34:10 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 13:34:20 Error: Fatal Error (64): Can't use method return value in write context in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 50]
+2014-12-06 13:34:20 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 13:34:43 Error: Fatal Error (64): Can't use method return value in write context in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 50]
+2014-12-06 13:34:43 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 13:35:03 Error: Fatal Error (64): Can't use method return value in write context in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 50]
+2014-12-06 13:35:03 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 50, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 13:35:24 Error: Fatal Error (64): Can't use method return value in write context in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 52]
+2014-12-06 13:35:24 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 52)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 52, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 52, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 13:36:43 Error: Fatal Error (1): Call to undefined method UsersController::field() in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 53]
+2014-12-06 13:36:43 Error: [FatalErrorException] Call to undefined method UsersController::field()
+Request URL: /cocktails/Web/users/edit
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 53, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 53, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 15:49:31 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 121]
+2014-12-06 15:49:31 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cocktails/Web/users/logout
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 121)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 121, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 121, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 15:59:07 Error: Fatal Error (4): syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\login.ctp, line 17]
+2014-12-06 15:59:07 Error: [FatalErrorException] syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 17, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 17, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:05:29 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\signup.ctp, line 81]
+2014-12-06 16:05:29 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+Request URL: /cocktails/Web/users/signup
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 81, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 81, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:19:17 Error: [MissingActionException] Action UsersController::newpassword() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'newpassword',
+)
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-06 16:20:07 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\newpassword.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Users\\newpassword.ctp',
+)
+Request URL: /cocktails/Web/users/newpassword
 Stack Trace:
 #0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
 #1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
 #2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
-#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CocktailsController), Object(CakeRequest))
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
-2014-11-30 14:07:05 Error: [MissingControllerException] Controller class JsController could not be found.
+2014-12-06 16:24:21 Error: Fatal Error (4): syntax error, unexpected '*' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\newpassword.ctp, line 23]
+2014-12-06 16:24:21 Error: [FatalErrorException] syntax error, unexpected '*'
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:25:41 Error: Fatal Error (4): syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\newpassword.ctp, line 6]
+2014-12-06 16:25:41 Error: [FatalErrorException] syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 6, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 6, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:48:17 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 24]
+2014-12-06 16:48:17 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 24, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 24, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:07:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.password2' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array, true, Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:07:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.password2' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array, true, Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:07:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.password2' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array, true, Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:11:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:12:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:13:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:13:11 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\newpassword.ctp, line 3]
+2014-12-06 17:13:11 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:13:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:16:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'lol' inconnu dans field list
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:17:18 Error: Fatal Error (1): Function name must be a string in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 18]
+2014-12-06 17:17:18 Error: [FatalErrorException] Function name must be a string
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 18, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\EasyPHP-12.1...', 18, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:18:44 Error: Fatal Error (1): Function name must be a string in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 22]
+2014-12-06 17:18:44 Error: [FatalErrorException] Function name must be a string
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 22, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\EasyPHP-12.1...', 22, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:18:59 Error: Fatal Error (1): Call to undefined method UsersController::user() in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 22]
+2014-12-06 17:18:59 Error: [FatalErrorException] Call to undefined method UsersController::user()
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 22, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 22, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:19:25 Error: Fatal Error (1): Function name must be a string in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 22]
+2014-12-06 17:19:25 Error: [FatalErrorException] Function name must be a string
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\EasyPHP-12.1...', 22, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\EasyPHP-12.1...', 22, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:21:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(23): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:21:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('update', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('update', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('update', Array, Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(808): DboSource->query('update', Array, Object(User))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(23): Model->__call('update', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(23): User->update(Array)
+#7 [internal function]: UsersController->newpassword()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-06 17:29:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 0 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), 'password', NULL, '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll('password', '')
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:30:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:30:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:34:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(25): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:36:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:36:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(24): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:38:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE 1 = 1' à la ligne 1
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `databas...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `databas...')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, true)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(25): Model->updateAll(Array)
+#5 [internal function]: UsersController->newpassword()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-06 17:47:25 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 26]
+2014-12-06 17:47:25 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 26, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 26, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 17:56:01 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\login.ctp, line 20]
+2014-12-06 17:56:01 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 18:13:14 Error: Fatal Error (1): Call to undefined function checkEqualPassWord() in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\User.php, line 68]
+2014-12-06 18:13:14 Error: [FatalErrorException] Call to undefined function checkEqualPassWord()
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 68, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 68, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 18:17:33 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Model\User.php, line 3]
+2014-12-06 18:17:33 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION)
+Request URL: /cocktails/Web/users/newpassword
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 3, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-07 14:13:26 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
 Exception Attributes: array (
-  'class' => 'JsController',
+  'class' => 'Favicon.icoController',
   'plugin' => NULL,
 )
-Request URL: /cocktails/Web/js/jquery_min.js
+Request URL: /cocktails/Web/favicon.ico
 Stack Trace:
 #0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-30 14:07:10 Error: [MissingControllerException] Controller class RecetteController could not be found.
+2014-12-07 15:50:58 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
 Exception Attributes: array (
-  'class' => 'RecetteController',
+  'class' => 'Favicon.icoController',
   'plugin' => NULL,
 )
-Request URL: /cocktails/Web/recette
+Request URL: /cocktails/Web/favicon.ico
 Stack Trace:
 #0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-11-30 14:07:11 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
+2014-12-07 15:57:22 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\CategoriesController.php, line 19]
+2014-12-07 15:57:22 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cocktails/Web/admin/categories
 Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:12 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-07 15:57:26 Error: [MissingTableException] Table ingredients for model Ingredient was not found in datasource default.
 Exception Attributes: array (
-  'class' => 'UserController',
-  'plugin' => NULL,
+  'table' => 'ingredients',
+  'class' => 'Ingredient',
+  'ds' => 'default',
 )
-Request URL: /cocktails/Web/user/profil
+Request URL: /cocktails/Web/admin/ingredients
 Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:12 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('ingredients')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(19): Model->find('all')
+#4 [internal function]: IngredientsController->admin_index()
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-12-07 16:08:37 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 94]
+2014-12-07 16:08:37 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cocktails/Web/admin/users/edit/12
 Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:13 Error: [MissingControllerException] Controller class UserController could not be found.
-Exception Attributes: array (
-  'class' => 'UserController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/user/index/admin:1
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 94)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 94, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 94, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-07 16:10:15 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 92]
+2014-12-07 16:10:15 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /cocktails/Web/admin/users/edit/12
 Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:13 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 92)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 92, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 92, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-07 16:20:02 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php, line 39]
+2014-12-07 16:20:02 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /cocktails/Web/admin/users
 Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:14 Error: [MissingControllerException] Controller class CategorieController could not be found.
-Exception Attributes: array (
-  'class' => 'CategorieController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/categorie/index/admin:1
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:14 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:15 Error: [MissingControllerException] Controller class IngredientController could not be found.
-Exception Attributes: array (
-  'class' => 'IngredientController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/ingredient/index/admin:1
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:16 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:21 Error: [MissingControllerException] Controller class UserController could not be found.
-Exception Attributes: array (
-  'class' => 'UserController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/user/profil
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:21 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:48 Error: [MissingControllerException] Controller class IngredientController could not be found.
-Exception Attributes: array (
-  'class' => 'IngredientController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/ingredient/index/admin:1
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:49 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:50 Error: [MissingControllerException] Controller class CategorieController could not be found.
-Exception Attributes: array (
-  'class' => 'CategorieController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/categorie/index/admin:1
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:50 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:52 Error: [MissingControllerException] Controller class UserController could not be found.
-Exception Attributes: array (
-  'class' => 'UserController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/user/profil
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:52 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:52 Error: [MissingControllerException] Controller class RecetteController could not be found.
-Exception Attributes: array (
-  'class' => 'RecetteController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/recette
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-11-30 14:07:53 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /cocktails/Web/js/jquery_min.js
-Stack Trace:
-#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 39, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 39, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+>>>>>>> theirs

@@ -170,6 +170,9 @@ $pwd = 'root';
 	*	Ajout de l'administrateur
 	*	
 	*/
+	$requete = "INSERT INTO " . $db_name . ".`Users` (login, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, admin) VALUES ('root','root','','','h','','','','','','','1')";
+	$bdd2->exec($requete);
+
 	foreach ($Recettes as $key => $Recette) 
 	{
 		/*
@@ -211,7 +214,7 @@ $pwd = 'root';
 		/*
 		*	Ajout des categories
 		*/
-		$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fatherCondition) VALUES ('" . str_replace("'","",$key) . ", '')";
+		$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, recipe) VALUES ('" . str_replace("'","",$Recette['titre']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
 		$bdd2->exec($requete);
 	}
 ?>
