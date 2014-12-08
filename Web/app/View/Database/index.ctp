@@ -3,16 +3,19 @@ include("Donnees.inc.php");
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = '';
+$pwd = 'root';
 	/*
 	*	Création de la base de données
 	*/
 	echo "Script de création de la base de données.</br></br>";
-	echo "Création de la base de données ...</br></br>";
+	echo "Suppression de l'ancienne base de données ...</br></br>";
 	try
 	{
 		$bdd = new PDO($path, $login, $pwd);
 		$bdd->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+		$requete = "DROP DATABASE IF EXISTS " . $db_name;
+		$bdd->prepare($requete)->execute();
+		echo "Création de la base de données ...</br></br>";
 		$requete = "CREATE DATABASE IF NOT EXISTS " . $db_name . " DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci";
 		$bdd->prepare($requete)->execute();
 	}
@@ -68,7 +71,7 @@ $pwd = '';
 		`id` int(11) NOT NULL,
   		`ingredient` int(11) NOT NULL,
   		`recipe` int(11) NOT NULL,
-  		`index` int(11) NOT NULL,
+  		`ind` int(11) NOT NULL,
   		`amount` float NOT NULL,
   		`unit` varchar(255) COLLATE utf8_bin NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;"
@@ -82,7 +85,7 @@ $pwd = '';
 	*/
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`ingredient` (
 		`id` int(11) NOT NULL,
-  		`name` varchar(255) CHARACTER SET utf8_bin NOT NULL
+  		`name` varchar(255) COLLATE utf8_bin NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 "
 	))
 		echo "Création de la table Ingrédient échouée.</br>";
@@ -107,17 +110,17 @@ $pwd = '';
 	*/
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`Users` (
 		`id` int(11) NOT NULL,
-	  	`login` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`password` varchar(1000) CHARACTER SET utf8_bin NOT NULL,
-	  	`firstname` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`lastname` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`gender` varchar(1) CHARACTER SET utf8_bin NOT NULL,
-	  	`phone` varchar(20) CHARACTER SET utf8_bin NOT NULL,
-	  	`email` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`street` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`town` varchar(255) CHARACTER SET utf8_bin NOT NULL,
-	  	`zipcode` varchar(20) CHARACTER SET utf8_bin NOT NULL,
-	  	`country` varchar(255) CHARACTER SET utf8_bin NOT NULL,
+	  	`login` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`password` varchar(1000) COLLATE utf8_bin NOT NULL,
+	  	`firstname` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`lastname` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`gender` varchar(1) COLLATE utf8_bin NOT NULL,
+	  	`phone` varchar(20) COLLATE utf8_bin NOT NULL,
+	  	`email` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`street` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`town` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`zipcode` varchar(20) COLLATE utf8_bin NOT NULL,
+	  	`country` varchar(255) COLLATE utf8_bin NOT NULL,
 	  	`admin` tinyint(1) NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1"
 	))
@@ -127,7 +130,8 @@ $pwd = '';
 
 	/*
 	*	Création des dépendances
-	
+	*/
+
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`belongs`
 	ADD PRIMARY KEY (`id`)");
 
@@ -168,18 +172,19 @@ $pwd = '';
 
 	/*
 	*	Ajout de l'administrateur
-	*	
 	*/
-	$requete = "INSERT INTO " . $db_name . ".`Users` (login, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, role) VALUES ('root','root','','','h','','','','','','','1')";
-	$bdd2->exec($requete);
+	$requete = "INSERT INTO " . $db_name . ".`Users` (login, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, admin) VALUES ('root', 'root','','','','','','','','','', '1')";
+	if($bdd2->exec($requete))
+		echo "Admin ajoutée</br>";
 
 	foreach ($Recettes as $key => $Recette) 
 	{
 		/*
 		*	Ajout des recettes
 		*/
-		$requete = "INSERT INTO " . $db_name . ".`Recipes` (title, recipe) VALUES ('" . str_replace("'","",$Recette['title']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
-		$bdd2->exec($requete);
+		$requete = "INSERT INTO " . $db_name . ".`Recipes` (title, recipe) VALUES ('" . str_replace("'","",$Recette['titre']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
+		if($bdd2->exec($requete))
+				echo "Recette ajoutée</br>";
 
 		/*
 		*	Ajout des aliments
@@ -190,31 +195,74 @@ $pwd = '';
 			if($existe->fetch() == false)
 			{
 				$requete =  "INSERT INTO " . $db_name . ".`ingredient` (name) VALUES ('" . str_replace("'","",$aliment) . "')";
-				$bdd2->exec($requete);
+				if($bdd2->exec($requete))
+					echo "Aliment ajouté</br>";
 			}
 		}
 
 		/*
 		*	Ajout des realtions entres recette et ses ingredients
 		*/
-		$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`Recipes` WHERE title = '" . str_replace("'","",$Recette['title']) . "'");
+		$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`Recipes` WHERE title = '" . str_replace("'","",$Recette['titre']) . "'");
 		$r = $reponse->fetch();
 		foreach ($Recette['index'] as $key => $aliment) 
 		{
 			$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredient` WHERE name = '" . str_replace("'","",$aliment) . "'");
 			$ingredient = $reponse->fetch();
-			$requete =  "INSERT INTO " . $db_name . ".`isMadeOf` (ingredient, recipe, index, amount, unit) VALUES ('" . $ingredient['id'] . "', '" . $r['id'] . "', '" .  $key . "', '" . $amount . "', '" . $unit . "')";
+			$amount = 0;
+			$unit = 'ok';
+			$requete =  "INSERT INTO " . $db_name . ".`isMadeOf` (ingredient, recipe, ind, amount, unit) VALUES ('" . $ingredient['id'] . "', '" . $r['id'] . "', '" .  $key . "', '" . $amount . "', '" . $unit . "')";
 			if($bdd2->exec($requete))
-				echo "ingredient ajouté</br>";
+				echo "Ingredient ajouté</br>";
 		}
 	}
 
 	foreach ($Hierarchie as $key => $categorie) 
 	{
 		/*
-		*	Ajout des categories
+		*	Ajout de la super catégorie si elle existe pas
 		*/
-		$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, recipe) VALUES ('" . str_replace("'","",$Recette['title']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
-		$bdd2->exec($requete);
+		if(!empty($categorie['super-categorie'][0]))
+		{
+			$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$categorie['super-categorie'][0]) . "'");
+			if(($super = $existe->fetch()) == false)
+			{
+				$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$categorie['super-categorie'][0]) . "', NULL)";
+				if($bdd2->exec($requete))
+					echo "Super-categorie ajouté</br>";
+				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$categorie['super-categorie'][0]) . "'");
+				$super1 = $existe->fetch();
+			}
+		}
+
+		/*
+		* Ajout de la categorie
+		*/
+		$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
+		if(($super = $existe->fetch()) == false)
+		{
+			$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$key) . "', '" . $super1['id'] ."')";
+			if($bdd2->exec($requete))
+				echo "Categorie ajouté</br>";
+			$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
+			$super1 = $existe->fetch();
+		}
+
+		/*
+		* Ajout des sous catégorie
+		*/
+		if(!empty($categorie['sous-categorie'][0]))
+		{
+			foreach ($categorie['sous-categorie'] as $value) 
+			{
+				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$value) . "'");
+				if($existe->fetch() == false)
+				{
+					$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$value) . "', " . $super1['id'] .")";
+					if($bdd2->exec($requete))
+						echo "Sous-categorie ajouté</br>";
+				}
+			}
+		}
 	}
 ?>
