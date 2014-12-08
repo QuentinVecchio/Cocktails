@@ -170,12 +170,15 @@ $pwd = 'root';
 	*	Ajout de l'administrateur
 	*	
 	*/
+	$requete = "INSERT INTO " . $db_name . ".`Users` (login, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, role) VALUES ('root','root','','','h','','','','','','','1')";
+	$bdd2->exec($requete);
+
 	foreach ($Recettes as $key => $Recette) 
 	{
 		/*
 		*	Ajout des recettes
 		*/
-		$requete = "INSERT INTO " . $db_name . ".`Recipes` (title, recipe) VALUES ('" . str_replace("'","",$Recette['titre']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
+		$requete = "INSERT INTO " . $db_name . ".`Recipes` (title, recipe) VALUES ('" . str_replace("'","",$Recette['title']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
 		$bdd2->exec($requete);
 
 		/*
@@ -194,7 +197,7 @@ $pwd = 'root';
 		/*
 		*	Ajout des realtions entres recette et ses ingredients
 		*/
-		$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`Recipes` WHERE title = '" . str_replace("'","",$Recette['titre']) . "'");
+		$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`Recipes` WHERE title = '" . str_replace("'","",$Recette['title']) . "'");
 		$r = $reponse->fetch();
 		foreach ($Recette['index'] as $key => $aliment) 
 		{
@@ -211,7 +214,7 @@ $pwd = 'root';
 		/*
 		*	Ajout des categories
 		*/
-		$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fatherCondition) VALUES ('" . str_replace("'","",$key) . ", '')";
+		$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, recipe) VALUES ('" . str_replace("'","",$Recette['title']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
 		$bdd2->exec($requete);
 	}
 ?>
