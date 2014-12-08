@@ -1800,3 +1800,21 @@ Request URL: /js/jquery_min.js
 Stack Trace:
 #0 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-12-07 17:57:11 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-08 09:42:58 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
