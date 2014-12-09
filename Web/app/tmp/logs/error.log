@@ -2369,3 +2369,690 @@ Stack Trace:
 #6 /Users/quentinvecchio/Desktop/Cocktails/Web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
 #7 /Users/quentinvecchio/Desktop/Cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2014-12-09 10:35:21 Error: [PDOException] SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Elements\menu.ctp(6): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(1213): View->_render('C:\EasyPHP-12.1...', Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(418): View->_renderElement('C:\EasyPHP-12.1...', Array, Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Layouts\default.ctp(39): View->element('menu')
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(542): View->_render('C:\EasyPHP-12.1...')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CocktailsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-09 10:35:22 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 10:35:47 Error: [PDOException] SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Elements\menu.ctp(6): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(1213): View->_render('C:\EasyPHP-12.1...', Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(418): View->_renderElement('C:\EasyPHP-12.1...', Array, Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Layouts\default.ctp(39): View->element('menu')
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(542): View->_render('C:\EasyPHP-12.1...')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CocktailsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-09 10:36:09 Error: [PDOException] SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Elements\menu.ctp(6): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(1213): View->_render('C:\EasyPHP-12.1...', Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(418): View->_renderElement('C:\EasyPHP-12.1...', Array, Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Layouts\default.ctp(39): View->element('menu')
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(542): View->_render('C:\EasyPHP-12.1...')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CocktailsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-09 10:36:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('users')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\login.ctp(5): FormHelper->create('User', Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 10:37:15 Error: [PDOException] SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Elements\menu.ctp(6): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(1213): View->_render('C:\EasyPHP-12.1...', Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(418): View->_renderElement('C:\EasyPHP-12.1...', Array, Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Layouts\default.ctp(39): View->element('menu')
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(542): View->_render('C:\EasyPHP-12.1...')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CocktailsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-09 10:37:27 Error: [PDOException] SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Elements\menu.ctp(6): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(1213): View->_render('C:\EasyPHP-12.1...', Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(418): View->_renderElement('C:\EasyPHP-12.1...', Array, Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Layouts\default.ctp(39): View->element('menu')
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(542): View->_render('C:\EasyPHP-12.1...')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CocktailsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-09 10:38:03 Error: Fatal Error (1): Call to a member function fetchColumn() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Elements\menu.ctp, line 70]
+2014-12-09 10:38:03 Error: [FatalErrorException] Call to a member function fetchColumn() on a non-object
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 70, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 70, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 10:47:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.username' inconnu dans where clause
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(112): Model->find('first', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(79): BaseAuthenticate->_findUser('root', 'root')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(147): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 10:48:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.username' inconnu dans where clause
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(112): Model->find('first', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(79): BaseAuthenticate->_findUser('root', 'root')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(147): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 10:48:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.username' inconnu dans where clause
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(112): Model->find('first', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(79): BaseAuthenticate->_findUser('root', 'root')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(147): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 10:50:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.username' inconnu dans where clause
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(112): Model->find('first', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(79): BaseAuthenticate->_findUser('root', 'root')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(147): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 10:50:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.username' inconnu dans where clause
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(112): Model->find('first', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(79): BaseAuthenticate->_findUser('root', 'root')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(147): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 10:50:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'User.username' inconnu dans where clause
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(112): Model->find('first', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(79): BaseAuthenticate->_findUser('root', 'root')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\UsersController.php(147): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 11:13:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\CategoriesController.php, line 19]
+2014-12-09 11:13:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cocktails/Web/admin/categories
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 11:14:05 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/admin/categories
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 11:14:50 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/admin/categories
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 11:16:46 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 542]
+2014-12-09 11:16:46 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 542)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 542, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 542, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 11:17:32 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 482]
+2014-12-09 11:17:32 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 11:19:42 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 470]
+2014-12-09 11:19:42 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 470)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 470, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 470, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 11:23:09 Error: [MissingTableException] Table ingredients for model Ingredient was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ingredients',
+  'class' => 'Ingredient',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('ingredients')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(19): Model->find('all')
+#4 [internal function]: IngredientsController->admin_index()
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-12-09 11:24:13 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'database_koby_vecchio.ingredient' n'existe pas
+Request URL: /cocktails/Web/database
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Database\index.ctp(145): PDO->exec('ALTER TABLE dat...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-09 11:24:22 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'database_koby_vecchio.ingredient' n'existe pas
+Request URL: /cocktails/Web/database
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Database\index.ctp(145): PDO->exec('ALTER TABLE dat...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-09 11:24:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('users')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\login.ctp(5): FormHelper->create('User', Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 11:24:48 Error: [MissingControllerException] Controller class RecettesController could not be found.
+Exception Attributes: array (
+  'class' => 'RecettesController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 11:25:04 Error: [MissingActionException] Action RecipesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecipesController',
+  'action' => 'index',
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-09 11:25:48 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'database_koby_vecchio.ingredient' n'existe pas
+Request URL: /cocktails/Web/database
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Database\index.ctp(145): PDO->exec('ALTER TABLE dat...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-09 11:31:08 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 555]
+2014-12-09 11:31:08 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 555)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 555, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 555, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 11:34:38 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 802]
+2014-12-09 11:34:38 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 802, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 802, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 11:38:13 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe prÃ¨s de '_findAvailable' Ã  la ligne 1
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('_findAvailable', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('_findAvailable', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('_findAvailable', Array, Array)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(808): DboSource->query('_findAvailable', Array, Object(Condition))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2979): Model->__call('_findAvailable', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2979): Condition->_findAvailable('before', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2914): Model->buildQuery('available', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('available', Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(20): Controller->paginate()
+#11 [internal function]: ConditionsController->admin_index()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-09 11:39:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Article.publie' inconnu dans where clause
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Conditi...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Conditi...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Conditi...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Condition), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('available', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('available', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(20): Controller->paginate()
+#9 [internal function]: ConditionsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-09 11:46:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Condition' inconnu dans where clause
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Conditi...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Conditi...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Conditi...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Condition), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('available', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('available', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(25): Controller->paginate()
+#9 [internal function]: ConditionsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-09 11:53:57 Error: [MissingModelException] Recipe
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(21): PaginatorComponent->paginate('Recipe')
+#1 [internal function]: ConditionsController->admin_index()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-12-09 11:56:32 Error: [MissingModelException] Recipe
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(21): PaginatorComponent->paginate('Recipe')
+#1 [internal function]: ConditionsController->admin_index()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-12-09 11:56:45 Error: [MissingModelException] Recipe
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(21): PaginatorComponent->paginate('Recipe')
+#1 [internal function]: ConditionsController->admin_index()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-12-09 11:57:09 Error: [MissingModelException] Recipe
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(21): PaginatorComponent->paginate('Recipe')
+#1 [internal function]: ConditionsController->admin_index()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#5 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-12-09 12:00:34 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\ViewBlock.php, line 182]
+2014-12-09 12:00:34 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 182)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 182, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 182, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 12:17:42 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 16]
+2014-12-09 12:17:42 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cocktails/Web/admin/recipes
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 16, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 16, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 12:28:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Ingredient.id' inconnu dans where clause
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT ind FROM...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT ind FROM...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('SELECT ind FROM...')
+#4 [internal function]: DboSource->query('SELECT ind FROM...')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3369): call_user_func_array(Array, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(19): Model->query('SELECT ind FROM...')
+#7 [internal function]: IngredientsController->admin_index()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-09 12:30:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe prÃ¨s de '' Ã  la ligne 1
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT ind FROM...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT ind FROM...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('SELECT ind FROM...')
+#4 [internal function]: DboSource->query('SELECT ind FROM...')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3369): call_user_func_array(Array, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(19): Model->query('SELECT ind FROM...')
+#7 [internal function]: IngredientsController->admin_index()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-09 12:30:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe prÃ¨s de '' Ã  la ligne 1
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT ind FROM...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT ind FROM...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('SELECT ind FROM...')
+#4 [internal function]: DboSource->query('SELECT ind FROM...')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3369): call_user_func_array(Array, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(19): Model->query('SELECT ind FROM...')
+#7 [internal function]: IngredientsController->admin_index()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-09 12:31:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Array' inconnu dans where clause
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT ind FROM...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT ind FROM...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('SELECT ind FROM...')
+#4 [internal function]: DboSource->query('SELECT ind FROM...')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3369): call_user_func_array(Array, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(19): Model->query('SELECT ind FROM...')
+#7 [internal function]: IngredientsController->admin_index()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-09 12:31:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe prÃ¨s de '' Ã  la ligne 1
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT ind FROM...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT ind FROM...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('SELECT ind FROM...')
+#4 [internal function]: DboSource->query('SELECT ind FROM...')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3369): call_user_func_array(Array, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(19): Model->query('SELECT ind FROM...')
+#7 [internal function]: IngredientsController->admin_index()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-09 12:34:55 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 19]
+2014-12-09 12:34:55 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 19, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 19, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 12:37:10 Error: Fatal Error (1): Call to undefined method IngredientsController::isMadeOf() in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 19]
+2014-12-09 12:37:10 Error: [FatalErrorException] Call to undefined method IngredientsController::isMadeOf()
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 19, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 19, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 12:37:11 Error: Fatal Error (1): Call to undefined method IngredientsController::isMadeOf() in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 19]
+2014-12-09 12:37:11 Error: [FatalErrorException] Call to undefined method IngredientsController::isMadeOf()
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 19, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 19, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 12:37:25 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 19]
+2014-12-09 12:37:25 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 19, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 12:39:43 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 20]
+2014-12-09 12:39:43 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 12:39:50 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 20]
+2014-12-09 12:39:50 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 20, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

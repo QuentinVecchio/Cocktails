@@ -12,7 +12,7 @@
    	
    	<tbody>
 <?php 
-	foreach ($categories as $$categorie): ?>
+	foreach ($categories as $categorie): ?>
 	          	<tr>
 	            	<td><?php echo $categorie['id']; ?></td>
 	            	<td><?php echo $categorie['nom']; ?></td>

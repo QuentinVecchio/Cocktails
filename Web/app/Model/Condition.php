@@ -1,7 +1,6 @@
 <?php 
 
-class Categorie extends AppModel {
-
+class Condition extends AppModel {
 	public $validate = array(
 		'name' => array(
 			'rule' => 'notEmpty',
