@@ -13,11 +13,11 @@
    	
    	<tbody>
 <?php 
-	foreach ($ingredients as $$ingredient): ?>
+	foreach ($listIngredients as $ingredient => $v): ?>
 	          	<tr>
-	            	<td><?php echo $ingredient['id']; ?></td>
-	            	<td><?php echo $ingredient['nom']; ?></td>
-	            	<td><?php echo $ingredient['categorie']['nom']; ?></td>
+	            	<td><?php echo $v['Ingredient']['id']; ?></td>
+	            	<td><?php echo $v['Ingredient']['name']; ?></td>
+	            	<td><?php echo $v['Condition']['id']; ?></td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>
@@ -38,6 +38,6 @@
 						</div>
 					</td>
 	        	</tr>   
-<?php endforeach; ?>
+	<?php endforeach; ?>
   	</tbody>
 </table>

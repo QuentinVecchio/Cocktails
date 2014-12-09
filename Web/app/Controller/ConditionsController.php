@@ -1,14 +1,14 @@
 <?php 
 
-class CategoriesController extends AppController
+class ConditionsController extends AppController
 {
 	/**
 	*	Liste les catégories pour l'admin
 	*/
 	public function index()
 	{
-		$listCategories = $this->Categorie->find('all');
-		$this->set('listCategories', $listCategories);
+		$listConditions = $this->Condition->find('all', array('order' => array('Condition.id' => 'asc')));
+		$this->set('listConditions', $listConditions);
 	}
 
 	/**
@@ -16,8 +16,9 @@ class CategoriesController extends AppController
 	*/
 	public function admin_index()
 	{
-		$listCategories = $this->Categorie->find('all');
-		$this->set('listCategories', $listCategories);
+		$listConditions = $this->Condition->find('all', array('order' => array('Condition.id' => 'asc')));
+		$this->set('listConditions', $listConditions);
+		
 	}
 
 	/**

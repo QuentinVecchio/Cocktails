@@ -3,7 +3,7 @@ include("Donnees.inc.php");
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = 'root';
+$pwd = '';
 	/*
 	*	Création de la base de données
 	*/
@@ -11,7 +11,7 @@ $pwd = 'root';
 	echo "Suppression de l'ancienne base de données ...</br></br>";
 	try
 	{
-		$bdd = new PDO($path, $login, $pwd);
+		$bdd = new PDO($path, $login, $pwd, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 		$bdd->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 		$requete = "DROP DATABASE IF EXISTS " . $db_name;
 		$bdd->prepare($requete)->execute();
@@ -29,7 +29,7 @@ $pwd = 'root';
 	*/
 	try
 	{
-		$bdd2 = new PDO($path .';dbname:' . $db_name .'', $login, $pwd);
+		$bdd2 = new PDO($path .';dbname:' . $db_name .'', $login, $pwd, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 		$bdd2->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 	}
 	catch(Exception $e)
@@ -83,7 +83,7 @@ $pwd = 'root';
 	/*
 	*	Création table Ingrédient
 	*/
-	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`ingredient` (
+	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`ingredients` (
 		`id` int(11) NOT NULL,
   		`name` varchar(255) COLLATE utf8_bin NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 "
@@ -110,7 +110,7 @@ $pwd = 'root';
 	*/
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`Users` (
 		`id` int(11) NOT NULL,
-	  	`login` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`username` varchar(255) COLLATE utf8_bin NOT NULL,
 	  	`password` varchar(1000) COLLATE utf8_bin NOT NULL,
 	  	`firstname` varchar(255) COLLATE utf8_bin NOT NULL,
 	  	`lastname` varchar(255) COLLATE utf8_bin NOT NULL,
@@ -121,7 +121,7 @@ $pwd = 'root';
 	  	`town` varchar(255) COLLATE utf8_bin NOT NULL,
 	  	`zipcode` varchar(20) COLLATE utf8_bin NOT NULL,
 	  	`country` varchar(255) COLLATE utf8_bin NOT NULL,
-	  	`admin` tinyint(1) NOT NULL
+	  	`role` varchar(255) COLLATE utf8_bin NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1"
 	))
 		echo "Création de la table Utilisateur échouée.</br>";
@@ -141,7 +141,7 @@ $pwd = 'root';
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	ADD PRIMARY KEY (`id`), ADD KEY `ingredient` (`ingredient`,`recipe`)");
 
-	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredient`
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredients`
 	ADD PRIMARY KEY (`id`)");
 
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Recipes`
@@ -156,7 +156,7 @@ $pwd = 'root';
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredient`
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredients`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Recipes`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
@@ -173,9 +173,10 @@ $pwd = 'root';
 	/*
 	*	Ajout de l'administrateur
 	*/
-	$requete = "INSERT INTO " . $db_name . ".`Users` (login, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, admin) VALUES ('root', 'root','','','','','','','','','', '1')";
+	$adminpass = AuthComponent::password('root');
+	$requete = "INSERT INTO " . $db_name . ".`Users` (username, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, role) VALUES ('root', '". $adminpass ."','','','','','','','','','', 'admin')";
 	if($bdd2->exec($requete))
-		echo "Admin ajoutée</br>";
+		echo "Admin ajouté</br>";
 
 	foreach ($Recettes as $key => $Recette) 
 	{
@@ -191,10 +192,10 @@ $pwd = 'root';
 		*/
 		foreach ($Recette['index'] as $aliment) 
 		{
-			$existe = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredient` WHERE name = '" . str_replace("'","",$aliment) . "'");
+			$existe = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$aliment) . "'");
 			if($existe->fetch() == false)
 			{
-				$requete =  "INSERT INTO " . $db_name . ".`ingredient` (name) VALUES ('" . str_replace("'","",$aliment) . "')";
+				$requete =  "INSERT INTO " . $db_name . ".`ingredients` (name) VALUES ('" . str_replace("'","",$aliment) . "')";
 				if($bdd2->exec($requete))
 					echo "Aliment ajouté</br>";
 			}
@@ -207,7 +208,7 @@ $pwd = 'root';
 		$r = $reponse->fetch();
 		foreach ($Recette['index'] as $key => $aliment) 
 		{
-			$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredient` WHERE name = '" . str_replace("'","",$aliment) . "'");
+			$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$aliment) . "'");
 			$ingredient = $reponse->fetch();
 			$amount = 0;
 			$unit = 'ok';
@@ -229,7 +230,7 @@ $pwd = 'root';
 			{
 				$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$categorie['super-categorie'][0]) . "', NULL)";
 				if($bdd2->exec($requete))
-					echo "Super-categorie ajouté</br>";
+					echo "Super-categorie ajoutée</br>";
 				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$categorie['super-categorie'][0]) . "'");
 				$super1 = $existe->fetch();
 			}
@@ -243,7 +244,7 @@ $pwd = 'root';
 		{
 			$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$key) . "', '" . $super1['id'] ."')";
 			if($bdd2->exec($requete))
-				echo "Categorie ajouté</br>";
+				echo "Categorie ajoutée</br>";
 			$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
 			$super1 = $existe->fetch();
 		}
@@ -260,9 +261,10 @@ $pwd = 'root';
 				{
 					$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$value) . "', " . $super1['id'] .")";
 					if($bdd2->exec($requete))
-						echo "Sous-categorie ajouté</br>";
+						echo "Sous-categorie ajoutée</br>";
 				}
 			}
 		}
 	}
+	echo "</br>Insertion des données terminée...</br>";
 ?>

@@ -13,11 +13,11 @@
    	
    	<tbody>
 <?php 
-	foreach ($categories as $$categorie): ?>
+	foreach ($listConditions as $condition => $v):?>
 	          	<tr>
-	            	<td><?php echo $categorie['id']; ?></td>
-	            	<td><?php echo $categorie['nom']; ?></td>
-	            	<td><?php if($categorie['pere'] != null) echo $categorie['pere']['nom']; ?></td>
+	            	<td><?php echo $v['Condition']['id']; ?></td>
+	            	<td><?php echo $v['Condition']['name']; ?></td>
+	            	<td><?php if($v['Condition']['fathercondition'] != null) echo $v['Condition']['fathercondition']; else echo "Aucune"; ?></td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>
@@ -27,11 +27,11 @@
   							</button>
 						  	<ul class="dropdown-menu" role="menu">
 						    	<li><?php echo $this->Html->Link(' Edition',
-						    										array('controller' => 'categories', 'action' => 'edit', $categorie['id']),
+						    										array('controller' => 'categories', 'action' => 'edit', $v['Condition']['id']),
 						    										array('class' => 'glyphicon glyphicon-pencil')); ?>
 						    	</li>
 						    	<li><?php echo $this->Html->Link(' Suppression',
-													 		array('controller' => 'categories', 'action' => 'delete', $categorie['id']),
+													 		array('controller' => 'categories', 'action' => 'delete', $v['Condition']['id']),
 													 		array('confirm' => 'Etes-vous sûr de vouloir le supprimer ?',
 													 				'class' => 'glyphicon glyphicon-remove')); ?></li>
 						  	</ul>
