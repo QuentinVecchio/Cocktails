@@ -2,6 +2,10 @@
 
 class Recipe extends AppModel
 {
+<<<<<<< mine
+	public $hasMany = array('isMadeOf');
+
+=======
 /**
 * Une recette a plusieurs ingrédients
 */
@@ -22,11 +26,12 @@ class Recipe extends AppModel
                 'finderQuery' => ''
             )
     );
+>>>>>>> theirs
 	public $validate = array(
-			'titre'  => array(
+			'title'  => array(
 				'rule' => 'notEmpty',
 				'message' => 'Titre incorrect'),
-			'preparation' => array(
+			'recipe' => array(
 				'rule' => 'notEmpty',
 				'message' => 'Préparation incorrect')
 		);	
