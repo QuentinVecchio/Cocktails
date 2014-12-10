@@ -1,0 +1,7 @@
+<<<<<<< mine
+1418146709
+a:3:{i:0;b:0;s:4:"name";a:6:{s:32:"9141f54a74feb775cb44a8337929ea46";s:23:"`database_koby_vecchio`";s:32:"33f8dcf4db8ce8cfbc1ed46161a2085b";s:9:"`recipes`";s:32:"169ed4c7c9a969a3583d719d867bfbba";s:13:"`Recipe`.`id`";s:32:"bd21c37e6920cc64624c46f4cf47c1e6";s:16:"`Recipe`.`title`";s:32:"020190baf92345f143083f4eca5c8c7b";s:17:"`Recipe`.`recipe`";s:32:"5a7bdc829eb56d986c45e6c09e774dea";s:8:"`Recipe`";}s:6:"fields";a:2:{s:32:"f557fe2c40b0484c98f037de2ceb6c3d";a:3:{i:0;s:13:"`Recipe`.`id`";i:1;s:16:"`Recipe`.`title`";i:2;s:17:"`Recipe`.`recipe`";}s:32:"8a6ecdada57cddd77cfc6cf765eca3e1";a:1:{i:0;s:13:"`Recipe`.`id`";}}}
+=======
+1418125879
+a:3:{i:0;b:0;s:4:"name";a:6:{s:32:"9141f54a74feb775cb44a8337929ea46";s:23:"`database_koby_vecchio`";s:32:"2e150d1dfe1a2f701e2e017c3b7fba2b";s:12:"`conditions`";s:32:"795d230b9ba267a0af4c4c65a84141b1";s:16:"`Condition`.`id`";s:32:"d619715903ff6e4dfec6e19cd140a2ae";s:18:"`Condition`.`name`";s:32:"4f6bd0c931a558eed6828e754c98e334";s:29:"`Condition`.`fathercondition`";s:32:"f6e901d26453151ddea4228fbd2e5c2f";s:11:"`Condition`";}s:6:"fields";a:1:{s:32:"3fb551b0036f68d5e347cdc257239a02";a:3:{i:0;s:16:"`Condition`.`id`";i:1;s:18:"`Condition`.`name`";i:2;s:29:"`Condition`.`fathercondition`";}}}
+>>>>>>> theirs
