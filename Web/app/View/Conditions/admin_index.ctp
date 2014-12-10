@@ -19,7 +19,7 @@
 	          	<tr>
 	            	<td><?php echo $v['Condition']['id']; ?></td>
 	            	<td><?php echo $v['Condition']['name']; ?></td>
-	            	<td><?php if($v['Condition']['fathercondition'] != null) echo $v['Condition']['fathercondition']; else echo "Aucune"; ?></td>
+	            	<td><?php if($v['Condition'][$condition]['FatherCondition']['father'] != null) echo $v['Condition'][$condition]['FatherCondition']['father']; else echo "Aucune"; ?></td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>

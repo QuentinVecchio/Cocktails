@@ -32,6 +32,9 @@ class IngredientsController extends AppController
 		        )
 		    )
 		);*/
+		$this->loadModel('Condition');
+		$listConditions = $this->Condition->find('all');
+		$this->set('listConditions', $listConditions);
 
 		$listIngredients = $this->Ingredient->find('all');
 		//debug($listIngredients[0]);

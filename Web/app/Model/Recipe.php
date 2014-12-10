@@ -5,14 +5,13 @@ class Recipe extends AppModel
 /**
 * Une recette a plusieurs ingrédients
 */
-    var $idToDelete;
-	public $hasMany = array(
+	public $hasAndBelongsToMany = array(
         'Ingredient' =>
             array(
                 'className' => 'Ingredients',
                 'joinTable' => 'isMadeOf',
-                'foreignKey' => 'id',
-                'associationForeignKey' => 'id',
+                'foreignKey' => 'recipe',
+                'associationForeignKey' => 'ingredient',
                 'unique' => true,
                 'conditions' => '',
                 'fields' => '',

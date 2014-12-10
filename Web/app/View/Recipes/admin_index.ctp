@@ -17,8 +17,10 @@
 	foreach ($listRecipes as $recipe => $v): ?>
 	          	<tr>
 	            	<td style="width:20px;"><div style="margin-top:35px;"><?php echo $v['Recipe']['id']; ?></div></td>
-	            	<td style="width: 120px;"><?php echo $this->Html->image(str_replace(" ","_",$v['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:100px;height:100px;margin:auto;')); ?></td>
-	            	<td><div style="margin-top:35px;"><?php echo $this->Html->Link($v['Recipe']['title'], array('controller' => 'recipes', 'action' =>'view',  $v['Recipe']['id'])) ?></div></td>
+	            	<td style="width:120px;">
+	            		<?php echo $this->Html->image(str_replace(" ","_",$v['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
+	            	</td>
+	            	<td><?php echo $v['Recipe']['title'] ?></td>
 	            	<td>
 	            		<div class="btn-group" style="margin-top:35px;">
 						  	<button type="button" class="btn btn-primary">Actions</button>
@@ -27,6 +29,9 @@
     							<span class="sr-only">Toggle Dropdown</span>
   							</button>
 						  	<ul class="dropdown-menu" role="menu">
+						  		<li><?php echo $this->Html->Link(' Détails',
+													 		array('controller' => 'recipes', 'action' => 'view', 'admin'=>false, $v['Recipe']['id']),
+													 		array('class' => 'glyphicon glyphicon-info-sign')); ?></li>
 						    	<li><?php echo $this->Html->Link(' Edition',
 						    										array('controller' => 'recipes', 'action' => 'admin_edit', $v['Recipe']['id']),
 						    										array('class' => 'glyphicon glyphicon-pencil')); ?>

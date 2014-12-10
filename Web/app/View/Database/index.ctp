@@ -1,9 +1,10 @@
+<div id="container">
 <?php
 include("Donnees.inc.php");
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = 'root';
+$pwd = '';
 	/*
 	*	Création de la base de données
 	*/
@@ -66,7 +67,7 @@ $pwd = 'root';
 	/*
 	*	Création table fatherCOndition
 	*/
-	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`father_conditions` (
+	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`fatherConditions` (
 		`id` int(11) NOT NULL,
   		`father` int(11) NOT NULL,
   		`son` int(11) NOT NULL
@@ -164,7 +165,7 @@ $pwd = 'root';
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Conditions`
 	ADD PRIMARY KEY (`id`)");
 
-	$bdd2->exec("ALTER TABLE " . $db_name . ".`father_conditions`
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`fatherConditions`
 	ADD PRIMARY KEY (`id`)");
 
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
@@ -186,7 +187,7 @@ $pwd = 'root';
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Conditions`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".`father_conditions`
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`fatherConditions`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
@@ -206,8 +207,8 @@ $pwd = 'root';
 	$bdd2->exec("ALTER TABLE " . $db_name . ".Carts ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (cond) references  " . $db_name . ".Conditions(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".father_conditions ADD FOREIGN KEY (father) references  " . $db_name . ".Conditions(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".father_conditions ADD FOREIGN KEY (son) references  " . $db_name . ".Conditions(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (father) references  " . $db_name . ".Conditions(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (son) references  " . $db_name . ".Conditions(id)");
 
 	echo "Création de la base de données terminée.</br>";
 
@@ -222,7 +223,7 @@ $pwd = 'root';
 	$adminpass = AuthComponent::password('root');
 	$requete = "INSERT INTO " . $db_name . ".`Users` (username, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, role) VALUES ('root', '". $adminpass ."','','','','','','','','','', 'admin')";
 	if($bdd2->exec($requete))
-		echo "Admin ajoutée</br>";
+		echo "Admin ajouté</br>";
 
 	foreach ($Recettes as $key => $Recette) 
 	{
@@ -273,7 +274,7 @@ $pwd = 'root';
 		{
 			$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$key) . "')";
 			if($bdd2->exec($requete))
-				echo "Categorie " . str_replace("'","",$key) . " ajouté</br>";
+				echo "Categorie " . str_replace("'","",$key) . " ajoutée</br>";
 			$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
 			$super1 = $existe->fetch();
 		}
@@ -290,13 +291,13 @@ $pwd = 'root';
 				{
 					$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$supCateg) . "')";
 					if($bdd2->exec($requete))
-						echo "Super-categorie " .  str_replace("'","",$supCateg) . " ajouté</br>";
+						echo "Super-categorie " .  str_replace("'","",$supCateg) . " ajoutée</br>";
 					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$supCateg) . "'");
 					$super2 = $existe->fetch();
 					//Mise en place hierarchie
 					$requete = "INSERT INTO " . $db_name . ".`fatherConditions` (father, son) VALUES ('" . $super2['id'] . "', '" . $super1['id'] . "')";
 					if($bdd2->exec($requete))
-						echo "Super-categorie et categorie  liés</br>";
+						echo "Super-categorie et categorie  liées</br>";
 				}
 			}	
 		}
@@ -313,9 +314,11 @@ $pwd = 'root';
 				{
 					$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super1['id'] ."')";
 					if($bdd2->exec($requete))
-						echo "Sous-categorie ajouté</br>";
+						echo "Sous-categorie ajoutée</br>";
 				}
 			}
 		}
 	}
+	echo "Création et insertion des données terminées avec succès.";
 ?>
+</div>
