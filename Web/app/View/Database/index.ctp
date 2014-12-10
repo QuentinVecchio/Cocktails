@@ -3,7 +3,7 @@ include("Donnees.inc.php");
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = '';
+$pwd = 'root';
 	/*
 	*	Création de la base de données
 	*/
@@ -66,7 +66,7 @@ $pwd = '';
 	/*
 	*	Création table fatherCOndition
 	*/
-	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`fatherConditions` (
+	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`father_conditions` (
 		`id` int(11) NOT NULL,
   		`father` int(11) NOT NULL,
   		`son` int(11) NOT NULL
@@ -140,6 +140,20 @@ $pwd = '';
 	else
 		echo "Création de la table Utilisateur faite.</br>";
 
+
+	/*
+	*	Création table Panier
+	*/
+	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`Carts` (
+		`id` int(11) NOT NULL,
+  		`user` int(11) NOT NULL,
+  		`recipe`  int(11) NOT NULL
+		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1"
+	))
+		echo "Création de la table Panier échouée.</br>";
+	else
+		echo "Création de la table Panier faite.</br>";
+
 	/*
 	*	Création des dépendances
 	*/
@@ -150,7 +164,7 @@ $pwd = '';
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Conditions`
 	ADD PRIMARY KEY (`id`)");
 
-	$bdd2->exec("ALTER TABLE " . $db_name . ".`fatherConditions`
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`father_conditions`
 	ADD PRIMARY KEY (`id`)");
 
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
@@ -165,11 +179,14 @@ $pwd = '';
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Users`
 	ADD PRIMARY KEY (`id`)");
 
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`Carts`
+	ADD PRIMARY KEY (`id`)");
+
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`belongs`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Conditions`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".`fatherConditions`
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`father_conditions`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
@@ -179,13 +196,18 @@ $pwd = '';
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Users`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
+
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`Carts`
+	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	
 	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".Carts ADD FOREIGN KEY (user) references  " . $db_name . ".Users(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".Carts ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (cond) references  " . $db_name . ".Conditions(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (father) references  " . $db_name . ".Conditions(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (son) references  " . $db_name . ".Conditions(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".father_conditions ADD FOREIGN KEY (father) references  " . $db_name . ".Conditions(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".father_conditions ADD FOREIGN KEY (son) references  " . $db_name . ".Conditions(id)");
 
 	echo "Création de la base de données terminée.</br>";
 
