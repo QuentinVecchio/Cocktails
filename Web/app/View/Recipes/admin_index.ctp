@@ -1,6 +1,8 @@
+<?php $this->set('title_for_layout',"Liste des recettes"); ?>
 <table class="table table-bordered">
 	<caption>
 		<h4>Liste des Recettes</h4>
+		<?php echo $this->Html->Link('Nouvelle recette', array('controller' => 'recipes', 'action' =>'admin_add'), array('class' => 'btn btn-primary')) ?>
 	</caption>
 	<thead>
   		<tr>
@@ -28,11 +30,11 @@
   							</button>
 						  	<ul class="dropdown-menu" role="menu">
 						    	<li><?php echo $this->Html->Link(' Edition',
-						    										array('controller' => 'recettes', 'action' => 'edit', $v['Recipe']['id']),
+						    										array('controller' => 'recipes', 'action' => 'admin_edit', $v['Recipe']['id']),
 						    										array('class' => 'glyphicon glyphicon-pencil')); ?>
 						    	</li>
 						    	<li><?php echo $this->Html->Link(' Suppression',
-													 		array('controller' => 'recettes', 'action' => 'delete', $v['Recipe']['id']),
+													 		array('controller' => 'recipes', 'action' => 'admin_delete', $v['Recipe']['id']),
 													 		array('confirm' => 'Etes-vous sûr de vouloir le supprimer ?',
 													 				'class' => 'glyphicon glyphicon-remove')); ?></li>
 						  	</ul>

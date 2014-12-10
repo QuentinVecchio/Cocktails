@@ -3056,3 +3056,773 @@ Stack Trace:
 #3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-12-09 13:39:12 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 13:46:33 Error: [MissingActionException] Action RecipesController::cartnotsaved() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecipesController',
+  'action' => 'cartnotsaved',
+)
+Request URL: /cocktails/Web/recipes/cartnotsaved
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-09 13:46:37 Error: [MissingActionException] Action RecipesController::cartnotsaved() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecipesController',
+  'action' => 'cartnotsaved',
+)
+Request URL: /cocktails/Web/recipes/cartnotsaved
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#2 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-09 14:10:14 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Conditions\admin_add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Conditions\\admin_add.ctp',
+)
+Request URL: /cocktails/Web/admin/conditions/add
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-09 14:22:37 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH), expecting ')' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Conditions\admin_add.ctp, line 14]
+2014-12-09 14:22:37 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH), expecting ')'
+Request URL: /cocktails/Web/admin/conditions/add
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 14, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 14, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 14:40:22 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/admin/categories/edit/16
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 14:41:15 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Conditions\admin_edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Conditions\\admin_edit.ctp',
+)
+Request URL: /cocktails/Web/admin/conditions/edit/16
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-09 14:55:15 Error: Fatal Error (1): Call to undefined method ConditionsController::Condition() in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php, line 66]
+2014-12-09 14:55:15 Error: [FatalErrorException] Call to undefined method ConditionsController::Condition()
+Request URL: /cocktails/Web/admin/conditions/edit/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 66, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\EasyPHP-12.1...', 66, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:04:49 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php, line 68]
+2014-12-09 15:04:49 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /cocktails/Web/admin/conditions/edit/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 68, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 68, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:14:46 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php, line 78]
+2014-12-09 15:14:46 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:14:56 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php, line 78]
+2014-12-09 15:14:56 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:15:00 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php, line 78]
+2014-12-09 15:15:00 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 78, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:16:12 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php, line 86]
+2014-12-09 15:16:12 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 86, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 86, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:16:50 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Conditions\admin_delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Conditions\\admin_delete.ctp',
+)
+Request URL: /cocktails/Web/admin/conditions/delete/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-09 15:35:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '1')' à la ligne 1
+Request URL: /cocktails/Web/database
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Database\index.ctp(247): PDO->exec('1')')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DatabaseController), Object(CakeRequest))
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-09 15:52:10 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Conditions\admin_edit.ctp, line 21]
+2014-12-09 15:52:10 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cocktails/Web/admin/conditions/edit/6
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:53:07 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Conditions\admin_edit.ctp, line 21]
+2014-12-09 15:53:07 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cocktails/Web/admin/conditions/edit/6
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:54:36 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Conditions\admin_edit.ctp, line 21]
+2014-12-09 15:54:36 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cocktails/Web/admin/conditions/edit/6
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 15:54:43 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Conditions\admin_edit.ctp, line 21]
+2014-12-09 15:54:43 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cocktails/Web/admin/conditions/edit/6
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 21, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 17:53:31 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 18:06:47 Error: [MissingControllerException] Controller class RecettesController could not be found.
+Exception Attributes: array (
+  'class' => 'RecettesController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/admin/recettes/edit/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 18:07:45 Error: [MissingControllerException] Controller class RecettesController could not be found.
+Exception Attributes: array (
+  'class' => 'RecettesController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/admin/recettes/edit/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 18:07:50 Error: [MissingControllerException] Controller class RecettesController could not be found.
+Exception Attributes: array (
+  'class' => 'RecettesController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/admin/recettes/edit/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-09 18:32:22 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 34]
+2014-12-09 18:32:22 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cocktails/Web/admin/recipes/add
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 34, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 34, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 10:35:46 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-10 10:45:21 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 824]
+2014-12-10 10:45:21 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 824)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 824, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 824, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 10:50:25 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 482]
+2014-12-10 10:50:25 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 10:53:17 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 36]
+2014-12-10 10:53:17 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 36, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 36, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 10:53:27 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 36]
+2014-12-10 10:53:27 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 36, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 36, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 10:55:43 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 482]
+2014-12-10 10:55:43 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:01:44 Error: Fatal Error (1): Call to a member function schema() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php, line 3642]
+2014-12-10 11:01:44 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 3642)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 3642, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 3642, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:03:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'database_koby_vecchio.isMadeOf.ingredient_id' inconnu dans on clause
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Conditi...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Conditi...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1440): DboSource->fetchAll('SELECT `Conditi...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1292): DboSource->_fetchHasAndBelongsToMany(Object(Ingredient), 'SELECT `Conditi...', Array, 'Condition')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Ingredient), Object(Condition), 'hasAndBelongsTo...', 'Condition', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Ingredient), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(37): Model->find('all', NULL)
+#9 [internal function]: IngredientsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 11:03:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'database_koby_vecchio.isMadeOf.condition_id' inconnu dans on clause
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Conditi...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Conditi...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1440): DboSource->fetchAll('SELECT `Conditi...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1292): DboSource->_fetchHasAndBelongsToMany(Object(Ingredient), 'SELECT `Conditi...', Array, 'Condition')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Ingredient), Object(Condition), 'hasAndBelongsTo...', 'Condition', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Ingredient), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(37): Model->find('all', NULL)
+#9 [internal function]: IngredientsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 11:03:45 Error: Fatal Error (1): Call to a member function schema() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php, line 3642]
+2014-12-10 11:03:45 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 3642)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 3642, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 3642, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:24:14 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 802]
+2014-12-10 11:24:14 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 802, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 802, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:26:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Condition.condition_id' inconnu dans on clause
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Ingredi...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Ingredi...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Ingredi...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Ingredient), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(36): Model->find('all')
+#7 [internal function]: IngredientsController->admin_index()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-10 11:27:45 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Elements\menu.ctp, line 6]
+2014-12-10 11:27:45 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 6, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 6, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:31:17 Error: [MissingTableException] Table is_made_ofs for model Ingredient was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'is_made_ofs',
+  'class' => 'Ingredient',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/recipes
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('is_made_ofs')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(2490): Model->schema()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1775): DboSource->fields(Object(isMadeOf), 'Ingredient', '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1233): DboSource->generateAssociationQuery(Object(Recipe), Object(isMadeOf), 'hasAndBelongsTo...', 'Ingredient', Array, Array, true)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Recipe), Object(isMadeOf), 'hasAndBelongsTo...', 'Ingredient', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Recipe), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(31): Model->find('all', Array)
+#9 [internal function]: RecipesController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 11:39:40 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 482]
+2014-12-10 11:39:40 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 482, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:41:45 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 822]
+2014-12-10 11:41:45 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 822)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 822, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 822, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:44:19 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 496]
+2014-12-10 11:44:19 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 496)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 496, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 496, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:44:50 Error: Fatal Error (4): syntax error, unexpected '.5' (T_DNUMBER), expecting ']' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php, line 37]
+2014-12-10 11:44:50 Error: [FatalErrorException] syntax error, unexpected '.5' (T_DNUMBER), expecting ']'
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 37, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 37, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:45:29 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 555]
+2014-12-10 11:45:29 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 555)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 555, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 555, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:46:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Condition.ingredient' inconnu dans on clause
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Ingredi...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Ingredi...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Ingredi...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Ingredient), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\IngredientsController.php(36): Model->find('all')
+#7 [internal function]: IngredientsController->admin_index()
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(IngredientsController), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(IngredientsController), Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-10 11:47:01 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Event\CakeEventManager.php, line 242]
+2014-12-10 11:47:01 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 242)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 242, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 242, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:47:40 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 812]
+2014-12-10 11:47:40 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 812)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 812, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 812, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:48:46 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\Debugger.php, line 526]
+2014-12-10 11:48:46 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 526)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 526, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 526, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:50:04 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Utility\String.php, line 231]
+2014-12-10 11:50:04 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cocktails/Web/admin/ingredients
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 231)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 231, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\EasyPHP-12.1...', 231, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 11:52:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Ingredient.ingredient' inconnu dans field list
+Request URL: /cocktails/Web/admin/recipes
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Ingredi...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Ingredi...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1417): DboSource->fetchAll('SELECT `Ingredi...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1254): DboSource->_fetchHasMany(Object(Recipe), 'SELECT `Ingredi...', Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Recipe), Object(AppModel), 'hasMany', 'Ingredient', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Recipe), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(31): Model->find('all', Array)
+#9 [internal function]: RecipesController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 11:52:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Ingredient.ingredient' inconnu dans field list
+Request URL: /cocktails/Web/admin/recipes
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Ingredi...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Ingredi...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1417): DboSource->fetchAll('SELECT `Ingredi...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1254): DboSource->_fetchHasMany(Object(Recipe), 'SELECT `Ingredi...', Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Recipe), Object(AppModel), 'hasMany', 'Ingredient', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Recipe), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(31): Model->find('all', Array)
+#9 [internal function]: RecipesController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 11:58:37 Error: Fatal Error (4): syntax error, unexpected ''Ingredient\'][\'name\'];' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\admin_add.ctp, line 72]
+2014-12-10 11:58:37 Error: [FatalErrorException] syntax error, unexpected ''Ingredient\'][\'name\'];' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING)
+Request URL: /cocktails/Web/admin/recipes/add
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 72, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 72, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 12:32:00 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\add_in_cart.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Recipes\\add_in_cart.ctp',
+)
+Request URL: /cocktails/Web/recipes/add_in_cart
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-10 12:33:03 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\add_in_cart.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Recipes\\add_in_cart.ctp',
+)
+Request URL: /cocktails/Web/recipes/add_in_cart
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-10 12:33:58 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\add_in_cart.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Recipes\\add_in_cart.ctp',
+)
+Request URL: /cocktails/Web/recipes/add_in_cart
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-10 12:34:49 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\add_in_cart.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Recipes\\add_in_cart.ctp',
+)
+Request URL: /cocktails/Web/recipes/add_in_cart
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-10 12:34:53 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\index.ctp, line 23]
+2014-12-10 12:34:53 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cocktails/Web/recipes
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 23, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 12:35:56 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\add_in_cart.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Recipes\\add_in_cart.ctp',
+)
+Request URL: /cocktails/Web/recipes/add_in_cart/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-10 12:46:53 Error: Fatal Error (4): syntax error, unexpected '$i' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 5]
+2014-12-10 12:46:53 Error: [FatalErrorException] syntax error, unexpected '$i' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cocktails/Web/recipes
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 5, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 5, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 14:20:37 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-10 14:41:00 Error: [MissingViewException] View file "C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\clean_cart.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\EasyPHP-12.1\\www\\cocktails\\Web\\app\\View\\Recipes\\clean_cart.ctp',
+)
+Request URL: /cocktails/Web/recipes/clean_cart
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#4 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-10 14:53:21 Error: Fatal Error (64): Cannot use [] for reading in [C:\EasyPHP-12.1\www\cocktails\Web\app\View\Recipes\cart.ctp, line 20]
+2014-12-10 14:53:21 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /cocktails/Web/recipes/cart
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\EasyPHP-12.1...', 20)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\EasyPHP-12.1...', 20, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\EasyPHP-12.1...', 20, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 15:00:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Array' inconnu dans where clause
+Request URL: /cocktails/Web/recipes/cart
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Recipe`...', Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Recipe`...', Array, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Recipe`...', false)
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Recipe), Array)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(592): Model->find('all', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(808): DboSource->query('findAllById', Array, Object(Recipe))
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(27): Model->__call('findAllById', Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(27): Recipe->findAllById(Array)
+#10 [internal function]: RecipesController->cart()
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-12-10 15:33:36 Error: Fatal Error (4): syntax error, unexpected '"' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 53]
+2014-12-10 15:33:36 Error: [FatalErrorException] syntax error, unexpected '"'
+Request URL: /cocktails/Web/recipes/delete_in_cart/3
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 53, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 53, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 15:41:32 Error: Fatal Error (1): Call to a member function findById() on a non-object in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 53]
+2014-12-10 15:41:32 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /cocktails/Web/recipes/delete_in_cart/3
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 53, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\EasyPHP-12.1...', 53, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 15:50:14 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 53]
+2014-12-10 15:50:14 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cocktails/Web/recipes/delete_in_cart/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 53, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 53, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 16:02:10 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 50]
+2014-12-10 16:02:10 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /cocktails/Web/recipes/delete_in_cart/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 50, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 50, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 16:03:26 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 55]
+2014-12-10 16:03:26 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /cocktails/Web/recipes/delete_in_cart/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 55, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 55, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 16:11:51 Error: Fatal Error (64): Can't use method return value in write context in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 58]
+2014-12-10 16:11:51 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cocktails/Web/recipes/delete_in_cart/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 58, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\EasyPHP-12.1...', 58, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-10 16:28:44 Error: Fatal Error (4): syntax error, unexpected 'for' (T_FOR) in [C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php, line 42]
+2014-12-10 16:28:44 Error: [FatalErrorException] syntax error, unexpected 'for' (T_FOR)
+Request URL: /cocktails/Web/recipes/add_in_cart/1
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 42, Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\EasyPHP-12.1...', 42, Array)
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
