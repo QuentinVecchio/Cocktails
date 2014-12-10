@@ -18,7 +18,7 @@
 	            	<td><?php ?></td>
 	            	<td><?php echo $v['Recipe']['title']; ?></td>
 	            	<td><?php echo $v['Recipe']['recipe']; ?></td>
-	            	<td><?php echo $this->Html->Link('  Ajouter', array('controller' => 'recipes', 'action' =>'add_in_cart',  $v['Recipe']['id']), array('class' => 'btn btn-primary center-block glyphicon glyphicon-plus')) ?></td>
+	            	<td><?php echo $this->Html->Link('', array('controller' => 'recipes', 'action' =>'add_in_cart',  $v['Recipe']['id']), array('class' => 'btn btn-primary center-block glyphicon glyphicon-plus')) ?></td>
 	        	</tr>   
 <?php endforeach; ?>
   	</tbody>
