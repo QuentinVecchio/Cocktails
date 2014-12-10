@@ -12,7 +12,7 @@
    	
    	<tbody>
 <?php 
-	foreach ($recettes as $$recette): ?>
+	foreach ($listRecettes as $$recette): ?>
 	          	<tr>
 	            	<td><?php echo $recette['id']; ?></td>
 	            	<td><?php echo $recette['titre']; ?></td>

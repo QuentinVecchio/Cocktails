@@ -13,6 +13,12 @@ class RecipesController extends AppController
 		$this->set('listRecettes', $listRecettes);
 	}
 
+	public function view($id)
+	{
+		$recette = $this->Recipe->find($id);
+		$this->set('recette', $recette);
+	}
+
 	public function admin_add($id)
 	{
 		

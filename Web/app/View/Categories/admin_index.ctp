@@ -16,8 +16,8 @@
 	foreach ($categories as $$categorie): ?>
 	          	<tr>
 	            	<td><?php echo $categorie['id']; ?></td>
-	            	<td><?php echo $categorie['nom']; ?></td>
-	            	<td><?php if($categorie['pere'] != null) echo $categorie['pere']['nom']; ?></td>
+	            	<td><?php echo $categorie['name']; ?></td>
+	            	<td><?php if($categorie['fathercondition'] != null) echo $categorie['fathercondition']['name']; ?></td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>

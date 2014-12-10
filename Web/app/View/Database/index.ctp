@@ -43,7 +43,7 @@ $pwd = 'root';
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`belongs` (
 		`id` int(11) NOT NULL,
   		`ingredient` int(11) NOT NULL,
-  		`condition` int(11) NOT NULL
+  		`cond` int(11) NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;"
 	))
 		echo "Création de la table appartient échouée.</br>";
@@ -55,14 +55,26 @@ $pwd = 'root';
 	*/
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`Conditions` (
 		`id` int(11) NOT NULL,
-  		`name` varchar(255) COLLATE utf8_bin NOT NULL,
-  		`fathercondition` int(11) DEFAULT NULL
+  		`name` varchar(255) COLLATE utf8_bin NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;"
 	))
 		echo "Création de la table Catégorie échouée.</br>";
 	else
 		echo "Création de la table Catégorie faite.</br>";
 
+
+	/*
+	*	Création table fatherCOndition
+	*/
+	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`fatherConditions` (
+		`id` int(11) NOT NULL,
+  		`father` int(11) NOT NULL,
+  		`son` int(11) NOT NULL
+		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;"
+	))
+		echo "Création de la table fatherCatégorie échouée.</br>";
+	else
+		echo "Création de la table fatherCatégorie faite.</br>";
 
 	/*
 	*	Création table estConstitue
@@ -72,8 +84,7 @@ $pwd = 'root';
   		`ingredient` int(11) NOT NULL,
   		`recipe` int(11) NOT NULL,
   		`ind` int(11) NOT NULL,
-  		`amount` float NOT NULL,
-  		`unit` varchar(255) COLLATE utf8_bin NOT NULL
+  		`amount` varchar(255) NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;"
 	))
 		echo "Création de la table estConstitue échouée.</br>";
@@ -136,7 +147,10 @@ $pwd = 'root';
 	ADD PRIMARY KEY (`id`)");
 
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Conditions`
-	ADD PRIMARY KEY (`id`), ADD KEY `fatherCondition` (`id`)");
+	ADD PRIMARY KEY (`id`)");
+
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`fatherConditions`
+	ADD PRIMARY KEY (`id`)");
 
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	ADD PRIMARY KEY (`id`), ADD KEY `ingredient` (`ingredient`,`recipe`)");
@@ -154,6 +168,8 @@ $pwd = 'root';
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Conditions`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`fatherConditions`
+	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredient`
@@ -162,6 +178,13 @@ $pwd = 'root';
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Users`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
+	
+	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredient(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredient(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (cond) references  " . $db_name . ".Conditions(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (father) references  " . $db_name . ".Conditions(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (son) references  " . $db_name . ".Conditions(id)");
 
 	echo "Création de la base de données terminée.</br>";
 
@@ -209,9 +232,8 @@ $pwd = 'root';
 		{
 			$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredient` WHERE name = '" . str_replace("'","",$aliment) . "'");
 			$ingredient = $reponse->fetch();
-			$amount = 0;
-			$unit = 'ok';
-			$requete =  "INSERT INTO " . $db_name . ".`isMadeOf` (ingredient, recipe, ind, amount, unit) VALUES ('" . $ingredient['id'] . "', '" . $r['id'] . "', '" .  $key . "', '" . $amount . "', '" . $unit . "')";
+			$amount = explode('|',$Recette['ingredients']);
+			$requete =  "INSERT INTO " . $db_name . ".`isMadeOf` (ingredient, recipe, ind, amount) VALUES ('" . $ingredient['id'] . "', '" . $r['id'] . "', '" .  $key . "', '" . str_replace("'","",$amount[$key]) . "')";
 			if($bdd2->exec($requete))
 				echo "Ingredient ajouté</br>";
 		}
@@ -220,32 +242,39 @@ $pwd = 'root';
 	foreach ($Hierarchie as $key => $categorie) 
 	{
 		/*
-		*	Ajout de la super catégorie si elle existe pas
-		*/
-		if(!empty($categorie['super-categorie'][0]))
-		{
-			$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$categorie['super-categorie'][0]) . "'");
-			if(($super = $existe->fetch()) == false)
-			{
-				$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$categorie['super-categorie'][0]) . "', NULL)";
-				if($bdd2->exec($requete))
-					echo "Super-categorie ajouté</br>";
-				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$categorie['super-categorie'][0]) . "'");
-				$super1 = $existe->fetch();
-			}
-		}
-
-		/*
 		* Ajout de la categorie
 		*/
 		$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
 		if(($super = $existe->fetch()) == false)
 		{
-			$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$key) . "', '" . $super1['id'] ."')";
+			$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$key) . "')";
 			if($bdd2->exec($requete))
-				echo "Categorie ajouté</br>";
+				echo "Categorie " . str_replace("'","",$key) . " ajouté</br>";
 			$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
 			$super1 = $existe->fetch();
+		}
+
+		/*
+		*	Ajout de la super catégorie si elle existe pas
+		*/
+		if(!empty($categorie['super-categorie'][0]))
+		{
+			foreach ($categorie['super-categorie'] as $supCateg) 
+			{
+				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$supCateg) . "'");
+				if(($super = $existe->fetch()) == false)
+				{
+					$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$supCateg) . "')";
+					if($bdd2->exec($requete))
+						echo "Super-categorie " .  str_replace("'","",$supCateg) . " ajouté</br>";
+					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$supCateg) . "'");
+					$super2 = $existe->fetch();
+					//Mise en place hierarchie
+					$requete = "INSERT INTO " . $db_name . ".`fatherConditions` (father, son) VALUES ('" . $super2['id'] . "', '" . $super1['id'] . "')";
+					if($bdd2->exec($requete))
+						echo "Super-categorie et categorie  liés</br>";
+				}
+			}	
 		}
 
 		/*
@@ -255,10 +284,10 @@ $pwd = 'root';
 		{
 			foreach ($categorie['sous-categorie'] as $value) 
 			{
-				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$value) . "'");
-				if($existe->fetch() == false)
+				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Ingredient` WHERE name = '" . str_replace("'","",$value) . "'");
+				if(($donne = $existe->fetch()) != FALSE)
 				{
-					$requete = "INSERT INTO " . $db_name . ".`Conditions` (name, fathercondition) VALUES ('" . str_replace("'","",$value) . "', " . $super1['id'] .")";
+					$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super1['id'] ."')";
 					if($bdd2->exec($requete))
 						echo "Sous-categorie ajouté</br>";
 				}

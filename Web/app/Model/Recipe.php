@@ -2,11 +2,13 @@
 
 class Recipe extends AppModel
 {
+	public $hasMany = array('isMadeOf');
+
 	public $validate = array(
-			'titre'  => array(
+			'title'  => array(
 				'rule' => 'notEmpty',
 				'message' => 'Titre incorrect'),
-			'preparation' => array(
+			'recipe' => array(
 				'rule' => 'notEmpty',
 				'message' => 'Préparation incorrect')
 		);	
