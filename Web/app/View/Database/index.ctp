@@ -121,7 +121,7 @@ $pwd = '';
 	*/
 	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`Users` (
 		`id` int(11) NOT NULL,
-	  	`login` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`username` varchar(255) COLLATE utf8_bin NOT NULL,
 	  	`password` varchar(1000) COLLATE utf8_bin NOT NULL,
 	  	`firstname` varchar(255) COLLATE utf8_bin NOT NULL,
 	  	`lastname` varchar(255) COLLATE utf8_bin NOT NULL,
@@ -133,7 +133,7 @@ $pwd = '';
 	  	`town` varchar(255) COLLATE utf8_bin NOT NULL,
 	  	`zipcode` varchar(20) COLLATE utf8_bin NOT NULL,
 	  	`country` varchar(255) COLLATE utf8_bin NOT NULL,
-	  	`admin` tinyint(1) NOT NULL
+	  	`role` varchar(255) COLLATE utf8_bin NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1"
 	))
 		echo "Création de la table Utilisateur échouée.</br>";
@@ -197,7 +197,8 @@ $pwd = '';
 	/*
 	*	Ajout de l'administrateur
 	*/
-	$requete = "INSERT INTO " . $db_name . ".`Users` (login, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, admin) VALUES ('root', 'root','','','','','','','','','', '1')";
+	$adminpass = AuthComponent::password('root');
+	$requete = "INSERT INTO " . $db_name . ".`Users` (username, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, role) VALUES ('root', '". $adminpass ."','','','','','','','','','', 'admin')";
 	if($bdd2->exec($requete))
 		echo "Admin ajoutée</br>";
 
