@@ -2,9 +2,9 @@
 
 class Condition extends AppModel {
 		public $hasAndBelongsToMany = array(
-        'fatherCondition' =>
+        'Condition' =>
             array(
-                'className' => 'fatherCondition',
+                'className' => 'Conditions',
                 'joinTable' => 'fatherConditions',
                 'foreignKey' => 'id',
                 'associationForeignKey' => 'son',

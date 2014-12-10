@@ -4,7 +4,7 @@ class RecipesController extends AppController
 {
 	public function beforeFilter() {
 	    parent::beforeFilter();
-	    $this->Auth->allow('index', 'add_in_cart', 'delete_in_cart', 'cart', 'clean_cart');
+	    $this->Auth->allow('index', 'add_in_cart', 'delete_in_cart', 'cart', 'clean_cart', 'view');
 	}
 
 	public function index(){
@@ -16,8 +16,9 @@ class RecipesController extends AppController
 	}
 
 	public function view($id){
-		$recipe = $this->Recipe->find($id, array('order' => array('Recipe.id' => 'asc')));
+		$recipe = $this->Recipe->findById($id);
 		$this->set('recipe', $recipe);
+		//debug($recipe);
 		if($this->Session->read() == null){
 			$this->Session->setFlash('Vous n\'êtes pas inscrit ? N\'hesitez pas à cliquer sur "Inscription" pour pouvoir sauvegarder vos recettes favorites !', "message", array('type' => 'info'));
 		}

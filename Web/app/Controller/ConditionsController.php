@@ -18,6 +18,7 @@ class ConditionsController extends AppController
 	{
 		$listConditions = $this->Condition->find('all', array('order' => array('Condition.id' => 'asc')));
 		$this->set('listConditions', $listConditions);
+		debug($listConditions[2]);
 		
 	}
 

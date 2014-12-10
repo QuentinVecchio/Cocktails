@@ -7,16 +7,31 @@
   		<tr>
   			<th class="thNom">En images</th>
         	<th class="thNom" style="width : 250px">Nom</th>
-        	<th style="width : 115px">Au panier</th>
+        	<th class="thNom" style="width : 115px">Options</th>
   		</tr>
 	</thead>
    	<tbody>
 <?php 
 	foreach ($listRecipes as $recipe => $v): ?>
 	          	<tr>
-	            	<td style="width:120px;"><?php echo $this->Html->image(str_replace(" ","_",$v['title']) . '.jpeg', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:80px;margin-top:-10px;')); ?></td>
-	            	<td><div style="margin-top:35px;"><?php echo $this->Html->Link($v['Recipe']['title'], array('controller' => 'recipes', 'action' =>'view',  $v['Recipe']['id']), array('class' => 'btn btn-primary center-block glyphicon glyphicon-plus')) ?></div></td>
-	            	<td><?php echo $this->Html->Link('', array('controller' => 'recipes', 'action' =>'add_in_cart',  $v['Recipe']['id']), array('class' => 'btn btn-primary center-block glyphicon glyphicon-plus')) ?></td>
+	            	<td style="width:120px;">
+	            		<?php echo $this->Html->image(str_replace(" ","_",$v['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
+	            	</td>
+	            	<td><?php echo $v['Recipe']['title'] ?></td>
+	            	<td>
+		            	<div class="btn-group" style="margin-top:35px;">
+						  	<button type="button" class="btn btn-primary">Actions</button>
+						  	<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+								<span class="caret"></span>
+								<span class="sr-only">Toggle Dropdown</span>
+								</button>
+						  	<ul class="dropdown-menu" role="menu">
+						  		<li><?php echo $this->Html->Link('  Détails', array('controller' => 'recipes', 'action' =>'view',  $v['Recipe']['id']), array('class' => 'glyphicon glyphicon-info-sign')) ?></li>
+						    	<li><?php echo $this->Html->Link('  Panier', array('controller' => 'recipes', 'action' =>'add_in_cart',  $v['Recipe']['id']), array('class' => 'glyphicon glyphicon-shopping-cart')) ?>
+						    	</li>
+						  	</ul>
+						</div>
+					</td>
 	        	</tr>   
 <?php endforeach; ?>
   	</tbody>
