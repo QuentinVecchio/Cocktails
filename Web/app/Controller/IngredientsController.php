@@ -7,7 +7,7 @@ class IngredientsController extends AppController
 	*/
 	public function index()
 	{
-		$listIngredients = $this->Ingredient->find('all');
+		$listIngredients = $this->Ingredient->find('all', array('order' => array('Ingredient.id' => 'asc')));
 		$this->set('listIngredients', $listIngredients);
 	}
 
@@ -16,7 +16,7 @@ class IngredientsController extends AppController
 	*/
 	public function admin_index()
 	{
-		$listIngredients = $this->Ingredient->find('all');
+		$listIngredients = $this->Ingredient->find('all', array('order' => array('Ingredient.id' => 'asc')));
 		$this->set('listIngredients', $listIngredients);
 	}
 

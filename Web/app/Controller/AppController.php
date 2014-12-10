@@ -33,6 +33,7 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	public $components = array(
 		'RequestHandler',
+		'Paginator',
 		'Session',
 		'Auth' => array(
 				'loginAction' => array('controller' => 'users',
@@ -45,6 +46,13 @@ class AppController extends Controller {
 	        						   ),	        						   	
 			'authorize' => array('Controller'))
 		);	
+
+	public $paginate = array(
+        'limit' => 10,
+        'order' => array(
+            'Condition.title' => 'asc'
+        )
+    );
 
 	/**
 	*	Fonction d'autorisation par accès croissant selon le prefix

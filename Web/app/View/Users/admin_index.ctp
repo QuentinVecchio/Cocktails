@@ -20,10 +20,10 @@
 	          	<tr>
 	            	<td><?php echo $v['User']['id']; ?></td>
 	            	<td><?php echo $v['User']['username']; ?></td>
-	            	<td><?php echo $v['User']['firstname']; ?></td>
 	            	<td><?php echo $v['User']['lastname']; ?></td>
+	            	<td><?php echo $v['User']['firstname']; ?></td>
 	            	<td><?php echo $v['User']['email']; ?></td>
-	            	<td><?php //echo $v['User']['town']; ?></td>
+	            	<td><?php echo $v['User']['town']; ?></td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Choix</button>

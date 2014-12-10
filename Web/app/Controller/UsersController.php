@@ -146,11 +146,7 @@ class UsersController extends AppController
 		if(!empty($this->data)){
 			if($this->Auth->login()){
 				$this->Session->setFlash('Bienvenue '. $this->Auth->user('firstname') . ' ' . $this->Auth->user('lastname') .', vous êtes désormais connecté.', 'message', array('type' => 'success'));
-				if($this->Auth->user('role') == 'admin'){
 					$this->redirect(array('controller' => 'cocktails', 'action' => 'index'));
-				}else{
-					$this->redirect(array('controller' => 'cocktails', 'action' => 'index'));
-				}
 			}
 			else{
 				$this->Session->setFlash('Veuillez vérifier vos identifiants.', 'message', array('type' => 'danger'));
