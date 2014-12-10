@@ -7,10 +7,14 @@ class RecipesController extends AppController
 	    $this->Auth->allow('index');
 	}
 
-	public function index()
+	public function index(){
+		
+	}
+
+	public function admin_index()
 	{
-		$listRecettes = $this->Recipe->find('all');
-		$this->set('listRecettes', $listRecettes);
+		$listRecipes = $this->Recipe->find('all', array('order' => array('Recipe.id' => 'asc')));
+		$this->set('listRecipes', $listRecipes);
 	}
 
 	public function view($id)
