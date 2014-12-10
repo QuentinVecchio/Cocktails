@@ -1,6 +1,11 @@
 <?php 
 
 class Ingredient extends AppModel {
+<<<<<<< mine
+
+		public $hasMany = array('isMadeOf');
+		
+=======
 /**
 * Un ingrédient a et appartient à plusieurs catégories
 */
@@ -20,10 +25,11 @@ class Ingredient extends AppModel {
                 'finderQuery' => ''
             )
     );
+>>>>>>> theirs
 		public $validate = array(
 			'name' => array(
 				'rule' => 'notEmpty',
-				'message' => 'Veuillez saisir un code postal')
+				'message' => 'Veuillez saisir un nom')
 		);
 }
 

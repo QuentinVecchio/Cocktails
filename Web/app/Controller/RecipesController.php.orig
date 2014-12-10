@@ -73,7 +73,17 @@ class RecipesController extends AppController
 		$this->set('listRecipes', $listRecipes);
 	}
 
+<<<<<<< mine
+	public function view($id)
+	{
+		$recette = $this->Recipe->find($id);
+		$this->set('recette', $recette);
+	}
+
+	public function admin_add($id)
+=======
 	public function admin_add()
+>>>>>>> theirs
 	{
 		$this->loadModel('Ingredient');
 		$listIng = $this->Ingredient->find('all');
