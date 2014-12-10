@@ -3826,3 +3826,379 @@ Stack Trace:
 #3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-12-10 16:38:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('recipes')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(11): Model->find('all', Array)
+#8 [internal function]: RecipesController->index('Accueil')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-10 16:38:34 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('users')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\login.ctp(5): FormHelper->create('User', Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-10 16:38:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('recipes')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(11): Model->find('all', Array)
+#8 [internal function]: RecipesController->index('Accueil')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-10 18:40:41 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cocktails/Web/favicon.ico
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-10 18:47:51 Error: [MissingTableException] Table ingredients for model Ingredient was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ingredients',
+  'class' => 'Ingredient',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/recipes
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('ingredients')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(2490): Model->schema()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1731): DboSource->fields(Object(AppModel), 'Ingredient', '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1233): DboSource->generateAssociationQuery(Object(Recipe), Object(AppModel), 'hasMany', 'Ingredient', Array, Array, true)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Recipe), Object(AppModel), 'hasMany', 'Ingredient', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Recipe), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(72): Model->find('all', Array)
+#9 [internal function]: RecipesController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 19:00:39 Error: [MissingTableException] Table father_conditions for model fatherCondition was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'father_conditions',
+  'class' => 'fatherCondition',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('father_conditio...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(2490): Model->schema()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1731): DboSource->fields(Object(AppModel), 'fatherCondition', '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1233): DboSource->generateAssociationQuery(Object(Condition), Object(AppModel), 'hasMany', 'fatherCondition', Array, Array, true)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Condition), Object(AppModel), 'hasMany', 'fatherCondition', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Condition), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(19): Model->find('all', Array)
+#9 [internal function]: ConditionsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 19:02:08 Error: [MissingTableException] Table father_conditions for model fatherCondition was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'father_conditions',
+  'class' => 'fatherCondition',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('father_conditio...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(2490): Model->schema()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1731): DboSource->fields(Object(AppModel), 'fatherCondition', '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1233): DboSource->generateAssociationQuery(Object(Condition), Object(AppModel), 'hasMany', 'fatherCondition', Array, Array, true)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Condition), Object(AppModel), 'hasMany', 'fatherCondition', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Condition), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(19): Model->find('all', Array)
+#9 [internal function]: ConditionsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 19:02:47 Error: [MissingTableException] Table father_conditions for model fatherCondition was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'father_conditions',
+  'class' => 'fatherCondition',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('father_conditio...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(2490): Model->schema()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1731): DboSource->fields(Object(AppModel), 'fatherCondition', '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1233): DboSource->generateAssociationQuery(Object(Condition), Object(AppModel), 'hasMany', 'fatherCondition', Array, Array, true)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Condition), Object(AppModel), 'hasMany', 'fatherCondition', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Condition), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(19): Model->find('all', Array)
+#9 [internal function]: ConditionsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 19:03:42 Error: [MissingTableException] Table father_conditions for model fatherCondition was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'father_conditions',
+  'class' => 'fatherCondition',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('father_conditio...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(2490): Model->schema()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1731): DboSource->fields(Object(AppModel), 'fatherCondition', '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1233): DboSource->generateAssociationQuery(Object(Condition), Object(AppModel), 'hasMany', 'fatherCondition', Array, Array, true)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Condition), Object(AppModel), 'hasMany', 'fatherCondition', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Condition), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(19): Model->find('all', Array)
+#9 [internal function]: ConditionsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 19:03:56 Error: [MissingTableException] Table father_conditions for model fatherCondition was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'father_conditions',
+  'class' => 'fatherCondition',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('father_conditio...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(2490): Model->schema()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1731): DboSource->fields(Object(fatherCondition), 'fatherCondition', '')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1233): DboSource->generateAssociationQuery(Object(Condition), Object(fatherCondition), 'hasMany', 'fatherCondition', Array, Array, true)
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Condition), Object(fatherCondition), 'hasMany', 'fatherCondition', Array, Array, true, Array, 0, Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Condition), Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(19): Model->find('all', Array)
+#9 [internal function]: ConditionsController->admin_index()
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#13 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-10 19:06:42 Error: [MissingTableException] Table father_conditions for model fatherCondition was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'father_conditions',
+  'class' => 'fatherCondition',
+  'ds' => 'default',
+)
+Request URL: /cocktails/Web/admin/conditions
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('father_conditio...')
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(872): Model->schema()
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(900): Model->__isset('FatherCondition')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3642): Model->__get('FatherCondition')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1753): Model->joinModel('FatherCondition', Array)
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1233): DboSource->generateAssociationQuery(Object(Condition), Object(fatherCondition), 'hasAndBelongsTo...', 'fatherCondition', Array, Array, true)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(Condition), Object(fatherCondition), 'hasAndBelongsTo...', 'fatherCondition', Array, Array, true, Array, 0, Array)
+#8 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Condition), Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\ConditionsController.php(19): Model->find('all', Array)
+#11 [internal function]: ConditionsController->admin_index()
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ConditionsController), Array)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ConditionsController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-10 19:07:16 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('recipes')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(11): Model->find('all', Array)
+#8 [internal function]: RecipesController->index('Accueil')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-10 19:07:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/users/login
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('users')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\EasyPHP-12.1\www\cocktails\Web\app\View\Users\login.ctp(5): FormHelper->create('User', Array)
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(948): include('C:\EasyPHP-12.1...')
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(910): View->_evaluate('C:\EasyPHP-12.1...', Array)
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\View\View.php(471): View->_render('C:\EasyPHP-12.1...')
+#12 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-12-10 19:07:27 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('recipes')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(11): Model->find('all', Array)
+#8 [internal function]: RecipesController->index('Accueil')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-10 19:09:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('recipes')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(11): Model->find('all', Array)
+#8 [internal function]: RecipesController->index('Accueil')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-10 19:09:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('recipes')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(11): Model->find('all', Array)
+#8 [internal function]: RecipesController->index('Accueil')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-10 19:10:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Base \'database_koby_vecchio\' inconnue',
+  'enabled' => true,
+)
+Request URL: /cocktails/Web/
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(3566): Model->setSource('recipes')
+#5 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#6 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#7 C:\EasyPHP-12.1\www\cocktails\Web\app\Controller\RecipesController.php(11): Model->find('all', Array)
+#8 [internal function]: RecipesController->index('Accueil')
+#9 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#10 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\EasyPHP-12.1\www\cocktails\Web\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#12 C:\EasyPHP-12.1\www\cocktails\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
