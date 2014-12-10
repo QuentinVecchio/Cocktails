@@ -37,34 +37,73 @@ class RecipesController extends AppController
 		/**
 		* Si le visiteur n'est pas inscrit
 		*/
-		$tmp = $this->Session->read('Cart.recipe');
-		for ($i=0; $i < count($tmp) ; $i++) { 
-			if($tmp[$i] == $id){
-				$this->Session->setFlash('Cette recette est déjà dans votre panier.','message',array('type' => 'danger'));
+		if($this->Session->read('Auth.User.username') != null)
+		{
+			$tmp = $this->Session->read('Cart.recipe');
+			for ($i=0; $i < count($tmp) ; $i++) { 
+				if($tmp[$i] == $id){
+					$this->Session->setFlash('Cette recette est déjà dans votre panier.','message',array('type' => 'danger'));
+					$this->redirect(array('action' => 'index'));
+				}
+			}
+			if($this->Session->write('Cart.recipe', am($this->Session->read('Cart.recipe'), $id))){
+				$this->Session->setFlash('Vous venez d\'ajouter une recette à votre panier.','message',array('type' => 'success'));
 				$this->redirect(array('action' => 'index'));
 			}
-		}
-		if($this->Session->write('Cart.recipe', am($this->Session->read('Cart.recipe'), $id))){
-			$this->Session->setFlash('Vous venez d\'ajouter une recette à votre panier.','message',array('type' => 'success'));
-			$this->redirect(array('action' => 'index'));
 		}
 		/**
 		* Si le visiteur est inscrit
 		*/
+		else
+		{
+			$idUser = $this->Session->read('Auth.User.id');
+			$find = $this->loadModel('Cart')->find(
+					array(
+						    'conditions' => array('Cart.recipe' => $id, 'Cart.user' => $idUser)));
+			if(empty($find))
+			{
+				$this->loadModel('Cart')->save(array('Cart.recipe' => $id, 'Cart.user' => $idUser));
+				$this->Session->setFlash('Vous venez d\'ajouter une recette à votre panier.','message',array('type' => 'success'));
+				$this->redirect(array('action' => 'index'));
+			}
+			else
+			{
+				$this->Session->setFlash('Cette recette est déjà dans votre panier.','message',array('type' => 'danger'));
+				$this->redirect(array('action' => 'index'));
+			}
+		}
+
+
 	}
 
 	public function delete_in_cart($id){
 		/**
 		* Si le visiteur n'est pas inscrit
 		*/
-		$tmp = $this->Session->read('Cart.recipe');
-		unset($tmp[$id]);
-		$this->Session->write('Cart.recipe', $tmp);
-		$this->Session->setFlash('Vous venez de retirer une recette de votre panier.','message',array('type' => 'success'));
-		$this->redirect(array('action' => 'cart'));
+		if($this->Session->read('Auth.User.username') != null)
+		{
+			$tmp = $this->Session->read('Cart.recipe');
+			unset($tmp[$id]);
+			$this->Session->write('Cart.recipe', $tmp);
+			$this->Session->setFlash('Vous venez de retirer une recette de votre panier.','message',array('type' => 'success'));
+			$this->redirect(array('action' => 'cart'));
+		}
 		/**
 		* Si le visiteur est inscrit
 		*/
+		else
+		{
+			if($this->loadModel('Cart')->delete($id))
+			{
+				$this->Session->setFlash('Vous venez de retirer une recette de votre panier.','message',array('type' => 'success'));
+				$this->redirect(array('action' => 'cart'));			
+			}
+			else
+			{
+				$this->Session->setFlash('Une erreur est survenue lors de la suppression','message', array('type' => 'danger'));
+				$this->redirect(array('action' => 'cart'));			
+			}
+		}
 	}
 
 	public function admin_index()
