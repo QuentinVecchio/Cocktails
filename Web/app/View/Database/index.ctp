@@ -3,7 +3,7 @@ include("Donnees.inc.php");
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = 'root';
+$pwd = '';
 	/*
 	*	Création de la base de données
 	*/
@@ -29,7 +29,7 @@ $pwd = 'root';
 	*/
 	try
 	{
-		$bdd2 = new PDO($path .';dbname:' . $db_name .'', $login, $pwd);
+		$bdd2 = new PDO($path .';dbname:' . $db_name .'', $login, $pwd, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 		$bdd2->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 	}
 	catch(Exception $e)
@@ -94,7 +94,7 @@ $pwd = 'root';
 	/*
 	*	Création table Ingrédient
 	*/
-	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`ingredient` (
+	if($bdd2->exec("CREATE TABLE IF NOT EXISTS " . $db_name . ".`ingredients` (
 		`id` int(11) NOT NULL,
   		`name` varchar(255) COLLATE utf8_bin NOT NULL
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 "
@@ -156,7 +156,7 @@ $pwd = 'root';
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	ADD PRIMARY KEY (`id`), ADD KEY `ingredient` (`ingredient`,`recipe`)");
 
-	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredient`
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredients`
 	ADD PRIMARY KEY (`id`)");
 
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Recipes`
@@ -173,16 +173,16 @@ $pwd = 'root';
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`isMadeOf`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredient`
+	$bdd2->exec("ALTER TABLE " . $db_name . ".`ingredients`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Recipes`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Users`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	
-	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredient(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredient(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (cond) references  " . $db_name . ".Conditions(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (father) references  " . $db_name . ".Conditions(id)");
 	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (son) references  " . $db_name . ".Conditions(id)");
@@ -215,10 +215,10 @@ $pwd = 'root';
 		*/
 		foreach ($Recette['index'] as $aliment) 
 		{
-			$existe = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredient` WHERE name = '" . str_replace("'","",$aliment) . "'");
+			$existe = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$aliment) . "'");
 			if($existe->fetch() == false)
 			{
-				$requete =  "INSERT INTO " . $db_name . ".`ingredient` (name) VALUES ('" . str_replace("'","",$aliment) . "')";
+				$requete =  "INSERT INTO " . $db_name . ".`ingredients` (name) VALUES ('" . str_replace("'","",$aliment) . "')";
 				if($bdd2->exec($requete))
 					echo "Aliment ajouté</br>";
 			}
@@ -231,7 +231,7 @@ $pwd = 'root';
 		$r = $reponse->fetch();
 		foreach ($Recette['index'] as $key => $aliment) 
 		{
-			$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredient` WHERE name = '" . str_replace("'","",$aliment) . "'");
+			$reponse = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$aliment) . "'");
 			$ingredient = $reponse->fetch();
 			$amount = explode('|',$Recette['ingredients']);
 			$requete =  "INSERT INTO " . $db_name . ".`isMadeOf` (ingredient, recipe, ind, amount) VALUES ('" . $ingredient['id'] . "', '" . $r['id'] . "', '" .  $key . "', '" . str_replace("'","",$amount[$key]) . "')";
@@ -285,7 +285,7 @@ $pwd = 'root';
 		{
 			foreach ($categorie['sous-categorie'] as $value) 
 			{
-				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Ingredient` WHERE name = '" . str_replace("'","",$value) . "'");
+				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$value) . "'");
 				if(($donne = $existe->fetch()) != FALSE)
 				{
 					$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super1['id'] ."')";
