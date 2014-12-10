@@ -15,6 +15,15 @@ class RecipesController extends AppController
 		}
 	}
 
+	public function view($id){
+		$recipe = $this->Recipe->find($id, array('order' => array('Recipe.id' => 'asc')));
+		$this->set('recipe', $recipe);
+		if($this->Session->read() == null){
+			$this->Session->setFlash('Vous n\'êtes pas inscrit ? N\'hesitez pas à cliquer sur "Inscription" pour pouvoir sauvegarder vos recettes favorites !', "message", array('type' => 'info'));
+		}
+	}
+
+
 	public function clean_cart(){
 		if($this->Session->delete('Cart')){
 			$this->Session->setFlash('Votre panier a correctement été vidé.', "message", array('type' => 'success'));
