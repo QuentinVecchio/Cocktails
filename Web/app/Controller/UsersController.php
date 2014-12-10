@@ -65,11 +65,15 @@ class UsersController extends AppController
 			$this->redirect('/');
 			die();
 		}
+
 		$this->User->id = $id;
 			$t = $this->request->data;
-			if($this->User->save($t, true, array('username','firstname','lastname','birthdate', 'street' ,'zipcode','country','phone', 'email'))){
+			if($this->User->save($t, true, array('username','firstname','lastname','birthdate', 'street' ,'zipcode','country','town','phone', 'email'))){
 				$this->Session->setFlash('Votre profil a correctement été mis à jour.','message',array('type' => 'success'));
 				$this->redirect('/');
+			}
+			else{
+				$this->Session->setFlash('Veuillez vérifier les données saisies.','message',array('type' => 'danger'));
 			}
 		$this->request->data = $this->User->read();
 	}
@@ -83,7 +87,7 @@ class UsersController extends AppController
 		{
 			$this->User->id = $id;			
 			$t = $this->request->data;
-			if($this->User->save($t, true, array('firstname','lastname','birthdate', 'street' ,'zipcode','country','phone', 'email'))){
+			if($this->User->save($t, true, array('firstname','lastname','birthdate', 'street' ,'zipcode','country','town', 'phone', 'email'))){
 				$this->Session->setFlash('Vous venez de mettre à jour un utilisateur !','message',array('type' => 'success'));
 				$this->redirect(array('action' => 'index'));
 			}
@@ -107,7 +111,7 @@ class UsersController extends AppController
 	{
 		if($this->User->delete($id))
 		{
-			$this->Session->setFlash('Vous venez de supprimer un utilisateur !','message', array('type' => 'danger'));
+			$this->Session->setFlash('Vous venez de supprimer un utilisateur !','message', array('type' => 'success'));
 			$this->redirect(array('action' => 'index'));			
 		}
 		else

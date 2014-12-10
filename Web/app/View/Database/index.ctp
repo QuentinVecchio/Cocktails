@@ -114,6 +114,7 @@ $pwd = '';
 	  	`password` varchar(1000) COLLATE utf8_bin NOT NULL,
 	  	`firstname` varchar(255) COLLATE utf8_bin NOT NULL,
 	  	`lastname` varchar(255) COLLATE utf8_bin NOT NULL,
+	  	`birthdate` date COLLATE utf8_bin NOT NULL,
 	  	`gender` varchar(1) COLLATE utf8_bin NOT NULL,
 	  	`phone` varchar(20) COLLATE utf8_bin NOT NULL,
 	  	`email` varchar(255) COLLATE utf8_bin NOT NULL,
