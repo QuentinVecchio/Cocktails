@@ -43,7 +43,7 @@ $stmt->execute(array($db_name));
         <ul class="nav navbar-nav" style="margin-top:10px;">
           <li><?php echo $this->Html->Link('Profil', array('controller' => 'users', 'action' =>'edit', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recipes', 'action' =>'index', 'admin' => false)) ?></li>
-          <li><?php echo $this->Html->Link('Panier', array('controller' => 'recipes', 'action' =>'cart', 'admin' => false)) ?></li>
+          <li><?php echo $this->Html->Link('Panier', array('controller' => 'recipes', 'action' =>'cart_logged', 'admin' => false)) ?></li>
           <li style="position:absolute;right:50px;">
             <div class="input-group" style="width:200px; margin-top:8px;">
               <span class="input-group-addon glyphicon glyphicon-search"></span>
@@ -62,7 +62,7 @@ $stmt->execute(array($db_name));
         <ul class="nav navbar-nav" style="margin-top:10px;">
           <li><?php echo $this->Html->Link('Inscription', array('controller' => 'users', 'action' =>'signup', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recipes', 'action' =>'index', 'admin' => false)) ?></li>
-          <li><?php echo $this->Html->Link('Panier', array('controller' => 'recipes', 'action' =>'cart', 'admin' => false)) ?></li>
+          <li><?php echo $this->Html->Link('Panier', array('controller' => 'recipes', 'action' =>'cart_session', 'admin' => false)) ?></li>
           <li>
             <?php 
             if($stmt->fetchColumn() == 0){
