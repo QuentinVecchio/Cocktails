@@ -1,3 +1,4 @@
+<?php $this->set('title_for_layout',"Accueil"); ?>
 <div>
 	<div class="alert alert-success">
 		<div style="font-size:3em;font-height:3em;">Découvrez des centaines de recettes de Cocktails !</div>

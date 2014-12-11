@@ -16,8 +16,14 @@ class RecipesController extends AppController
 	}
 
 	public function view($id){
+		$this->loadModel('Ingredient');
 		$recipe = $this->Recipe->findById($id);
 		$this->set('recipe', $recipe);
+		foreach ($recipe['Ingredient'] as $key => $v) {
+			$ingredients[$key] = $this->Ingredient->findById($v['id']);
+		}
+		//debug($ingredients);
+		$this->set('ingredients', $ingredients);
 		if($this->Session->read() == null){
 			$this->Session->setFlash('Vous n\'êtes pas inscrit ? N\'hesitez pas à cliquer sur "Inscription" pour pouvoir sauvegarder vos recettes favorites !', "message", array('type' => 'info'));
 		}
