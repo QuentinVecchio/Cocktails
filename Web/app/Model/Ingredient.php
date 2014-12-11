@@ -5,12 +5,12 @@ class Ingredient extends AppModel {
 * Un ingrédient a et appartient à plusieurs catégories
 */
 	public $hasAndBelongsToMany = array(
-        'Ingredient' =>
+        'Conditions' =>
             array(
-                'className' => 'Ingredient',
+                'className' => 'Conditions',
                 'joinTable' => 'belongs',
                 'foreignKey' => 'ingredient',
-                'associationForeignKey' => 'id',
+                'associationForeignKey' => 'cond',
                 'unique' => true,
                 'conditions' => '',
                 'fields' => '',

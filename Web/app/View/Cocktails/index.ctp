@@ -6,12 +6,12 @@
 	</div>
 
 	<div id="galerie">
-        <div id="im1"><img src="/img/min_Bora_bora.jpeg" alt="Image 2" /></div>
-        <div id="im2"><img src="/img/min_Builder.jpeg" alt="Image 3" /></div>
-        <div id="im3"><img src="/img/min_Caipirinha.jpeg" alt="Image 4" /></div><br>
-        <div id="im4"><img src="/img/min_Cuba_libre.jpeg" alt="Image 2" /></div>
-        <div id="im5"><img src="/img/min_Raifortissimo.jpeg" alt="Image 3" /></div>
-        <div id="im6"><img src="/img/min_Screwdriver.jpeg" alt="Image 4" /></div>
+        <div id="im1"><?php echo $this->Html->image('min_Bora_bora.jpeg'); ?></div>
+        <div id="im2"><?php echo $this->Html->image('min_Builder.jpeg'); ?></div>
+        <div id="im3"><?php echo $this->Html->image('min_Caipirinha.jpeg'); ?></div><br>
+        <div id="im4"><?php echo $this->Html->image('min_Cuba_libre.jpeg'); ?></div>
+        <div id="im5"><?php echo $this->Html->image('min_Raifortissimo.jpeg'); ?></div>
+        <div id="im6"><?php echo $this->Html->image('min_Screwdriver.jpeg'); ?></div>
 	</div>
 
 	<div id="conteneurFormulaires" style="margin-left:140px;">

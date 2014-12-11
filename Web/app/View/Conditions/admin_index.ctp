@@ -1,5 +1,5 @@
 <?php $this->set('title_for_layout',"Liste des catégories"); ?>
-<table class="table table-striped">
+<table class="table table-bordered">
 	<caption>
 		<h4>Liste des Catégories</h4>
 		<?php echo $this->Html->Link('Nouvelle catégorie', array('controller' => 'conditions', 'action' =>'admin_add'), array('class' => 'btn btn-primary')) ?>
@@ -19,7 +19,24 @@
 	          	<tr>
 	            	<td><?php echo $v['Condition']['id']; ?></td>
 	            	<td><?php echo $v['Condition']['name']; ?></td>
-	            	<td><?php if($v['Condition'][$condition]['FatherCondition']['father'] != null) echo $v['Condition'][$condition]['FatherCondition']['father']; else echo "Aucune"; ?></td>
+	            	<td><?php 
+		            		if(isset($v['Condition'][0])){
+	 							echo $v['Condition'][0]['name'];
+		            		}
+		            		if(isset($v['Condition'][1])){
+								echo ', ' . $v['Condition'][1]['name'];
+		            		}
+		         			if(isset($v['Condition'][2])){
+								echo ', ' . $v['Condition'][2]['name'];
+		            		}
+		            		if(isset($v['Condition'][3])){
+								echo ', ' . $v['Condition'][3]['name'];
+		            		}
+		            		if(!isset($v['Condition'][0])){
+								echo "Aucune";
+		            		}
+	            		?>
+	            	</td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>

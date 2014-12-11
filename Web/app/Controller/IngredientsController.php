@@ -15,29 +15,12 @@ class IngredientsController extends AppController
 	*	Liste les ingrédients admin
 	*/
 	public function admin_index()
-	{/*
-		$options['joins'] = array(
-		    array('table' => 'isMadeOf',
-		        'alias' => 'isMadeOf',
-		        'type' => 'inner',
-		        'conditions' => array(
-		            'Ingredient.id = isMadeOf.ingredient'
-		        )
-		    ),
-		    array('table' => 'Conditions',
-		        'alias' => 'Condition',
-		        'type' => 'inner',
-		        'conditions' => array(
-		            'isMadeOf.ind = Condition.id'
-		        )
-		    )
-		);*/
+	{
 		$this->loadModel('Condition');
 		$listConditions = $this->Condition->find('all');
 		$this->set('listConditions', $listConditions);
 
 		$listIngredients = $this->Ingredient->find('all');
-		//debug($listIngredients[0]);
 		$this->set('listIngredients', $listIngredients);
 	}
 
@@ -54,7 +37,33 @@ class IngredientsController extends AppController
 	*/
 	public function admin_edit($id)
 	{
-		
+		if(!empty($this->data))
+		{
+			$this->Ingredient->id = $id;			
+			$t = $this->request->data;
+			if($this->Ingredient->save($t, true)){
+				$this->Session->setFlash('Vous venez de mettre à jour un ingrédient.','message',array('type' => 'success'));
+				$this->redirect(array('action' => 'index'));
+			}
+			else{
+				$this->Session->setFlash('Veuillez vérifier les données saisies.','message',array('type' => 'danger'));
+			}
+			$this->request->data = $this->Ingredient->read();
+		}
+		else
+		{
+			$this->loadModel('Condition');
+			$listConditions = $this->Condition->find('all');
+			$this->set('listConditions', $listConditions);
+			$this->data = $this->Ingredient->findById($id); 
+			if(!isset($this->data['Conditions'][0])){
+				$this->set('selected', 0);
+			}
+			else{
+				$tmp = $this->Condition->findById($this->data['Conditions'][0]['Belong']['cond']);
+				$this->set('selected', $tmp['Condition']['id']);
+			}
+		}
 	}
 
 	/**
