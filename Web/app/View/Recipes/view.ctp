@@ -1,3 +1,4 @@
+<?php $this->set('title_for_layout',$recipe['Recipe']['title']); ?>
 <div id="presentationRecette">
 	<h2><?php echo $recipe['Recipe']['title']; ?></h2>
 	<div id="imageRecette">

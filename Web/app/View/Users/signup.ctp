@@ -60,7 +60,7 @@
             <div id="two">
                 <legend>Informations utiles</legend>
                 <?php echo $this->Form->input('username', array('placeholder' => 'Login','input' => array('class' => 'form-control'),
-                    'label' => 'Login (définitif) : ',
+                    'label' => 'Login : ',
                     'required' => true)); 
                 ?>
                 <?php echo $this->Form->input('password', array('placeholder' => 'Mot de passe','input' => array('class' => 'form-control'),

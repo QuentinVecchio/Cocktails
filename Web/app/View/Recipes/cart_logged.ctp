@@ -6,6 +6,7 @@
 	</caption>
 	<thead>
   		<tr>
+  			<th class="thNom">En images</th>
         	<th class="thNom" style="width : 250px">Nom</th>
         	<th class="thPreparation">Préparation</th>
        	 	<th style="width : 115px">Réglages</th>
@@ -13,11 +14,13 @@
 	</thead>
    	<tbody>
 <?php
-	foreach ($listInCart['recipe'] as $r => $v): ?>
-				<?php if($v == null) continue; ?>
+	foreach ($listInCart as $r => $v): debug($v['Cart']['recipe']);?>
 	          	<tr>
-	            	<td><?php echo $listRecipes[$r - 1]['Recipe']['title']; ?></td>
-	            	<td><?php echo $listRecipes[$r - 1]['Recipe']['recipe'];; ?></td>
+	          		<td style="width:120px;">
+	            		<?php echo $this->Html->image(str_replace(" ","_",$listRecipes[$r]['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
+	            	</td>
+	            	<td><?php echo $listRecipes[$r]['Recipe']['title']; ?></td>
+	            	<td><?php echo $listRecipes[$r]['Recipe']['recipe'];; ?></td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>
@@ -26,8 +29,9 @@
     							<span class="sr-only">Toggle Dropdown</span>
   							</button>
 						  	<ul class="dropdown-menu" role="menu">
+						  		<li><?php echo $this->Html->Link('  Détails', array('controller' => 'recipes', 'action' =>'view',  $v['Cart']['recipe']), array('class' => 'glyphicon glyphicon-info-sign')) ?></li>
 						    	<li><?php echo $this->Html->Link(' Suppression',
-													 		array('controller' => 'recipes', 'action' => 'delete_in_cart', $r),
+													 		array('controller' => 'recipes', 'action' => 'delete_in_cart', $v['Cart']['recipe']),
 													 		array('confirm' => 'Etes-vous sûr de vouloir retirer cette recette ?',
 													 				'class' => 'glyphicon glyphicon-remove')); ?></li>
 						  	</ul>

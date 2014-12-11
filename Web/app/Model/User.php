@@ -1,56 +1,60 @@
 <?php 
 class User extends AppModel{
-	public $validate = array(
+	public $validate = array(/*
 			'username' => array(
-				'unique' => array(
-							'rule' => 'isUnique',
-							'message' => 'Login déjà utilisé'
-							),
-				/*'requis' => array(
-					'rule' => array('minLength', 3),
-					'required' => true,
-					'message' => 'Login trop court (2 caractères minimum)')*/
+				'rule' => 'isUnique',
+				'message' => 'Login déjà utilisé'
+				),
+			'birthdate' => array(
+				'rule' => 'date',
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'firstname' => array(
 				'rule' => '/^[a-zA-Zéèêàâùûç\- ]+$/i',
-				'message' => 'Prénom incorrect'
+				'message' => 'Prénom incorrect',
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'lastname' => array(
 				'rule' => '/^[a-zA-Zéèêàâùûç\- ]+$/i',
-				'message' => 'Nom incorrect'
+				'message' => 'Nom incorrect',
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'gender' => array(
 				'rule' => 'notEmpty',
-				'message' => 'Sexe incorrect'
+				'message' => 'Sexe incorrect',
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'email' => array(
 				'rule' => '/^[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\.)+([A-Za-z0-9]{2,4})$/',
-				'message' => 'Renseignez une adresse mail valide'
+				'message' => 'Renseignez une adresse mail valide',
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'phone' => array(
 				'rule' => '/^0[1-9][0-9]{8}$|^[+]33[1-9][0-9]{8}$|^[+]352[0-9]{6,}$|^00352[0-9]{6,}$/',
-				'message' => 'Numéro de téléphone incorrect'
-				),
+				'message' => 'Numéro de téléphone incorrect',
+				'allowEmpty' => true,
+				'required' => false
+				),/*
 			'street' => array(
-				'rule' => 'notEmpty',
-				'message' => 'Renseignez une adresse'
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'zipcode' => array(
-				'rule' => 'notEmpty',
-				'message' => 'Renseignez un code postal'
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'country' => array(
-				'rule' => 'notEmpty',
-				'message' => 'Renseignez un pays'
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'town' => array(
-				'rule' => 'notEmpty',
-				'message' => 'Renseignez une ville'
-				),
-			'passwordOld' => array(
-					'rule' => 'checkCurrentPassWord',
-					'message' => 'Erreur sur la saisie de l\'ancien mot de passe.',
-					'allowEmpty' => true
+				'allowEmpty' => true,
+				'required' => false
 				),
 			'password' => array(
 				'rule' =>  array('minLength', 2),
@@ -58,8 +62,7 @@ class User extends AppModel{
 			'password2' => array(
 				'rule' => 'checkEqualPassWord',
 				'message' => 'Les deux mots de passe sont différents.'
-				//'allowEmpty' => true
-				),
+				),*/
 			);
 
 	public function beforeSave($options = array()) {
@@ -73,7 +76,7 @@ class User extends AppModel{
 	}
 
 	public function notTheLastOne($check){
-		if($check['role'] == 'visiteur'){
+		if($check['role'] != 'admin'){
 			$tmp = $this->findAllByStatus('admin');
 			if(count($tmp) == 1){
 					if($this->request->data['User']['id'] == $tmp[0]['User']['id']){
