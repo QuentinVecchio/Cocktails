@@ -89,7 +89,7 @@ class UsersController extends AppController
 			$this->User->id = $id;			
 			$t = $this->request->data;
 			if($this->User->save($t, true, array('firstname','lastname','birthdate', 'street' ,'zipcode','country','gender','town', 'phone', 'email'))){
-				$this->Session->setFlash('Vous venez de mettre à jour un utilisateur !','message',array('type' => 'success'));
+				$this->Session->setFlash('Vous venez de mettre à jour un utilisateur.','message',array('type' => 'success'));
 				$this->redirect(array('action' => 'index'));
 			}
 			else{
@@ -112,7 +112,7 @@ class UsersController extends AppController
 	{
 		if($this->User->delete($id))
 		{
-			$this->Session->setFlash('Vous venez de supprimer un utilisateur !','message', array('type' => 'success'));
+			$this->Session->setFlash('Vous venez de supprimer un utilisateur.','message', array('type' => 'success'));
 			$this->redirect(array('action' => 'index'));			
 		}
 		else

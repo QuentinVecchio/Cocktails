@@ -40,7 +40,7 @@ class IngredientsController extends AppController
 				$this->redirect(array('action' => 'index'));
 			}
 			else{
-				$this->Session->setFlash('Veuillez vérifier vos données.', "message", array('type' => 'danger'));
+				$this->Session->setFlash('Veuillez vérifier les données saisies.', "message", array('type' => 'danger'));
 			}
 		}
 	}

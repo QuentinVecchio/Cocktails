@@ -1,3 +1,4 @@
+<?php $this->set('title_for_layout',"Liste des utilisateurs"); ?>
 <table class="table table-striped">
 	<caption>
 		<h4>Liste des Utilisateurs</h4>

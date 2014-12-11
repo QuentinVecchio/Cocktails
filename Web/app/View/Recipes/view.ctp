@@ -10,7 +10,17 @@
 			<?php 
 				foreach ($recipe['Ingredient'] as $ingredient => $v) 
 				{	
-					echo "<li>" . $v['IsMadeOf']['amount'] . "</li>";
+					echo "<li>" . $v['IsMadeOf']['amount'];
+					if(!isset($ingredients[$ingredient]['Conditions'][0]))
+						echo "";
+					if(isset($ingredients[$ingredient]['Conditions'][0]))
+						echo "<ul><li>" . $ingredients[$ingredient]['Conditions'][0]['name'] . "</li></ul>";
+					if(isset($ingredients[$ingredient]['Conditions'][1]))
+						echo "<ul><li>" . $ingredients[$ingredient]['Conditions'][1]['name'] . "</li></ul>";
+					if(isset($ingredients[$ingredient]['Conditions'][2]))
+						echo "<ul><li>" . $ingredients[$ingredient]['Conditions'][2]['name'] . "</li></ul>";
+					if(isset($ingredients[$ingredient]['Conditions'][3]))
+						echo "<ul><li>" . $ingredients[$ingredient]['Conditions'][3]['name'] . "</li></ul>" .")"."</li>";
 				}
 			?>
 		</ul>

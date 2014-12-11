@@ -1,3 +1,4 @@
+<?php $this->set('title_for_layout',"Base de données"); ?>
 <div id="container">
 <?php
 include("Donnees.inc.php");
@@ -223,7 +224,7 @@ $pwd = '';
 	$adminpass = AuthComponent::password('root');
 	$requete = "INSERT INTO " . $db_name . ".`Users` (username, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, role) VALUES ('root', '". $adminpass ."','','','','','','','','','', 'admin')";
 	if($bdd2->exec($requete))
-		echo "Admin ajouté</br>";
+		echo "";
 
 	foreach ($Recettes as $key => $Recette) 
 	{
@@ -232,7 +233,7 @@ $pwd = '';
 		*/
 		$requete = "INSERT INTO " . $db_name . ".`Recipes` (title, recipe) VALUES ('" . str_replace("'","",$Recette['titre']) . "', '" . str_replace("'","",$Recette['preparation']) . "')";
 		if($bdd2->exec($requete))
-				echo "Recette ajoutée</br>";
+				echo "";
 
 		/*
 		*	Ajout des aliments
@@ -244,7 +245,7 @@ $pwd = '';
 			{
 				$requete =  "INSERT INTO " . $db_name . ".`ingredients` (name) VALUES ('" . str_replace("'","",$aliment) . "')";
 				if($bdd2->exec($requete))
-					echo "Aliment ajouté</br>";
+					echo "";
 			}
 		}
 
@@ -260,7 +261,7 @@ $pwd = '';
 			$amount = explode('|',$Recette['ingredients']);
 			$requete =  "INSERT INTO " . $db_name . ".`isMadeOf` (ingredient, recipe, ind, amount) VALUES ('" . $ingredient['id'] . "', '" . $r['id'] . "', '" .  $key . "', '" . str_replace("'","",$amount[$key]) . "')";
 			if($bdd2->exec($requete))
-				echo "Ingredient ajouté</br>";
+				echo "";
 		}
 	}
 
@@ -276,7 +277,7 @@ $pwd = '';
 			{
 				$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$key) . "')";
 				if($bdd2->exec($requete))
-					echo "Categorie " . str_replace("'","",$key) . " ajoutée</br>";
+					echo "";
 				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
 				$super1 = $existe->fetch();
 			}
@@ -287,7 +288,7 @@ $pwd = '';
 				{
 					$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super1['id'] ."')";
 					if($bdd2->exec($requete))
-						echo "Sous-categorie ajoutée</br>";
+						echo "";
 				}
 			}
 		}
@@ -298,7 +299,7 @@ $pwd = '';
 			{
 				$requete =  "INSERT INTO " . $db_name . ".`ingredients` (name) VALUES ('" . str_replace("'","",$key) . "')";
 				if($bdd2->exec($requete))
-					echo "Aliment ajouté</br>";
+					echo "";
 			}
 		}
 
@@ -314,13 +315,13 @@ $pwd = '';
 				{
 					$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$supCateg) . "')";
 					if($bdd2->exec($requete))
-						echo "Super-categorie " .  str_replace("'","",$supCateg) . " ajoutée</br>";
+						echo "";
 					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$supCateg) . "'");
 					$super2 = $existe->fetch();
 					//Mise en place hierarchie
 					$requete = "INSERT INTO " . $db_name . ".`fatherConditions` (father, son) VALUES ('" . $super2['id'] . "', '" . $super1['id'] . "')";
 					if($bdd2->exec($requete))
-						echo "Super-categorie et categorie  liées</br>";
+						echo "";
 				}
 			}	
 		}

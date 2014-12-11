@@ -1,3 +1,4 @@
+<?php $this->set('title_for_layout',"Liste des ingrédients"); ?>
 <table class="table table-bordered">
 	<caption>
 		<h4>Liste des Ingrédients</h4>

@@ -13,10 +13,10 @@ class CocktailsController extends AppController
 
 	
 	function index()
-	{
+	{/*
 		if($this->Session->read('Auth.User.username') == null){
 			$this->Session->setFlash('Vous n\'êtes pas inscrit ? N\'hesitez pas à cliquer sur "Inscription" pour pouvoir sauvegarder vos recettes favorites !', "message", array('type' => 'info'));
-		}
+		}*/
 	}
 }
 
