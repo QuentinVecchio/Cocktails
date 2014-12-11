@@ -5,7 +5,7 @@
 ?>
     <legend>Données de la catégorie</legend> 
     <?php echo $this->Form->input('name', array('placeholder' => 'Nom','input' => array('class' => 'form-control'),
-        'required' => true,
+        'required' => false,
         'label' => 'Nom ')); 
     ?>
     <?php 
@@ -26,7 +26,6 @@
         'options' => array($t),
         )); 
     ?>
-    <span style="color:red"> * : Champs obligatoires</span><br>
     <?php echo $this->Form->button('Enregistrer', array('class' => 'btn btn-success center-block')); ?>
 <?php
 echo $this->Form->end();

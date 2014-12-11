@@ -29,7 +29,20 @@ class IngredientsController extends AppController
 	*/
 	public function admin_add()
 	{
-
+		$this->loadModel('Condition');
+		$listConditions = $this->Condition->find('all');
+		$this->set('listConditions', $listConditions);
+		if($this->request->is('post')){
+			$t = $this->request->data;
+			debug($t);
+			if($this->Ingredient->saveAssociated($t, array('deep' => true, 'atomic' => true))){
+				$this->Session->setFlash('Vous venez d\'ajouter un ingrédient.', "message", array('type' => 'success'));
+				$this->redirect(array('action' => 'index'));
+			}
+			else{
+				$this->Session->setFlash('Veuillez vérifier vos données.', "message", array('type' => 'danger'));
+			}
+		}
 	}
 
 	/**
@@ -71,7 +84,18 @@ class IngredientsController extends AppController
 	*/
 	public function admin_delete($id)
 	{
-		
+		if($this->Ingredient->delete($id, true))
+		{
+			$this->Session->setFlash('Vous venez de supprimer un ingrédient.','message', array('type' => 'success'));
+			$this->redirect(array('action' => 'index'));			
+		}
+		else
+		{
+			$this->Session->setFlash('Une erreur est survenue lors de la suppression.','message',
+																	 array('type' => 'danger'));
+			$this->redirect(array('action' => 'index'));			
+			
+		}
 	}
 }
 
