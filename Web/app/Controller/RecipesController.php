@@ -4,7 +4,7 @@ class RecipesController extends AppController
 {
 	public function beforeFilter() {
 	    parent::beforeFilter();
-	    $this->Auth->allow('index', 'add_in_cart', 'delete_in_cart', 'cart', 'clean_cart', 'view');
+	    $this->Auth->allow('index', 'add_in_cart', 'delete_in_cart', 'cart_session', 'clean_cart', 'view');
 	}
 
 	public function index(){

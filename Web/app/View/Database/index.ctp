@@ -4,7 +4,7 @@ include("Donnees.inc.php");
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = '';
+$pwd = 'root';
 	/*
 	*	Création de la base de données
 	*/
@@ -269,14 +269,37 @@ $pwd = '';
 		/*
 		* Ajout de la categorie
 		*/
-		$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
-		if(($super = $existe->fetch()) == false)
+		if(isset($categorie['sous-categorie']))
 		{
-			$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$key) . "')";
-			if($bdd2->exec($requete))
-				echo "Categorie " . str_replace("'","",$key) . " ajoutée</br>";
 			$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
-			$super1 = $existe->fetch();
+			if(($super = $existe->fetch()) == false)
+			{
+				$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$key) . "')";
+				if($bdd2->exec($requete))
+					echo "Categorie " . str_replace("'","",$key) . " ajoutée</br>";
+				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
+				$super1 = $existe->fetch();
+			}
+			foreach ($categorie['sous-categorie'] as $value) 
+			{
+				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$value) . "'");
+				if(($donne = $existe->fetch()) != FALSE)
+				{
+					$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super1['id'] ."')";
+					if($bdd2->exec($requete))
+						echo "Sous-categorie ajoutée</br>";
+				}
+			}
+		}
+		else
+		{
+			$existe = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$key) . "'");
+			if($existe->fetch() == false)
+			{
+				$requete =  "INSERT INTO " . $db_name . ".`ingredients` (name) VALUES ('" . str_replace("'","",$key) . "')";
+				if($bdd2->exec($requete))
+					echo "Aliment ajouté</br>";
+			}
 		}
 
 		/*
@@ -300,23 +323,6 @@ $pwd = '';
 						echo "Super-categorie et categorie  liées</br>";
 				}
 			}	
-		}
-
-		/*
-		* Ajout des sous catégorie
-		*/
-		if(!empty($categorie['sous-categorie'][0]))
-		{
-			foreach ($categorie['sous-categorie'] as $value) 
-			{
-				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$value) . "'");
-				if(($donne = $existe->fetch()) != FALSE)
-				{
-					$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super1['id'] ."')";
-					if($bdd2->exec($requete))
-						echo "Sous-categorie ajoutée</br>";
-				}
-			}
 		}
 	}
 	echo "Création et insertion des données terminées avec succès.";

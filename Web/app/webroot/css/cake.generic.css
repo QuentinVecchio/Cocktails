@@ -33,6 +33,7 @@ a {
 	color: #003d4c;
 	text-decoration: underline;
 	font-weight: bold;
+	cursor: pointer;
 }
 a:hover {
 	color: #367889;

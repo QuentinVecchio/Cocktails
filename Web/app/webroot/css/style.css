@@ -3,3 +3,63 @@
 	width: 1200px;
 	margin: auto;
 }
+
+#one, #two
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#town, #zipcode
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#two_one, #two_two
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.form-control
+{
+	width: 250px;
+}
+
+#conteneurFormulaires, #galerie
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+}
+
+#btnCo, #btnMdp
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#formulaireConnexion, #formulaireInscription
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#im1, #im2, #im3
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#im5, #im4, #im6
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#galerie div
+{
+	margin-top: 5px;
+	margin-left: 5px;
+}
