@@ -125,33 +125,14 @@ class UsersController extends AppController
 	}
 	
 	/**
-	*	Formulaire d'ajout d'un utilisateur
-	*/
-	/*
-	public function admin_add()
-	{
-		if(!empty($this->data))
-		{
-			unset($this->request->data['submit']);
-			$this->request->data = array('User' => $this->request->data);
-
-			if($this->User->save($this->data)){
-				$this->Session->setFlash('<strong>Félicitation:</strong> Vous venez d\'ajouter un utilisateur !','message', array('type' => 'success'));
-				$this->redirect(array('action' => 'index'));
-			}
-		}
-	}
-	*/
-	/**
 	*	Connexion d'un utilisateur
 	*/
 	public function login() 
 	{
-		
 		if(!empty($this->data)){
 			if($this->Auth->login()){
 				$this->Session->setFlash('Bienvenue '. $this->Auth->user('firstname') . ' ' . $this->Auth->user('lastname') .', vous êtes désormais connecté.', 'message', array('type' => 'success'));
-					$this->redirect(array('controller' => 'cocktails', 'action' => 'index'));
+					$this->redirect(array('controller' => 'recipes', 'action' => 'index'));
 			}
 			else{
 				$this->Session->setFlash('Veuillez vérifier vos identifiants.', 'message', array('type' => 'danger'));

@@ -17,9 +17,7 @@ class ConditionsController extends AppController
 	public function admin_index()
 	{
 		$listConditions = $this->Condition->find('all', array('order' => array('Condition.id' => 'asc')));
-		$this->set('listConditions', $listConditions);
-		debug($listConditions[2]);
-		
+		$this->set('listConditions', $listConditions);		
 	}
 
 	/**
@@ -51,7 +49,7 @@ class ConditionsController extends AppController
 		if(!empty($this->data))
 		{
 			$this->Condition->id = $id;			
-			$t = $this->request->data; 
+			$t = $this->request->data;
 			$t['Condition']['fathercondition'] = $t['Condition']['fathercondition'] + 1;
 			if($this->Condition->save($t, true)){
 				$this->Session->setFlash('Vous venez de mettre à jour une catégorie.','message',array('type' => 'success'));
@@ -64,8 +62,15 @@ class ConditionsController extends AppController
 		}
 		else
 		{
-			$this->data = $this->Condition->findById($id); 
-			$this->set('selected', $this->data['Condition']['fathercondition']);
+			if(!isset($this->data['Condition'][0])){
+				$this->data = $this->Condition->findById($id); 
+				$this->set('selected', 0);
+			}
+			else{
+				$this->data = $this->Condition->findById($id); 
+				$tmp = $this->Condition->findByName($this->data['Condition'][0]['name']);
+				$this->set('selected', $tmp['Condition']['id']);
+			}
 		}
 	}
 

@@ -15,11 +15,11 @@
 	foreach ($listRecipes as $recipe => $v): ?>
 	          	<tr>
 	            	<td style="width:120px;">
-	            		<?php echo $this->Html->image(str_replace(" ","_",$v['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'onerror' =>  'if (this.src != \'/img/' . str_replace(" ","_",$v['Recipe']['title']) . '.jpeg\') this.src = \'/img/logo.png\';', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
+	            		<?php echo $this->Html->image(str_replace(" ","_",$v['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'onerror' =>  'if (this.src != \'' . str_replace(" ","_",$v['Recipe']['title']) . '.jpg\') this.src = \'logo.png\';', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
 	            	</td>
 	            	<td>
 	            		<div style="margin-top:40px;">
-	            			<?php echo $this->Html->Link($v['Recipe']['title'], array('controller' => 'recipes', 'action' => 'view', 'admin'=>false, $v['Recipe']['id'])); ?>
+	            			<?php echo $v['Recipe']['title']; ?>
 	            		</div>
 	            	</td>
 

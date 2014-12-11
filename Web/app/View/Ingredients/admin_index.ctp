@@ -1,4 +1,4 @@
-<table class="table table-striped">
+<table class="table table-bordered">
 	<caption>
 		<h4>Liste des Ingrédients</h4>
 	</caption>
@@ -13,11 +13,29 @@
    	
    	<tbody>
 <?php 
-	foreach ($listIngredients as $ingredient => $v): ?>
+	foreach ($listIngredients as $ingredient => $v):  ?>
 	          	<tr>
 	            	<td><?php echo $v['Ingredient']['id']; ?></td>
 	            	<td><?php echo $v['Ingredient']['name']; ?></td>
-	            	<td><?php if(!isset($v['Ingredient'][0]))echo "Aucune"; else echo $listConditions[$v['Ingredient'][0]['Belong']['cond']]['Condition']['name']; ?></td>
+	            	<td>
+		            	<?php 
+			            	if(empty($v['Conditions'])){
+			            		echo "Aucune";
+			            	}
+			            	if(isset($v['Conditions'][0])){
+			            		echo $v['Conditions'][0]['name'];
+			            	}
+			          		if(isset($v['Conditions'][1])){
+			            		echo ', ' . $v['Conditions'][1]['name'];
+			            	}
+			          		if(isset($v['Conditions'][2])){
+			            		echo ', ' . $v['Conditions'][2]['name'];
+			            	}
+			            	if(isset($v['Conditions'][3])){
+			            		echo ', ' . $v['Conditions'][3]['name'];
+			            	}
+		            	?>
+	            	</td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>

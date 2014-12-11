@@ -1,13 +1,13 @@
 <?php 
 
 class Condition extends AppModel {
-		public $hasAndBelongsToMany = array(
+        public $hasAndBelongsToMany = array(
         'Condition' =>
             array(
                 'className' => 'Conditions',
                 'joinTable' => 'fatherConditions',
-                'foreignKey' => 'id',
-                'associationForeignKey' => 'son',
+                'foreignKey' => 'son',
+                'associationForeignKey' => 'father',
                 'unique' => true,
                 'conditions' => '',
                 'fields' => '',
@@ -17,11 +17,11 @@ class Condition extends AppModel {
                 'finderQuery' => ''
             )
     );
-	public $validate = array(
-		'name' => array(
-			'rule' => 'notEmpty',
-			'message' => 'Veuillez saisir un nom.')
-	);
+    public $validate = array(
+        'name' => array(
+            'rule' => 'notEmpty',
+            'message' => 'Veuillez saisir un nom.')
+    );
 }
 
 ?>
