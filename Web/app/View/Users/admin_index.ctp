@@ -1,4 +1,4 @@
-<table class="table table-bordered">
+<table class="table table-striped">
 	<caption>
 		<h4>Liste des Utilisateurs</h4>
 	</caption>

@@ -1,5 +1,5 @@
 <?php $this->set('title_for_layout',"Liste des catégories"); ?>
-<table class="table table-bordered">
+<table class="table table-striped">
 	<caption>
 		<h4>Liste des Catégories</h4>
 		<?php echo $this->Html->Link('Nouvelle catégorie', array('controller' => 'conditions', 'action' =>'admin_add'), array('class' => 'btn btn-primary')) ?>
