@@ -1,26 +1,26 @@
-<?php $this->set('title_for_layout',"Ajout d'une catégorie"); ?>
+<?php $this->set('title_for_layout',"Ajout d'un ingrédient"); ?>
 <div class="container">
 <?php
-    echo $this->Form->create('Condition', array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form'));
+    echo $this->Form->create('Ingredient', array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form'));
 ?>
-    <legend>Données de la catégorie</legend> 
+    <legend>Données de l'ingrédient</legend> 
     <?php echo $this->Form->input('name', array('placeholder' => 'Nom','input' => array('class' => 'form-control'),
-        'required' => true,
+        'required' => false,
         'label' => 'Nom ')); 
     ?>
     <?php 
 
 		$t = array();
-		foreach ($listPere as $key =>$v)
+		foreach ($listConditions as $key =>$v)
 		{
 		  $t[$key] = $v['Condition']['name'];
 		}
 
      ?>
-    <?php echo $this->Form->input('fathercondition', array('empty' => 'Aucune',
+    <?php echo $this->Form->input('condition', array('empty' => 'Aucune',
         'required' => false,
         'style' => 'margin-left:50px;',
-        'label' => 'Catégorie père',
+        'label' => 'Catégorie ',
         'options' => array($t),
         )); 
     ?>

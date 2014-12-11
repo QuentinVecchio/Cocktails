@@ -201,14 +201,14 @@ $pwd = '';
 	$bdd2->exec("ALTER TABLE " . $db_name . ".`Carts`
 	MODIFY `id` int(11) NOT NULL AUTO_INCREMENT");
 	
-	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".Carts ADD FOREIGN KEY (user) references  " . $db_name . ".Users(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".Carts ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (cond) references  " . $db_name . ".Conditions(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (father) references  " . $db_name . ".Conditions(id)");
-	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (son) references  " . $db_name . ".Conditions(id)");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id) ON DELETE CASCADE ON UPDATE CASCADE");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".isMadeOf ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id) ON DELETE CASCADE ON UPDATE CASCADE");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".Carts ADD FOREIGN KEY (user) references  " . $db_name . ".Users(id) ON DELETE CASCADE ON UPDATE CASCADE");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".Carts ADD FOREIGN KEY (recipe) references  " . $db_name . ".Recipes(id) ON DELETE CASCADE ON UPDATE CASCADE");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (ingredient) references  " . $db_name . ".ingredients(id) ON DELETE CASCADE ON UPDATE CASCADE");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".belongs ADD FOREIGN KEY (cond) references  " . $db_name . ".Conditions(id) ON DELETE CASCADE ON UPDATE CASCADE");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (father) references  " . $db_name . ".Conditions(id) ON DELETE CASCADE ON UPDATE CASCADE");
+	$bdd2->exec("ALTER TABLE " . $db_name . ".fatherConditions ADD FOREIGN KEY (son) references  " . $db_name . ".Conditions(id) ON DELETE CASCADE ON UPDATE CASCADE");
 
 	echo "Création de la base de données terminée.</br>";
 
@@ -325,6 +325,7 @@ $pwd = '';
 			}	
 		}
 	}
+	
 	echo "Création et insertion des données terminées avec succès.";
 ?>
 </div>

@@ -31,7 +31,7 @@ class ConditionsController extends AppController
 			$t = $this->request->data;
 			if($this->Condition->save($t['User'], true)){
 				$this->Session->setFlash('Vous venez d\'ajouter une catégorie.', "message", array('type' => 'success'));
-				$this->redirect('/');
+				$this->redirect(array('action' => 'index'));
 			}
 			else{
 				$this->Session->setFlash('Veuillez vérifier vos données.', "message", array('type' => 'danger'));
@@ -48,26 +48,26 @@ class ConditionsController extends AppController
 		$this->set('listPere', $listPere);
 		if(!empty($this->data))
 		{
-			$this->Condition->id = $id;			
+			$tmp = $this->data;
+			$this->set('selected', $tmp['Condition']['fathercondition']);
+
+			$this->Condition->id = $id;
 			$t = $this->request->data;
-			$t['Condition']['fathercondition'] = $t['Condition']['fathercondition'] + 1;
-			if($this->Condition->save($t, true)){
+			$t['Condition']['fathercondition'] = $t['Condition']['fathercondition']  + 1;
+
+			$this->Condition->save($t, true);
 				$this->Session->setFlash('Vous venez de mettre à jour une catégorie.','message',array('type' => 'success'));
 				$this->redirect(array('action' => 'index'));
-			}
-			else{
-				$this->Session->setFlash('Veuillez vérifier les données saisies.','message',array('type' => 'danger'));
-			}
+
 			$this->request->data = $this->Condition->read();
 		}
 		else
 		{
+			$this->data = $this->Condition->findById($id); 
 			if(!isset($this->data['Condition'][0])){
-				$this->data = $this->Condition->findById($id); 
 				$this->set('selected', 0);
 			}
 			else{
-				$this->data = $this->Condition->findById($id); 
 				$tmp = $this->Condition->findByName($this->data['Condition'][0]['name']);
 				$this->set('selected', $tmp['Condition']['id']);
 			}
@@ -79,11 +79,12 @@ class ConditionsController extends AppController
 	*/
 	public function admin_delete($id)
 	{
-		$compteur = 0;
 		$listFilles = $this->Condition->find('all');
 		$this->set('listFilles', $listFilles);
 		foreach ($listFilles as $filles =>$v){
-			if($v['Condition']['fathercondition'] == $id){
+			//debug($v);
+			if(!isset($v['Condition'][0])) continue;
+			if($v['Condition'][0]['FatherCondition']['father'] == $id){
 				$this->Session->setFlash('Vous ne pouvez supprimer cette catégorie, elle est père de sous-catégories.','message', array('type' => 'danger'));
 				$this->redirect(array('action' => 'index'));
 			}

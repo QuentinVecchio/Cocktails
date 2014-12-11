@@ -1,6 +1,7 @@
 <table class="table table-bordered">
 	<caption>
 		<h4>Liste des Ingrédients</h4>
+		<?php echo $this->Html->Link('Nouvel ingrédient', array('controller' => 'ingredients', 'action' =>'admin_add'), array('class' => 'btn btn-primary')) ?>
 	</caption>
 	<thead>
   		<tr>

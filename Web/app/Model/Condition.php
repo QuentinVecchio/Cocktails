@@ -17,11 +17,6 @@ class Condition extends AppModel {
                 'finderQuery' => ''
             )
     );
-    public $validate = array(
-        'name' => array(
-            'rule' => 'notEmpty',
-            'message' => 'Veuillez saisir un nom.')
-    );
 }
 
 ?>
