@@ -20,6 +20,7 @@ $stmt->execute(array($db_name));
     <li><?php echo $this->Html->Link('Catégories', array('controller' => 'conditions', 'action' =>'index', 'admin' => true)) ?></li>
     <li><?php echo $this->Html->Link('Ingrédients', array('controller' => 'ingredients', 'action' =>'index', 'admin' => true)) ?></li>
     <li><?php echo $this->Html->Link('Modification BDD', array('controller' => 'database', 'action' =>'index', 'admin' => false)) ?></li>
+    <li style="position:absolute;right:300px;margin-top:15px;">Bienvenue <?php echo $this->Session->read('Auth.User.username'); ?></li>
     <li style="position:absolute;right:50px;">
       <div class="input-group" style="width:200px; margin-top:8px;">
         <span class="input-group-addon glyphicon glyphicon-search"></span>
@@ -47,6 +48,7 @@ $stmt->execute(array($db_name));
           <li><?php echo $this->Html->Link('Profil', array('controller' => 'users', 'action' =>'edit', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recipes', 'action' =>'index', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Panier', array('controller' => 'recipes', 'action' =>'cart_logged', 'admin' => false)) ?></li>
+          <li style="position:absolute;right:90px;"><?php echo $this->Session->read('Auth.User.username'); ?></li>
           <li style="position:absolute;right:50px;">
             <div class="input-group" style="width:200px; margin-top:8px;">
               <span class="input-group-addon glyphicon glyphicon-search"></span>

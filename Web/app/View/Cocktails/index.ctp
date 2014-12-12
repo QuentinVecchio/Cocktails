@@ -15,10 +15,10 @@
         <div id="im6"><?php echo $this->Html->image('min_Screwdriver.jpeg'); ?></div>
 	</div>
 
-	<div id="conteneurFormulaires" style="margin-left:140px;">
+	<div id="conteneurFormulaires" style="margin-left:115px;">
 		<div id="formulaireConnexion">
 			<?php 
-			echo $this->Form->create('User', array('class' => 'form-horizontal', 'role' => 'form'));
+			echo $this->Form->create('User',array('action' => 'login'), array('class' => 'form-horizontal', 'role' => 'form'));
 			?>
 				<legend>Connexion</legend>
 					<div class="form-group">
@@ -38,7 +38,7 @@
 
 		<div id="formulaireInscription">
 			<?php
-            echo $this->Form->create('User', array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form'));
+            echo $this->Form->create('User',array('action' => 'signup'), array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form'));
         	?>
 				<legend>Inscription</legend>
 	            <?php echo $this->Form->input('username', array('placeholder' => 'Login','class' => 'form-control',
