@@ -1,5 +1,5 @@
 <?php $this->set('title_for_layout',"Liste des ingrédients"); ?>
-<table class="table table-bordered">
+<table class="table table-striped">
 	<caption>
 		<h4>Liste des Ingrédients</h4>
 		<?php echo $this->Html->Link('Nouvel ingrédient', array('controller' => 'ingredients', 'action' =>'admin_add'), array('class' => 'btn btn-primary')) ?>
