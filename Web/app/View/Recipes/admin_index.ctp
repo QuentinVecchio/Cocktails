@@ -18,7 +18,7 @@
 	          	<tr>
 	            	<td style="width:20px;"><div style="margin-top:35px;"><?php echo $v['Recipe']['id']; ?></div></td>
 	            	<td style="width:120px;">
-	            		<?php echo $this->Html->image(str_replace(" ","_",$v['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'onerror' =>  'if (this.src != \'/img/' . str_replace(" ","_",$v['Recipe']['title']) . '.jpeg\') this.src = \'/img/logo.png\';', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
+	            		<?php echo $this->Html->image(str_replace(" ","_",$v['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'onerror' =>  'if (this.src != \'/img/' . str_replace(" ","_",$v['Recipe']['title']) . '.jpeg\') this.src = \'/Cocktails/Web/img/logo.png\';', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
 	            	</td>
 	            	<td><div style="margin-top:40px;"><?php echo $v['Recipe']['title'] ?></div></td>
 	            	<td>
