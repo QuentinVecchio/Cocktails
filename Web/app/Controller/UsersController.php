@@ -46,11 +46,10 @@ class UsersController extends AppController
 	public function signup(){
 		if($this->request->is('post')){
 			$t = $this->request->data;
-			//debug($t);
 			if($t['User']['birthdate'] == null) $t['User']['birthdate'] = 0;
 			if($this->User->save($t, true)){
 				$this->Session->setFlash('Votre compte a bien été crée.', "message", array('type' => 'success'));
-				$this->redirect('/');
+				$this->redirect(array('controller' => 'cocktails', 'action' => 'index'));
 			}
 			else{
 				$this->Session->setFlash('Veuillez vérifier vos données.', "message", array('type' => 'danger'));
@@ -69,7 +68,7 @@ class UsersController extends AppController
 		}
 			$this->User->id = $id;
 			$t = $this->request->data;
-			if($this->User->save($t, true, array('firstname','lastname','birthdate', 'street' ,'town','gender','zipcode','country','phone', 'email'))){
+			if($this->User->save($t, true, array('password','firstname','lastname','birthdate', 'street' ,'town','gender','zipcode','country','phone', 'email'))){
 				$this->Session->setFlash('Votre profil a correctement été mis à jour.','message',array('type' => 'success'));
 				$this->redirect('/');
 			}
@@ -150,7 +149,7 @@ class UsersController extends AppController
 		if($this->Auth->logout()){
 			$this->Session->setFlash('Vous avez été déconnecté.', 'message', array('type' => 'success'));
 		}
-		$this->redirect(array('controller' => 'users', 'action' => 'login'));
+		$this->redirect(array('controller' => 'cocktails', 'action' => 'index'));
 	}
 } 
 

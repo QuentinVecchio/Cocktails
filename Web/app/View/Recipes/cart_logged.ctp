@@ -14,7 +14,7 @@
 	</thead>
    	<tbody>
 <?php
-	foreach ($listInCart as $r => $v): debug($v['Cart']['recipe']);?>
+	foreach ($listInCart as $r => $v): ?>
 	          	<tr>
 	          		<td style="width:120px;">
 	            		<?php echo $this->Html->image(str_replace(" ","_",$listRecipes[$r]['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
