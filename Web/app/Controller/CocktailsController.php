@@ -9,7 +9,7 @@ class CocktailsController extends AppController
 	
 	function index()
 	{
-		if($this->Session->read('Auth.User.role') == 'admin')
+		if($this->Session->read('Auth.User.username') != null)
 		{
 			$this->redirect(array('controller' => 'recipes', 'action' => 'index'));
 		}
