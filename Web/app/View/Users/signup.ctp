@@ -87,7 +87,7 @@
                     ?>
                 </div>
             </div>
-            <?php echo $this->Form->button('S\'inscrire', array('class' => 'btn btn-success center-block', 'style' => 'width:1100px;')); ?>
+            <?php echo $this->Form->button('S\'inscrire', array('class' => 'btn btn-success center-block', 'style' => 'width:150px;')); ?>
         <?php
             echo $this->Form->end();
         ?>

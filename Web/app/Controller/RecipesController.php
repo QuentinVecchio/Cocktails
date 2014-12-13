@@ -134,10 +134,21 @@ class RecipesController extends AppController
 		if($this->Session->read('Auth.User.username') == null)
 		{
 			$tmp = $this->Session->read('Cart.recipe');
-			unset($tmp[$id]);
-			$this->Session->write('Cart.recipe', $tmp);
-			$this->Session->setFlash('Vous venez de retirer une recette de votre panier.','message',array('type' => 'success'));
-			$this->redirect(array('action' => 'cart_session'));
+			if($id == 1){
+				for($i = 2; $i < count($tmp); $i++) {
+					$tmp[$i - 1] = $tmp[$i];
+				}
+				unset($tmp[count($tmp) - 1]);
+				$this->Session->write('Cart.recipe', $tmp);
+				$this->Session->setFlash('Vous venez de retirer une recette de votre panier.','message',array('type' => 'success'));
+				$this->redirect(array('action' => 'cart_session'));
+			}
+			else{
+				unset($tmp[$id]);
+				$this->Session->write('Cart.recipe', $tmp);
+				$this->Session->setFlash('Vous venez de retirer une recette de votre panier.','message',array('type' => 'success'));
+				$this->redirect(array('action' => 'cart_session'));
+			}
 		}
 		/**
 		* Si le visiteur est inscrit
