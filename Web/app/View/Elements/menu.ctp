@@ -2,7 +2,7 @@
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = 'root';
+$pwd = '';
 $testco = new PDO($path .';dbname:' . $db_name .'', $login, $pwd);
 $stmt = $testco->prepare('SELECT COUNT(*) FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = ?');
 $stmt->execute(array($db_name));
@@ -20,13 +20,13 @@ $stmt->execute(array($db_name));
     <li><?php echo $this->Html->Link('Catégories', array('controller' => 'conditions', 'action' =>'index', 'admin' => true)) ?></li>
     <li><?php echo $this->Html->Link('Ingrédients', array('controller' => 'ingredients', 'action' =>'index', 'admin' => true)) ?></li>
     <li><?php echo $this->Html->Link('Modification BDD', array('controller' => 'database', 'action' =>'index', 'admin' => false)) ?></li>
-    <li style="position:absolute;right:300px;margin-top:15px;">Bienvenue <?php echo $this->Session->read('Auth.User.username'); ?></li>
-    <li style="position:absolute;right:50px;">
+    <li style="position:absolute;right:100px;margin-top:15px;"><b>Bienvenue, <?php echo $this->Session->read('Auth.User.username'); ?></b></li>
+    <!--<li style="position:absolute;right:50px;">
       <div class="input-group" style="width:200px; margin-top:8px;">
         <span class="input-group-addon glyphicon glyphicon-search"></span>
         <input type="text" class="form-control" placeholder="Rechercher" style="margin-top:1px;margin-bottom:-1px;">
       </div>
-    </li>
+    </li>-->
     <?php if($this->Session->read('Auth.User.username') != null):  ?>
     <li style="position:absolute;right:10px;"><?php echo $this->Html->Link('', 
                                                                             array('controller' => 'users', 'action' =>'logout', 'admin' => false),
@@ -48,13 +48,13 @@ $stmt->execute(array($db_name));
           <li><?php echo $this->Html->Link('Profil', array('controller' => 'users', 'action' =>'edit', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recipes', 'action' =>'index', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Panier', array('controller' => 'recipes', 'action' =>'cart_logged', 'admin' => false)) ?></li>
-          <li style="position:absolute;right:90px;"><?php echo $this->Session->read('Auth.User.username'); ?></li>
-          <li style="position:absolute;right:50px;">
+          <li style="position:absolute;right:100px;margin-top:15px;"><b>Bienvenue, <?php echo $this->Session->read('Auth.User.username'); ?></b></li>
+          <!--<li style="position:absolute;right:50px;">
             <div class="input-group" style="width:200px; margin-top:8px;">
               <span class="input-group-addon glyphicon glyphicon-search"></span>
               <input type="text" class="form-control" placeholder="Rechercher" style="margin-top:1px;margin-bottom:-1px;">
             </div>
-          </li>
+          </li>-->
           <li style="position:absolute;right:10px;"><?php echo $this->Html->Link('', 
                                                                                   array('controller' => 'users', 'action' =>'logout', 'admin' => false),
                                                                                    array('class' => 'pull-right glyphicon glyphicon-off')) ?>
@@ -75,12 +75,13 @@ $stmt->execute(array($db_name));
             }
             ?>
           </li>
-          <li style="position:absolute;right:50px;">
+          <li style="position:absolute;right:100px;margin-top:15px;"><b>Bienvenue</b></li>
+          <!--<li style="position:absolute;right:50px;">
             <div class="input-group" style="width:200px; margin-top:8px;">
               <span class="input-group-addon glyphicon glyphicon-search"></span>
               <input type="text" class="form-control" placeholder="Rechercher" style="margin-top:1px;margin-bottom:-1px;">
             </div>
-          </li>
+          </li>-->
           <li style="position:absolute;right:10px;"><?php echo $this->Html->Link('', 
                                                                                   array('controller' => 'users', 'action' =>'login', 'admin' => false),
                                                                                    array('class' => 'pull-right glyphicon glyphicon-off')) ?>
