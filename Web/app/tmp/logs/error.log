@@ -76058,3 +76058,2570 @@ Request URL: /Project/Web/img/Virevoltage.jpg
 Stack Trace:
 #0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-12-14 15:29:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Alerte_%C3%A0_Malibu_%28cocktail_de_la_couleurs_des_fameux_maillots_de_bains..._ou_presque%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Aquarium.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Ca%C3%AFpirinha.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Champagne_en_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Citrouillette_%28cocktail_au_champagne%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Cava_Vodka_Lemon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Balala%C3%AFka.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi%2C_grenadine%2C_citron.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Eau_de_mer.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Champagne_et_sak%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Fraisalia_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Lion_rouge.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MAP.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MTS.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Grand_Paradis.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Madras.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomabricotine.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomenas.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Mexicain_%C3%A0_ma_fa%C3%A7on.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Whisky_Cranberries.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_anapomise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_ap%C3%A9ritif_aux_framboises.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_ap%C3%A9ritif.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Champagne_en_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Ca%C3%AFpirinha.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Alerte_%C3%A0_Malibu_%28cocktail_de_la_couleurs_des_fameux_maillots_de_bains..._ou_presque%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Aquarium.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Citrouillette_%28cocktail_au_champagne%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Balala%C3%AFka.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi%2C_grenadine%2C_citron.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Cava_Vodka_Lemon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Champagne_et_sak%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Eau_de_mer.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Fraisalia_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Grand_Paradis.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Lion_rouge.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MAP.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MTS.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Madras.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Mexicain_%C3%A0_ma_fa%C3%A7on.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomabricotine.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Aquarium.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+ Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Alerte_%C3%A0_Malibu_%28cocktail_de_la_couleurs_des_fameux_maillots_de_bains..._ou_presque%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Ca%C3%AFpirinha.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Champagne_en_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Cava_Vodka_Lemon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Champagne_et_sak%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Eau_de_mer.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Fraisalia_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Balala%C3%AFka.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi%2C_grenadine%2C_citron.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Grand_Paradis.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MAP.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MTS.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Lion_rouge.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Madras.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Mexicain_%C3%A0_ma_fa%C3%A7on.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomenas.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomabricotine.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Whisky_Cranberries.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_ap%C3%A9ritif.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_anapomise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_ap%C3%A9ritif_aux_framboises.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_Martini.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_cidre.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_kumquat_et_au_litchi.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_limoncello.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_aux_agrumes_sans_alcool.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_aux_framboise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_bulles_de_melon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_caf%C3%A9_au_lait.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_cardinal.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_champagne_menthe_citron_vert.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_champanis%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_citron-menthe_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_coco.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_coco_des_amoureux.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_cr%C3%A8me_de_coco_et_banane.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_fruits.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_fruits_au_citron_vert.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_jus_de_fruits_pour_les_enfants.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_pomme_ambr%C3%A9e.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_des_dimanches_de_neige.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_des_%C3%AEles_Praslin.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_du_verger.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_exotique_au_fruit_de_la_passion.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_glac%C3%A9_tropical.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_italien_prosecco.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_la_variante_%28%C3%A0_base_de_ros%C3%A9%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_light_fra%C3%AEcheur_%C3%A0_la_past%C3%A8que.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_l%C3%A9ger_au_martini.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_mexicanos.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_mousseux_fraise_citron_vert_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_noix_de_coco-caf%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_pamplemousse_menthe.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_paradise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_au_whisky.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_pour_les_amoureux.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_ros%C3%A9_pamplemousse.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_sucr%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rouge.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_sans_alcool_Cranberry-orange.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_sans_alcool_KidiCana.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_sans_alcool_Sweet_Melon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_sans_alcool_Tropical_Sunshine.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_tropical_d%C3%A9licieux.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_white_russian.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Creole_cream_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Gin_fizz_facile.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Ginger_cosmo.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Grand_Marnier_sour_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Hulk_%28_cocktail_%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Le_baiser_de_la_Schtroumpfette.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Margarita_%C3%A0_la_fraise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Mojito_au_Basilic.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Mojito_cubain.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Negroni_Cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Pink_3x6_%28cocktail_sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Pi%C3%B1a_Colada.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Pi%C3%B1a_Colada_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Porto_Flip.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Punch-sangria_de_past%C3%A8que.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Rainbow.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Red_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Rhum_arrang%C3%A9_%C3%A0_la_pomme.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Rince-gouttes_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Soupe_au_Champagne_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Shot_piquant.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Tutti_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Virevoltage.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Aquarium.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Citrouillette_%28cocktail_au_champagne%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Alerte_%C3%A0_Malibu_%28cocktail_de_la_couleurs_des_fameux_maillots_de_bains..._ou_presque%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Ca%C3%AFpirinha.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Champagne_en_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:29:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Balala%C3%AFka.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Cava_Vodka_Lemon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Champagne_et_sak%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Eau_de_mer.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Fraisalia_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi%2C_grenadine%2C_citron.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Grand_Paradis.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Lion_rouge.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MAP.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Madras.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MTS.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Mexicain_%C3%A0_ma_fa%C3%A7on.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomabricotine.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Whisky_Cranberries.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomenas.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_anapomise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_ap%C3%A9ritif_aux_framboises.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_ap%C3%A9ritif.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_Martini.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_cidre.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_kumquat_et_au_litchi.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_aux_framboise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_aux_agrumes_sans_alcool.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_limoncello.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_caf%C3%A9_au_lait.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_bulles_de_melon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_champagne_menthe_citron_vert.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_cardinal.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_citron-menthe_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_champanis%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_coco.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_coco_des_amoureux.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_cr%C3%A8me_de_coco_et_banane.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_fruits.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_fruits_au_citron_vert.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_jus_de_fruits_pour_les_enfants.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_des_dimanches_de_neige.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_du_verger.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_glac%C3%A9_tropical.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_exotique_au_fruit_de_la_passion.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_des_%C3%AEles_Praslin.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_pomme_ambr%C3%A9e.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_italien_prosecco.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_light_fra%C3%AEcheur_%C3%A0_la_past%C3%A8que.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_l%C3%A9ger_au_martini.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_la_variante_%28%C3%A0_base_de_ros%C3%A9%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_mexicanos.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_mousseux_fraise_citron_vert_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_noix_de_coco-caf%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_pamplemousse_menthe.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_ros%C3%A9_pamplemousse.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_pour_les_amoureux.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_au_whisky.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_paradise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rouge.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_sucr%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_sans_alcool_Cranberry-orange.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_sans_alcool_Tropical_Sunshine.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_sans_alcool_Sweet_Melon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_sans_alcool_KidiCana.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_tropical_d%C3%A9licieux.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_white_russian.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Creole_cream_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Gin_fizz_facile.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Ginger_cosmo.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Grand_Marnier_sour_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Hulk_%28_cocktail_%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Margarita_%C3%A0_la_fraise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Le_baiser_de_la_Schtroumpfette.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Mojito_cubain.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Mojito_au_Basilic.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Negroni_Cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Pink_3x6_%28cocktail_sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Pi%C3%B1a_Colada.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Punch-sangria_de_past%C3%A8que.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Porto_Flip.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Pi%C3%B1a_Colada_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Rainbow.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Red_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Rhum_arrang%C3%A9_%C3%A0_la_pomme.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Rince-gouttes_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Shot_piquant.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Soupe_au_Champagne_%28cocktail%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Tutti_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Virevoltage.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Alerte_%C3%A0_Malibu_%28cocktail_de_la_couleurs_des_fameux_maillots_de_bains..._ou_presque%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Champagne_en_cocktail.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Citrouillette_%28cocktail_au_champagne%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Ca%C3%AFpirinha.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Aquarium.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Bacardi%2C_grenadine%2C_citron.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Cava_Vodka_Lemon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Champagne_et_sak%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Eau_de_mer.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Balala%C3%AFka.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Fraisalia_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Grand_Paradis.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Lion_rouge.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MAP.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Madras.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_MTS.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Mexicain_%C3%A0_ma_fa%C3%A7on.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomabricotine.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Pomenas.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_Whisky_Cranberries.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_ap%C3%A9ritif.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_anapomise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_ap%C3%A9ritif_aux_framboises.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_Martini.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_cidre.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_kumquat_et_au_litchi.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_au_limoncello.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_aux_framboise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_aux_agrumes_sans_alcool.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_bulles_de_melon.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_caf%C3%A9_au_lait.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_cardinal.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_champagne_menthe_citron_vert.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_citron-menthe_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_champanis%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_coco.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_coco_des_amoureux.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_cr%C3%A8me_de_coco_et_banane.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_fruits.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_jus_de_fruits_pour_les_enfants.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_fruits_au_citron_vert.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_de_pomme_ambr%C3%A9e.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_des_dimanches_de_neige.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_des_%C3%AEles_Praslin.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_du_verger.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_exotique_au_fruit_de_la_passion.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_glac%C3%A9_tropical.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_italien_prosecco.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_la_variante_%28%C3%A0_base_de_ros%C3%A9%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_light_fra%C3%AEcheur_%C3%A0_la_past%C3%A8que.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_l%C3%A9ger_au_martini.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_mousseux_fraise_citron_vert_%28sans_alcool%29.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_mexicanos.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_noix_de_coco-caf%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_pamplemousse_menthe.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_paradise.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_pour_les_amoureux.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_au_whisky.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_ros%C3%A9_pamplemousse.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-14 15:30:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Project/Web/img/Cocktail_rose_sucr%C3%A9.jpg
+Stack Trace:
+#0 C:\EasyPHP-12.1\www\Project\Web\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
