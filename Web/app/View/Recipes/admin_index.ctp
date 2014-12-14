@@ -2,7 +2,7 @@
 <table class="table table-striped">
 	<caption>
 		<h4>Liste des Recettes</h4>
-		<?php echo $this->Html->Link('Nouvelle recette', array('controller' => 'recipes', 'action' =>'admin_add'), array('class' => 'btn btn-primary')) ?>
+		<?php //echo $this->Html->Link('Nouvelle recette', array('controller' => 'recipes', 'action' =>'admin_add'), array('class' => 'btn btn-primary')) ?>
 	</caption>
 	<thead>
   		<tr>
@@ -32,9 +32,9 @@
 						  		<li><?php echo $this->Html->Link(' Détails',
 													 		array('controller' => 'recipes', 'action' => 'view', 'admin'=>false, $v['Recipe']['id']),
 													 		array('class' => 'glyphicon glyphicon-info-sign')); ?></li>
-						    	<li><?php echo $this->Html->Link(' Edition',
+						    	<li><?php /*echo $this->Html->Link(' Edition',
 						    										array('controller' => 'recipes', 'action' => 'admin_edit', $v['Recipe']['id']),
-						    										array('class' => 'glyphicon glyphicon-pencil')); ?>
+						    										array('class' => 'glyphicon glyphicon-pencil')); */?>
 						    	</li>
 						    	<li><?php echo $this->Html->Link(' Suppression',
 													 		array('controller' => 'recipes', 'action' => 'admin_delete', $v['Recipe']['id']),
