@@ -1,9 +1,9 @@
 <?php $this->set('title_for_layout',"Nouveau mot de passe"); ?>
 <div id="container">
 	<?php echo $this->Form->create('User', array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form')); ?>
-        <?php echo $this->Form->input('username', array(
-        	'placeholder' => 'Login : ',
-            'label' => 'Login : ',
+        <?php echo $this->Form->input('email', array(
+        	'placeholder' => 'Email',
+            'label' => 'Email : ',
             'required' => true
             )); 
         ?>

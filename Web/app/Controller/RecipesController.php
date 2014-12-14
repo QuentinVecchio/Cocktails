@@ -54,15 +54,13 @@ class RecipesController extends AppController
 
 	public function cart_logged(){
 		$this->loadModel('Cart');
-
-		$listInCart = $this->Cart->find('all');
+		$listInCart = $this->Cart->findAllByUser($this->Session->read('Auth.User.id'));
 		$this->set('listInCart', $listInCart);
 
 		foreach ($listInCart as $cart =>$v){
-			$listRecipes = $this->Recipe->findAllById($v['Cart']);
+			$listRecipes = $this->Recipe->findAllById($v['Cart']['recipe']);
 		}
 		$this->set('listRecipes', $listRecipes);
-
 		if($listInCart == null){
 			$this->Session->setFlash('Votre panier est vide, vous pouvez y ajouter des recettes en cliquant sur \'Panier\' dans les options.','message',array('type' => 'danger'));
 			$this->redirect(array('controller' => 'recipes', 'action' => 'index'));
@@ -103,6 +101,7 @@ class RecipesController extends AppController
 		*/
 		else
 		{
+			debug($id);
 			$idUser = $this->Session->read('Auth.User.id');
 			$this->loadModel('Cart');
 
@@ -110,7 +109,6 @@ class RecipesController extends AppController
 
 			$this->request->data['Cart']['recipe'] = $id;
 			$this->request->data['Cart']['user'] = $idUser;
-
 			if($find == null)
 			{
 				$this->Cart->save($this->request->data);

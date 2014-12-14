@@ -14,9 +14,9 @@ class UsersController extends AppController
 	public function newpassword(){
 		if($this->request->is('post')){
 			$t = $this->request->data;
-			$user = $this->User->find('first', array('conditions' => array('username' => $t['User']['username'])));
+			$user = $this->User->find('first', array('conditions' => array('email' => $t['User']['email'])));
 			if(empty($user)){
-				$this->Session->setFlash('Le login saisi ne correspond à aucun utilisateur.', "message", array('type' => 'danger'));
+				$this->Session->setFlash('Aucun utilisateur n\'a été trouvé via l\'email saisi.', "message", array('type' => 'danger'));
 			}
 			else{
 				$this->User->id = $user['User']['id'];
@@ -46,6 +46,7 @@ class UsersController extends AppController
 	public function signup(){
 		if($this->request->is('post')){
 			$t = $this->request->data;
+			if(!isset($t['User']['birthdate'])) $t['User']['birthdate'] = 0;
 			if($t['User']['birthdate'] == null) $t['User']['birthdate'] = 0;
 			if($this->User->save($t, true)){
 				$this->Session->setFlash('Votre compte a bien été crée.', "message", array('type' => 'success'));
@@ -128,9 +129,10 @@ class UsersController extends AppController
 	*/
 	public function login() 
 	{
+		$this->Session->delete('Cart');
 		if(!empty($this->data)){
 			if($this->Auth->login()){
-				$this->Session->setFlash('Bienvenue '. $this->Auth->user('firstname') . ' ' . $this->Auth->user('lastname') .', vous êtes désormais connecté.', 'message', array('type' => 'success'));
+				$this->Session->setFlash('Bienvenue '. $this->Auth->user('firstname') . ' ' . $this->Auth->user('username') .', vous êtes désormais connecté.', 'message', array('type' => 'success'));
 					$this->redirect(array('controller' => 'recipes', 'action' => 'index'));
 			}
 			else{

@@ -11,7 +11,7 @@ $stmt->execute(array($db_name));
 <nav class="navbar navbar-default" role="navigation" style="height:70px;">
   <?php 
         $var = $this->Html->image('logo_final.png', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:80px;margin-top:-10px;')); 
-        echo $this->Html->Link($var, array('controller' => 'cocktails', 'action' =>'index', 'admin' => false), array('escape' => false));
+        echo $this->Html->Link($var, array('controller' => 'recipes', 'action' =>'index', 'admin' => true), array('escape' => false));
   ?>
   <ul class="nav navbar-nav" style="margin-top:10px;">
     <li><?php echo $this->Html->Link('Profil', array('controller' => 'users', 'action' =>'edit', 'admin' => false)) ?></li>
@@ -43,7 +43,10 @@ $stmt->execute(array($db_name));
 <?php else: ?>
     <?php if($this->Session->read('Auth.User.username') != null):  ?>
       <nav class="navbar navbar-default" role="navigation" style="height:70px;">
-        <a  href=""><?php echo $this->Html->image('logo_final.png', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:80px;margin-top:-10px;')); ?></a>
+        <?php 
+          $var = $this->Html->image('logo_final.png', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:80px;margin-top:-10px;')); 
+          echo $this->Html->Link($var, array('controller' => 'recipes', 'action' =>'index', 'admin' => false), array('escape' => false));
+         ?>
         <ul class="nav navbar-nav" style="margin-top:10px;">
           <li><?php echo $this->Html->Link('Profil', array('controller' => 'users', 'action' =>'edit', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recipes', 'action' =>'index', 'admin' => false)) ?></li>
@@ -63,7 +66,10 @@ $stmt->execute(array($db_name));
       </nav>
     <?php else: ?>
       <nav class="navbar navbar-default" role="navigation" style="height:70px;">
-        <a  href=""><?php echo $this->Html->image('logo_final.png', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:80px;margin-top:-10px;')); ?></a>
+        <?php 
+          $var = $this->Html->image('logo_final.png', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:250px;height:80px;margin-top:-10px;')); 
+          echo $this->Html->Link($var, array('controller' => 'cocktails', 'action' =>'index', 'admin' => false), array('escape' => false));
+        ?>
         <ul class="nav navbar-nav" style="margin-top:10px;">
           <li><?php echo $this->Html->Link('Inscription', array('controller' => 'users', 'action' =>'signup', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recipes', 'action' =>'index', 'admin' => false)) ?></li>
