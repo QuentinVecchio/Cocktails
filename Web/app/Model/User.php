@@ -1,10 +1,10 @@
 <?php 
 class User extends AppModel{
-	public $validate = array(/*
+	public $validate = array(
 			'username' => array(
 				'rule' => 'isUnique',
 				'message' => 'Login déjà utilisé'
-				),
+				),/*
 			'birthdate' => array(
 				'rule' => 'date',
 				'allowEmpty' => true,
@@ -27,13 +27,13 @@ class User extends AppModel{
 				'message' => 'Sexe incorrect',
 				'allowEmpty' => true,
 				'required' => false
-				),
+				),*/
 			'email' => array(
 				'rule' => '/^[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\.)+([A-Za-z0-9]{2,4})$/',
 				'message' => 'Renseignez une adresse mail valide',
 				'allowEmpty' => true,
-				'required' => false
-				),
+				'required' => true
+				),/*
 			'phone' => array(
 				'rule' => '/^0[1-9][0-9]{8}$|^[+]33[1-9][0-9]{8}$|^[+]352[0-9]{6,}$|^00352[0-9]{6,}$/',
 				'message' => 'Numéro de téléphone incorrect',
@@ -55,14 +55,14 @@ class User extends AppModel{
 			'town' => array(
 				'allowEmpty' => true,
 				'required' => false
-				),
+				),*/
 			'password' => array(
 				'rule' =>  array('minLength', 2),
 				'message' => 'Mot de passe requis (2 caractères minimum).'),
 			'password2' => array(
 				'rule' => 'checkEqualPassWord',
 				'message' => 'Les deux mots de passe sont différents.'
-				),*/
+				),
 			);
 
 	public function beforeSave($options = array()) {

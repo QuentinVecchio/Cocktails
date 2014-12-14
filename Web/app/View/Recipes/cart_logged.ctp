@@ -17,7 +17,7 @@
 	foreach ($listInCart as $r => $v): ?>
 	          	<tr>
 	          		<td style="width:120px;">
-	            		<?php echo $this->Html->image(str_replace(" ","_",$listRecipes[$r]['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
+	            				<?php echo $this->Html->image(str_replace(" ","_",$listRecipes[$r]['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'onerror' =>  'if (this.src != \'/img/' . str_replace(" ","_",$listRecipes[$r]['Recipe']['title']) . '.jpeg\') this.src = \'/Cocktails/Web/img/logo.png\';', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
 	            	</td>
 	            	<td><?php echo $listRecipes[$r]['Recipe']['title']; ?></td>
 	            	<td><?php echo $listRecipes[$r]['Recipe']['recipe'];; ?></td>

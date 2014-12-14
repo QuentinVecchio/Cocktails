@@ -47,7 +47,7 @@
 	            ?>
 	            <?php echo $this->Form->input('email', array('placeholder' => 'E-mail','class' => 'form-control',
 	                    'label' => 'E-mail : ',
-	                    'required' => false
+	                    'required' => true
 	                    )); 
 	            ?>
 	            <?php echo $this->Form->input('password', array('placeholder' => 'Mot de passe','class' => 'form-control',
