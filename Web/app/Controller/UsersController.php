@@ -134,8 +134,8 @@ class UsersController extends AppController
 						}
 					}
 					$this->Session->delete('Cart');
-					$this->redirect(array('controller' => 'recipes', 'action' => 'index'));
 				}
+				$this->redirect(array('controller' => 'recipes', 'action' => 'index'));
 			}
 			else{
 				$this->Session->setFlash('Veuillez vérifier vos identifiants.', 'message', array('type' => 'danger'));

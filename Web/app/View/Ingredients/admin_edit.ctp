@@ -3,7 +3,7 @@
 <?php
     echo $this->Form->create('Ingredient', array('class' => 'form-horizontal', 'role' => 'form', 'name' => 'form'));
 ?>
-    <legend>Données de la catégorie</legend> 
+    <legend>Données de l'ingrédient</legend> 
     <?php echo $this->Form->input('name', array('placeholder' => 'Nom','input' => array('class' => 'form-control'),
         'required' => true,
         'label' => 'Nom ')); 
