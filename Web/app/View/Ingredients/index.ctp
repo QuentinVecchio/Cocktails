@@ -8,7 +8,7 @@
   			<th class="thId">#</th>
         	<th class="thNom">Nom</th>
        	 	<th class="thPere">Catégorie</th>
-       	 	<th style="width : 130px">Réglages</th>
+       	 	<th style="width:200px;">Réglages</th>
   		</tr>
 	</thead>
    	
