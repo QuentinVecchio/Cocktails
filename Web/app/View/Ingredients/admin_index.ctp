@@ -46,6 +46,11 @@
     							<span class="sr-only">Toggle Dropdown</span>
   							</button>
 						  	<ul class="dropdown-menu" role="menu">
+						  		<li>
+						  			<?php echo $this->Html->Link(' Recettes',
+						    										array('controller' => 'ingredients', 'action' => 'admin_edit', $v['Ingredient']['id']),
+						    										array('class' => 'glyphicon glyphicon-')); ?>
+						  		</li>
 						    	<li><?php echo $this->Html->Link(' Edition',
 						    										array('controller' => 'ingredients', 'action' => 'admin_edit', $v['Ingredient']['id']),
 						    										array('class' => 'glyphicon glyphicon-pencil')); ?>

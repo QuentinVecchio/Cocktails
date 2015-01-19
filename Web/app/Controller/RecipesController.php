@@ -8,12 +8,12 @@ class RecipesController extends AppController
 	}
 
 	public function index(){
-		$listRecipes = $this->Recipe->find('all', array('order' => array('Recipe.id' => 'asc')));
-		$this->set('listRecipes', $listRecipes);
-		if($this->Session->read() == null){
-			$this->Session->setFlash('Vous n\'êtes pas inscrit ? N\'hesitez pas à cliquer sur "Inscription" pour pouvoir sauvegarder vos recettes favorites !', "message", array('type' => 'info'));
+			$listRecipes = $this->Recipe->find('all', array('order' => array('Recipe.id' => 'asc')));
+			$this->set('listRecipes', $listRecipes);
+			if($this->Session->read() == null){
+				$this->Session->setFlash('Vous n\'êtes pas inscrit ? N\'hesitez pas à cliquer sur "Inscription" pour pouvoir sauvegarder vos recettes favorites !', "message", array('type' => 'info'));
+			}
 		}
-	}
 
 	public function view($id){
 		$this->loadModel('Ingredient');
@@ -22,7 +22,6 @@ class RecipesController extends AppController
 		foreach ($recipe['Ingredient'] as $key => $v) {
 			$ingredients[$key] = $this->Ingredient->findById($v['id']);
 		}
-		//debug($ingredients);
 		$this->set('ingredients', $ingredients);
 		if($this->Session->read() == null){
 			$this->Session->setFlash('Vous n\'êtes pas inscrit ? N\'hesitez pas à cliquer sur "Inscription" pour pouvoir sauvegarder vos recettes favorites !', "message", array('type' => 'info'));
@@ -56,16 +55,15 @@ class RecipesController extends AppController
 		$this->loadModel('Cart');
 		$listInCart = $this->Cart->findAllByUser($this->Session->read('Auth.User.id'));
 		$this->set('listInCart', $listInCart);
-
-		foreach ($listInCart as $cart =>$v){
-			$listRecipes = $this->Recipe->findAllById($v['Cart']['recipe']);
-		}
-		$this->set('listRecipes', $listRecipes);
-		debug($listRecipes);
 		if($listInCart == null){
 			$this->Session->setFlash('Votre panier est vide, vous pouvez y ajouter des recettes en cliquant sur \'Panier\' dans les options.','message',array('type' => 'danger'));
 			$this->redirect(array('controller' => 'recipes', 'action' => 'index'));
 		}
+
+		foreach ($listInCart as $cart =>$v){
+			$listRecipes[$cart] = $this->Recipe->findById($v['Cart']['recipe']);
+		}
+		$this->set('listRecipes', $listRecipes);
 	}
 
 	public function cart_session(){
