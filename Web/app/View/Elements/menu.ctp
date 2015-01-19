@@ -2,7 +2,7 @@
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = '';
+$pwd = 'root';
 $testco = new PDO($path .';dbname:' . $db_name .'', $login, $pwd);
 $stmt = $testco->prepare('SELECT COUNT(*) FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = ?');
 $stmt->execute(array($db_name));
@@ -50,6 +50,8 @@ $stmt->execute(array($db_name));
         <ul class="nav navbar-nav" style="margin-top:10px;">
           <li><?php echo $this->Html->Link('Profil', array('controller' => 'users', 'action' =>'edit', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recipes', 'action' =>'index', 'admin' => false)) ?></li>
+          <li><?php echo $this->Html->Link('Catégories', array('controller' => 'conditions', 'action' =>'index', 'admin' => false)) ?></li>
+          <li><?php echo $this->Html->Link('Ingrédients', array('controller' => 'ingredients', 'action' =>'index', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Panier', array('controller' => 'recipes', 'action' =>'cart_logged', 'admin' => false)) ?></li>
           <li style="position:absolute;right:100px;margin-top:15px;"><b>Bienvenue, <?php echo $this->Session->read('Auth.User.username'); ?></b></li>
           <!--<li style="position:absolute;right:50px;">
@@ -73,6 +75,8 @@ $stmt->execute(array($db_name));
         <ul class="nav navbar-nav" style="margin-top:10px;">
           <li><?php echo $this->Html->Link('Inscription', array('controller' => 'users', 'action' =>'signup', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Recettes', array('controller' => 'recipes', 'action' =>'index', 'admin' => false)) ?></li>
+          <li><?php echo $this->Html->Link('Catégories', array('controller' => 'conditions', 'action' =>'index', 'admin' => false)) ?></li>
+          <li><?php echo $this->Html->Link('Ingrédients', array('controller' => 'ingredients', 'action' =>'index', 'admin' => false)) ?></li>
           <li><?php echo $this->Html->Link('Panier', array('controller' => 'recipes', 'action' =>'cart_session', 'admin' => false)) ?></li>
           <li>
             <?php 

@@ -7,7 +7,11 @@ class IngredientsController extends AppController
 	*/
 	public function index()
 	{
-		$listIngredients = $this->Ingredient->find('all', array('order' => array('Ingredient.id' => 'asc')));
+		$this->loadModel('Condition');
+		$listConditions = $this->Condition->find('all');
+		$this->set('listConditions', $listConditions);
+
+		$listIngredients = $this->Ingredient->find('all');
 		$this->set('listIngredients', $listIngredients);
 	}
 

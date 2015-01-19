@@ -36,7 +36,7 @@ $cakeVersion =''; //__d('cake_dev', 'CakePHP %s', Configure::version())
 	?>
 </head>
 <body>
-		<?php echo $this->element('menu'); ?>
+	<?php echo $this->element('menu'); ?>
 	<div id="container">
 		<div id="content">
 			<?php echo $this->Session->flash(); ?>

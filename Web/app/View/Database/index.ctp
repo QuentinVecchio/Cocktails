@@ -5,7 +5,7 @@ include("Donnees.inc.php");
 $path = 'mysql:host=localhost';
 $db_name = "database_koby_vecchio";
 $login = 'root';
-$pwd = '';
+$pwd = 'root';
 	/*
 	*	Création de la base de données
 	*/
