@@ -1,0 +1,9 @@
+2015-01-20 00:12:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/Cocktail_aux_framboise.jpg
+Stack Trace:
+#0 /Users/quentinvecchio/Desktop/cocktails/Web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

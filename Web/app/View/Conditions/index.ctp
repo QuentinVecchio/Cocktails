@@ -8,7 +8,6 @@
   			<th class="thId">#</th>
         	<th class="thNom">Nom</th>
        	 	<th class="thPere">Catégorie père</th>
-       	 	<th style="width : 115px">Réglages</th>
   		</tr>
 	</thead>
    	
@@ -36,18 +35,6 @@
 		            		}
 	            		?>
 	            	</td>
-	            	<td>
-	            		<div class="btn-group">
-						  	<button type="button" class="btn btn-primary">Actions</button>
-						  	<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-    							<span class="caret"></span>
-    							<span class="sr-only">Toggle Dropdown</span>
-  							</button>
-						  	<ul class="dropdown-menu" role="menu">
-					
-						  	</ul>
-						</div>
-					</td>
 	        	</tr>   
 <?php endforeach; ?>
   	</tbody>

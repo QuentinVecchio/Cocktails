@@ -34,6 +34,27 @@ class IngredientsController extends AppController
 	}
 
 	/**
+	*	donne les recettes d'un ingrédient
+	*/
+	public function view($id){
+		$nom = $this->Ingredient->findById($id);
+		$this->set('nom', $nom['Ingredient']['name']);
+		$i = 0;
+		$this->loadModel('Recipe');
+		$allRecipes = $this->Recipe->find('all');
+		foreach ($allRecipes as $key => $v) {
+			foreach ($v['Ingredient'] as $key2 => $v2) {
+				if($v2['IsMadeOf']['ingredient'] == $id){
+					$listRecipes[$i] = $v['Recipe'];
+					$i++;
+				}
+			}
+		}
+		//debug($listRecipes);
+		$this->set('listRecipes', $listRecipes);
+	}
+
+	/**
 	*	Formulaire d'ajout d'un ingrédient
 	*/
 	public function admin_add()

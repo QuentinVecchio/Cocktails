@@ -8,7 +8,6 @@
   			<th class="thId">#</th>
         	<th class="thNom">Nom</th>
        	 	<th class="thPere">Catégorie</th>
-       	 	<th style="width:200px;">Réglages</th>
   		</tr>
 	</thead>
    	
@@ -17,7 +16,8 @@
 	foreach ($listIngredients as $ingredient => $v):  ?>
 	          	<tr>
 	            	<td><?php echo $v['Ingredient']['id']; ?></td>
-	            	<td><?php echo $v['Ingredient']['name']; ?></td>
+	            	<td><?php echo $this->Html->Link($v['Ingredient']['name'], array('controller' => 'ingredients', 'action' =>'view', 
+	            											'admin' => false, $v['Ingredient']['id'])) ?></td>
 	            	<td>
 		            	<?php 
 			            	if(empty($v['Conditions'])){
@@ -37,18 +37,6 @@
 			            	}
 		            	?>
 	            	</td>
-	            	<td>
-	            		<div class="btn-group">
-						  	<button type="button" class="btn btn-primary">Actions</button>
-						  	<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-    							<span class="caret"></span>
-    							<span class="sr-only">Toggle Dropdown</span>
-  							</button>
-						  	<ul class="dropdown-menu" role="menu">
-						    	
-						  	</ul>
-						</div>
-					</td>
 	        	</tr> 
 	<?php endforeach; ?>
   	</tbody>
