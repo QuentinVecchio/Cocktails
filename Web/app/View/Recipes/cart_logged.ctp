@@ -14,13 +14,13 @@
 	</thead>
    	<tbody>
 <?php
-	foreach ($listInCart as $r => $v): ?>
+	foreach ($listInCart as $r => $v): debug($v)?>
 	          	<tr>
 	          		<td style="width:120px;">
 	            				<?php echo $this->Html->image(str_replace(" ","_",$listRecipes[$r]['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'onerror' =>  'if (this.src != \'/img/' . str_replace(" ","_",$listRecipes[$r]['Recipe']['title']) . '.jpeg\') this.src = \'/Cocktails/Web/img/logo.png\';', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
 	            	</td>
-	            	<td><?php echo $listRecipes[$r]['Recipe']['title']; ?></td>
-	            	<td><?php echo $listRecipes[$r]['Recipe']['recipe'];; ?></td>
+	            	<td><?php echo $v[$r]['Recipe']['title']; ?></td>
+	            	<td><?php echo $v[$r]['Recipe']['recipe'];; ?></td>
 	            	<td>
 	            		<div class="btn-group">
 						  	<button type="button" class="btn btn-primary">Actions</button>
