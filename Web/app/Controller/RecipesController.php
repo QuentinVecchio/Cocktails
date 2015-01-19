@@ -61,6 +61,7 @@ class RecipesController extends AppController
 			$listRecipes = $this->Recipe->findAllById($v['Cart']['recipe']);
 		}
 		$this->set('listRecipes', $listRecipes);
+		debug($listRecipes);
 		if($listInCart == null){
 			$this->Session->setFlash('Votre panier est vide, vous pouvez y ajouter des recettes en cliquant sur \'Panier\' dans les options.','message',array('type' => 'danger'));
 			$this->redirect(array('controller' => 'recipes', 'action' => 'index'));
@@ -101,7 +102,6 @@ class RecipesController extends AppController
 		*/
 		else
 		{
-			debug($id);
 			$idUser = $this->Session->read('Auth.User.id');
 			$this->loadModel('Cart');
 

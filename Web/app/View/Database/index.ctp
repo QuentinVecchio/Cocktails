@@ -222,7 +222,7 @@ $pwd = '';
 	*	Ajout de l'administrateur
 	*/
 	$adminpass = AuthComponent::password('root');
-	$requete = "INSERT INTO " . $db_name . ".`Users` (username, password, firstname, lastname, gender, phone, email, street, town, zipcode, country, role) VALUES ('root', '". $adminpass ."','','','','','','','','','', 'admin')";
+	$requete = "INSERT INTO " . $db_name . ".`Users` (username, password, firstname, lastname, birthdate, gender, phone, email, street, town, zipcode, country, role) VALUES ('root', '". $adminpass ."','','','0000-00-00','', '','','','','','', 'admin')";
 	if($bdd2->exec($requete))
 		echo "";
 
