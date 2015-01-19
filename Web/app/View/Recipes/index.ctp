@@ -6,8 +6,8 @@
 	<thead>
   		<tr>
   			<th class="thNom">En images</th>
-        	<th class="thNom" style="width : 250px">Nom</th>
-        	<th class="thNom" style="width : 115px">Options</th>
+        	<th class="thNom" style="width : 250px;">Nom</th>
+        	<th class="thNom" style="width : 115px;">Options</th>
   		</tr>
 	</thead>
    	<tbody>

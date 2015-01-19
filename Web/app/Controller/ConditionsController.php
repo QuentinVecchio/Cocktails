@@ -2,6 +2,11 @@
 
 class ConditionsController extends AppController
 {
+	public function beforeFilter(){
+		parent::beforeFilter();
+		$this->Auth->allow('index');
+	}
+
 	/**
 	*	Liste les catégories pour l'admin
 	*/

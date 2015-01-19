@@ -28,7 +28,6 @@ class RecipesController extends AppController
 		}
 	}
 
-
 	public function clean_cart(){
 		if($this->Session->read('Auth.User.username') == null)
 		{

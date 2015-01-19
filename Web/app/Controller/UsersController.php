@@ -9,29 +9,6 @@ class UsersController extends AppController
 	}
 
 	/**
-	* Nouveau du mot de passe
-	*/
-	public function newpassword(){
-		if($this->request->is('post')){
-			$t = $this->request->data;
-			$user = $this->User->find('first', array('conditions' => array('email' => $t['User']['email'])));
-			if(empty($user)){
-				$this->Session->setFlash('Aucun utilisateur n\'a été trouvé via l\'email saisi.', "message", array('type' => 'danger'));
-			}
-			else{
-				$this->User->id = $user['User']['id'];
-				if($this->User->saveField('password', $t['User']['password'])){
-					$this->Session->setFlash('Votre mot de passe a été enregistré.', "message", array('type' => 'success'));
-					$this->redirect(array('controller' => 'users', 'action' => 'login'));
-				}
-				else{
-					$this->Session->setFlash('Veuillez vérifier vos données.', "message", array('type' => 'danger'));
-				}
-			}
-		}
-	}
-
-	/**
 	*	Liste les utilisateurs
 	*/
 	public function admin_index()
