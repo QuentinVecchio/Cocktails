@@ -54,9 +54,12 @@ class UsersController extends AppController
 			$this->redirect('/');
 			die();
 		}
+		else{
 			$this->User->id = $id;
 			$t = $this->request->data;
-			if($t['User']['birthdate'] == null) $t['User']['birthdate'] = 0;
+			if($this->request->is('put')){
+				if($t['User']['birthdate'] == null) $t['User']['birthdate'] = 0;
+			}
 			if($this->User->save($t, true, array('password','firstname','lastname','birthdate', 'street' ,'town','gender','zipcode','country','phone', 'email'))){
 				$this->Session->setFlash('Votre profil a correctement été mis à jour.','message',array('type' => 'success'));
 				$this->redirect('/');
@@ -64,7 +67,9 @@ class UsersController extends AppController
 			else{
 				$this->Session->setFlash('Vous pouvez choisir de ne pas saisir toutes les données.','message',array('type' => 'info'));
 			}
-		$this->request->data = $this->User->read();
+			$this->request->data = $this->User->read();
+			debug($this->request->data);
+		}
 	}
 
 	/**
