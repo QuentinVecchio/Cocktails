@@ -2,10 +2,12 @@
 <div id="container">
 <?php
 include("Donnees.inc.php");
-$path = 'mysql:host=localhost';
-$db_name = "database_koby_vecchio";
-$login = 'root';
-$pwd = '';
+include("../Config/database.php");
+$db = new DATABASE_CONFIG();
+$path = 'mysql:host=' . $db->default['host'];
+$db_name = $db->default['database'];
+$login = $db->default['login'];
+$pwd = $db->default['password'];
 	/*
 	*	Création de la base de données
 	*/
