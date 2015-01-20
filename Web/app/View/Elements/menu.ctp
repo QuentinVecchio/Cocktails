@@ -1,8 +1,9 @@
 <?php 
-$path = 'mysql:host=localhost';
-$db_name = "database_koby_vecchio";
-$login = 'root';
-$pwd = 'root';
+$db = new DATABASE_CONFIG();
+$path = 'mysql:host=' . $db->default['host'];
+$db_name = $db->default['database'];
+$login = $db->default['login'];
+$pwd = $db->default['password'];
 $testco = new PDO($path .';dbname:' . $db_name .'', $login, $pwd);
 $stmt = $testco->prepare('SELECT COUNT(*) FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = ?');
 $stmt->execute(array($db_name));
