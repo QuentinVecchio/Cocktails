@@ -2,12 +2,10 @@
 <div id="container">
 <?php
 include("Donnees.inc.php");
-include("../Config/database.php");
-$db = new DATABASE_CONFIG();
-$path = 'mysql:host=' . $db->default['host'];
-$db_name = $db->default['database'];
-$login = $db->default['login'];
-$pwd = $db->default['password'];
+$path = 'mysql:host=localhost';
+$db_name = 'database_koby_vecchio';
+$login = 'root';
+$pwd = 'root';
 	/*
 	*	Création de la base de données
 	*/
@@ -274,56 +272,123 @@ $pwd = $db->default['password'];
 		*/
 		if(isset($categorie['sous-categorie']))
 		{
+			//Si il y a une sous-catégorie alors c'est une catégorie
+			//Création de la catégorie si elle n'existe pas
 			$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
-			if(($super = $existe->fetch()) == false)
+			$super = $existe->fetch();
+			if($super == false)
 			{
 				$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$key) . "')";
 				if($bdd2->exec($requete))
-					echo "";
+					echo "Ajout de la catégorie " . str_replace("'","",$key) . "</br>";
 				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$key) . "'");
 				$super1 = $existe->fetch();
 			}
+			else
+			{
+				$super1 = $super;
+			}
 			foreach ($categorie['sous-categorie'] as $value) 
 			{
+				//Si c'est un ingredient
 				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$value) . "'");
-				if(($donne = $existe->fetch()) != FALSE)
+				if(($donne = $existe->fetch()) != false)
 				{
-					$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super1['id'] ."')";
-					if($bdd2->exec($requete))
-						echo "";
+					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`belongs` WHERE ingredient = '" . $donne['id'] . "' AND cond = '" . $super1['id'] ."'");
+					if(($donne2 = $existe->fetch()) == false)
+					{
+						$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super1['id'] . "')";
+						if($bdd2->exec($requete))
+							echo "";
+					}
 				}
+				else
+				{
+					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$value) . "'");
+					if(($donne = $existe->fetch()) == false)
+					{
+						$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$value) . "')";
+						if($bdd2->exec($requete))
+						{
+							$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$value) . "'");
+							if(($donne = $existe->fetch()) != false)
+							{
+								echo  $super1['name'] . ", " . $donne['name'] . '<br>';
+								$requete = "INSERT INTO " . $db_name . ".`fatherConditions` (father, son) VALUES ('" . $super1['id'] . "', '" . $donne['id'] ."')";
+								if($bdd2->exec($requete))
+									echo "Ajout de la sous-catégorie " . str_replace("'","",$value) . "</br>";
+							}
+						}
+					}
+				}
+			}
+			/*
+			*	Ajout de la super catégorie si elle existe pas
+			*/
+			if(!empty($categorie['super-categorie'][0]))
+			{
+				foreach ($categorie['super-categorie'] as $supCateg) 
+				{
+					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$supCateg) . "'");
+					if(($super = $existe->fetch()) == false)
+					{
+						$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$supCateg) . "')";
+						if($bdd2->exec($requete))
+							echo "Ajout de la super catégorie " . str_replace("'","",$supCateg) . "</br>";
+						$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$supCateg) . "'");
+						$super2 = $existe->fetch();
+						//Mise en place hierarchie
+						echo  $super2['name'] . ", " . $super1['name'] . '<br>';
+						$requete = "INSERT INTO " . $db_name . ".`fatherConditions` (father, son) VALUES ('" . $super2['id'] . "', '" . $super1['id'] . "')";
+						if($bdd2->exec($requete))
+							echo "";
+					}
+				}	
 			}
 		}
 		else
 		{
+			//Sinon c'est un ingrédient
+			//Création de l'ingrédient si il existe pas
 			$existe = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$key) . "'");
-			if($existe->fetch() == false)
+			$donne = $existe->fetch();
+			if($donne == false)
 			{
 				$requete =  "INSERT INTO " . $db_name . ".`ingredients` (name) VALUES ('" . str_replace("'","",$key) . "')";
 				if($bdd2->exec($requete))
-					echo "";
+					echo "Ajout de l'ingrédient " . str_replace("'","",$key) . "</br>";
 			}
-		}
-
-		/*
-		*	Ajout de la super catégorie si elle existe pas
-		*/
-		if(!empty($categorie['super-categorie'][0]))
-		{
+			$existe = $bdd2->query("SELECT * FROM ". $db_name . ".`ingredients` WHERE name = '" . str_replace("'","",$key) . "'");
+			$donne = $existe->fetch();
 			foreach ($categorie['super-categorie'] as $supCateg) 
 			{
 				$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$supCateg) . "'");
-				if(($super = $existe->fetch()) == false)
+				$data = $super = $existe->fetch();
+				if($data == false)
 				{
 					$requete = "INSERT INTO " . $db_name . ".`Conditions` (name) VALUES ('" . str_replace("'","",$supCateg) . "')";
 					if($bdd2->exec($requete))
-						echo "";
+						echo "Ajout de la super catégorie " . str_replace("'","",$supCateg) . "</br>";
 					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`Conditions` WHERE name = '" . str_replace("'","",$supCateg) . "'");
-					$super2 = $existe->fetch();
+					$super = $existe->fetch();
 					//Mise en place hierarchie
-					$requete = "INSERT INTO " . $db_name . ".`fatherConditions` (father, son) VALUES ('" . $super2['id'] . "', '" . $super1['id'] . "')";
-					if($bdd2->exec($requete))
-						echo "";
+					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`belongs` WHERE ingredient = '" . $donne['id'] . "' AND cond = '" . $super['id'] ."'");
+					if(($donne2 = $existe->fetch()) == false)
+					{
+						$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $super['id'] . "')";
+						if($bdd2->exec($requete))
+							echo "";
+					}
+				}
+				else
+				{
+					$existe = $bdd2->query("SELECT * FROM " . $db_name . ".`belongs` WHERE ingredient = '" . $donne['id'] . "' AND cond = '" . $data['id'] ."'");
+					if(($donne2 = $existe->fetch()) == false)
+					{
+						$requete = "INSERT INTO " . $db_name . ".`belongs` (ingredient, cond) VALUES ('" . $donne['id'] . "', '" . $data['id'] . "')";
+						if($bdd2->exec($requete))
+							echo "";
+					}
 				}
 			}	
 		}
