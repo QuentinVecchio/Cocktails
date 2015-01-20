@@ -2,7 +2,7 @@
 <div id="presentationRecette">
 	<h2><?php echo $recipe['Recipe']['title']; ?></h2>
 	<div id="imageRecette">
-		<?php echo $this->Html->image(str_replace(" ","_",$recipe['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'onerror' =>  'if (this.src != \'/img/' . str_replace(" ","_",$recipe['Recipe']['title']) . '.jpeg\') this.src = \'/Cocktails/Web/img/logo.png\';', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
+		<?php echo $this->Html->image(str_replace(" ","_",$recipe['Recipe']['title']) . '.jpg', array('class' => 'navbar-brand', 'alt' => 'logo', 'onerror' =>  'if (this.src != \'/img/' . str_replace(" ","_",$recipe['Recipe']['title']) . '.jpeg\') this.src = \'/img/logo.png\';', 'style' => 'width:100px;height:100px;margin:auto;')); ?>
 	</div>
 	<div id="informationRecette">
 		<legend>Ingrédients</legend>
