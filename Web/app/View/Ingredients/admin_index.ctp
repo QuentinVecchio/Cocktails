@@ -18,7 +18,8 @@
 	foreach ($listIngredients as $ingredient => $v):  ?>
 	          	<tr>
 	            	<td><?php echo $v['Ingredient']['id']; ?></td>
-	            	<td><?php echo $v['Ingredient']['name']; ?></td>
+	            	<td><?php echo $this->Html->Link($v['Ingredient']['name'], array('controller' => 'ingredients', 'action' =>'view', 
+	            											'admin' => true, $v['Ingredient']['id'])) ?></td>
 	            	<td>
 		            	<?php 
 			            	if(empty($v['Conditions'])){
