@@ -4,7 +4,7 @@ class ConditionsController extends AppController
 {
 	public function beforeFilter(){
 		parent::beforeFilter();
-		$this->Auth->allow('index');
+		$this->Auth->allow('index','view');
 	}
 
 	/**
@@ -23,6 +23,48 @@ class ConditionsController extends AppController
 	{
 		$listConditions = $this->Condition->find('all', array('order' => array('Condition.id' => 'asc')));
 		$this->set('listConditions', $listConditions);		
+	}
+
+	/**
+	*	donne les sous-catégories d'une catégories
+	*/
+	public function admin_view($id){
+		$nom = $this->Condition->findById($id);
+		$this->set('nom', $nom['Condition']['name']);
+		$i = 0;
+		$listConditions = null;
+		$all = $this->Condition->find('all');
+		foreach ($all as $filles =>$v){
+			//debug($v);
+			if(!isset($v['Condition'][0])) continue;
+			if($v['Condition'][0]['FatherCondition']['father'] == $id)
+			{
+				$listConditions[$i] = $v['Condition'];
+						$i++;
+			}
+		}
+		$this->set('listConditions', $listConditions);
+	}
+
+	/**
+	*	donne les sous-catégories d'une catégories
+	*/
+	public function view($id){
+		$nom = $this->Condition->findById($id);
+		$this->set('nom', $nom['Condition']['name']);
+		$i = 0;
+		$listConditions = null;
+		$all = $this->Condition->find('all');
+		foreach ($all as $filles =>$v){
+			//debug($v);
+			if(!isset($v['Condition'][0])) continue;
+			if($v['Condition'][0]['FatherCondition']['father'] == $id)
+			{
+				$listConditions[$i] = $v['Condition'];
+						$i++;
+			}
+		}
+		$this->set('listConditions', $listConditions);
 	}
 
 	/**

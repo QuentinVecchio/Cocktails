@@ -16,7 +16,8 @@
 	foreach ($listConditions as $condition => $v):?>
 	          	<tr>
 	            	<td><?php echo $v['Condition']['id']; ?></td>
-	            	<td><?php echo $v['Condition']['name']; ?></td>
+	            	<td><?php echo $this->Html->Link($v['Condition']['name'], array('controller' => 'conditions', 'action' =>'view', 
+	            											'admin' => false, $v['Condition']['id'])) ?></td>
 	            	<td><?php 
 		            		if(isset($v['Condition'][0])){
 	 							echo $v['Condition'][0]['name'];

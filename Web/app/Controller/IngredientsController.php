@@ -2,29 +2,12 @@
 
 class IngredientsController extends AppController
 {
-	public function admin_view($id){
-		$nom = $this->Ingredient->findById($id);
-		//debug($nom);
-		$this->set('nom', $nom['Ingredient']['name']);
-		$i = 0;
-		$this->loadModel('Recipe');
-		$allRecipes = $this->Recipe->find('all');
-		foreach ($allRecipes as $key => $v) {
-			foreach ($v['Ingredient'] as $key2 => $v2) {
-				if($v2['IsMadeOf']['ingredient'] == $id){
-					$listRecipes[$i] = $v['Recipe'];
-					$i++;
-				}
-			}
-		}
-		//debug($listRecipes);
-		$this->set('listRecipes', $listRecipes);
-	}
-
-	public function beforeFilter(){
+	public function beforeFilter()
+	{
 		parent::beforeFilter();
 		$this->Auth->allow('index', 'view');
 	}
+
 	/**
 	*	Liste les ingrédients
 	*/
@@ -54,8 +37,31 @@ class IngredientsController extends AppController
 	/**
 	*	donne les recettes d'un ingrédient
 	*/
+	public function admin_view($id){
+		$nom = $this->Ingredient->findById($id);
+		//debug($nom);
+		$this->set('nom', $nom['Ingredient']['name']);
+		$i = 0;
+		$this->loadModel('Recipe');
+		$allRecipes = $this->Recipe->find('all');
+		foreach ($allRecipes as $key => $v) {
+			foreach ($v['Ingredient'] as $key2 => $v2) {
+				if($v2['IsMadeOf']['ingredient'] == $id){
+					$listRecipes[$i] = $v['Recipe'];
+					$i++;
+				}
+			}
+		}
+		//debug($listRecipes);
+		$this->set('listRecipes', $listRecipes);
+	}
+
+	/**
+	*	donne les recettes d'un ingrédient
+	*/
 	public function view($id){
 		$nom = $this->Ingredient->findById($id);
+		//debug($nom);
 		$this->set('nom', $nom['Ingredient']['name']);
 		$i = 0;
 		$this->loadModel('Recipe');
